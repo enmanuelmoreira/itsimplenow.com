@@ -1,0 +1,3 @@
+baseURL = "http://itsimplenow.com/"
+languageCode = "en-us"
+title = "My New Hugo Site"
