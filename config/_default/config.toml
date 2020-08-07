@@ -1,0 +1,372 @@
+baseURL = "https://itsimplenow.com/"
+defaultContentLanguage = "es"
+theme = "LoveIt"
+themesDir = "themes"
+#languageCode = "en-us"
+title = "It's Simple Now"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[languages]
+    [languages.es]
+        weight = 1
+        languageCode = "es"
+        languageName = "Español"
+        hasCJKLanguage = false
+        paginate = 12
+        googleAnalytics = "UA-172585545-1"
+        [languages.es.menu]
+            [[languages.es.menu.main]]
+                identifier = "posts"  
+                pre = ""
+                post = ""
+                name = "Posts"
+                url = "/posts/"
+                title = ""
+                weight = 1
+           [[languages.es.menu.main]]
+                identifier = "tags"
+                pre = ""
+                post = ""
+                name = "Etiquetas"
+                url = "/tags/"
+                title = ""
+                weight = 2
+            [[languages.es.menu.main]]
+                identifier = "categories"
+                pre = ""
+                post = ""
+                name = "Categorías"
+                url = "/categories/"
+                title = ""
+                weight = 3
+            [[languages.es.menu.main]]
+                identifier = "about"
+                pre = ""
+                post = ""
+                name = "Sobre"
+                url = "/about/"
+                title = ""
+                weight = 4
+            [[languages.es.menu.main]]
+                identifier = "github"
+                pre = "<i class='fab fa-github fa-fw'></i>"
+                post = ""
+                name = ""
+                url = "https://github.com/enmanuelmoreira"
+                title = "GitHub"
+                weight = 5
+             [languages.es.params]
+                # site description
+                description = "Tutoriales y Recipes de un SysAdmin."
+                # site keywords
+                keywords = ["blog", "personal","containers","virtualization","sysadmin","linux","cloud"]
+                # App icon config
+                [languages.es.params.app]
+                    # optional site title override for the app when added to an iOS home screen or Android launcher
+                    title = "Automatika"
+                    # whether to omit favicon resource links
+                    noFavicon = false
+                    # modern SVG favicon to use in place of older style .png and .ico files
+                    svgFavicon = ""
+                    # Android browser theme color
+                    themeColor = "#ffffff"
+                    # Safari mask icon color
+                    iconColor = "#5bbad5"
+                    # Windows v8-10 tile color
+                    tileColor = "#da532c"
+                # Search config
+                [languages.es.params.search]
+                    enable = true
+                    # type of search engine ("lunr", "algolia")
+                    type = "algolia"
+                    # max index length of the chunked content
+                    contentLength = 4000
+                    # placeholder of the search bar
+                    placeholder = ""
+                    # max number of results length
+                    maxResultLength = 10
+                    # snippet length of the result
+                    snippetLength = 30
+                    # HTML tag name of the highlight part in results
+                    highlightTag = "em"
+                    # whether to use the absolute URL based on the baseURL in search index
+                    absoluteURL = false
+                    [languages.es.params.search.algolia]
+                        index = "dev_itsimplenow"
+                        appID = "AUX1EH7SV3"
+                        searchKey = "6bf536bebf13b11091089ed13df178b4"
+                # Home page config
+                [languages.es.params.home]
+                    # amount of RSS pages
+                    rss = 10
+                    # Home page profile
+                    [languages.es.params.home.profile]
+                        enable = true
+                        # Gravatar Email for preferred avatar in home page
+                        gravatarEmail = ""
+                        # URL of avatar shown in home page
+                        avatarURL = "/images/avatar.png"
+                        # title shown in home page (HTML format is supported)
+                        title = ""
+                        # subtitle shown in home page
+                        subtitle = "Tutoriales y Récipes de un SysAdmin."
+                        # whether to use typeit animation for subtitle
+                        typeit = true
+                        # whether to show social links
+                        social = true
+                        # disclaimer (HTML format is supported)
+                        disclaimer = ""
+                    # Home page posts
+                    [languages.es.params.home.posts]
+                        enable = true
+                        # special amount of posts in each home posts page
+                        paginate = 10
+                # Social config in home page
+                [languages.es.params.social]
+                    Email = "itsimplenow@gmail.com"
+                    Linkedin = "enmanuelmoreira"
+                    Telegram = "itsimplenow"
+                    GitHub = "enmanuelmoreira"
+                    Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
+                    Twitter = "enmanuelmoreira"
+ 
+[params]
+    version = "0.2.X"
+    defaultTheme = "auto"
+    #gitRepo = "https://github.com/dillonzq/LoveIt"
+    fingerprint = ""
+    dateFormat = "2006-01-02"
+    images = ["/logo.png"]
+    [params.header]
+        desktopMode = "fixed"
+        mobileMode = "auto"
+    [params.header.title]
+        logo = ""
+        name = "It's Simple Now"
+        #pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+        post = ""
+        typeit = false
+    [params.footer]
+        enable = true
+        custom = ''
+        hugo = false
+        copyright = true
+        author = true
+        since = 2020
+        icp = ""
+        #license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    [params.section]
+        paginate = 20
+        dateFormat = "01-02"
+        rss = 10
+    [params.list]
+        paginate = 20
+        dateFormat = "01-02"
+        rss = 10
+    [params.page]
+        hiddenFromHomePage = false
+        hiddenFromSearch = false
+        twemoji = false
+        lightgallery = false
+        ruby = true
+        fraction = true
+        fontawesome = true
+        linkToMarkdown = true
+        rssFullText = false
+        [params.page.toc]
+            enable = true
+            keepStatic = false
+            auto = true
+        [params.page.code]   
+            copy = true
+            maxShownLines = 10
+        [params.page.math]
+            enable = false
+            blockLeftDelimiter = ""
+            blockRightDelimiter = ""
+            inlineLeftDelimiter = ""
+            inlineRightDelimiter = ""
+            copyTex = true
+            mhchem = true
+        #[params.page.mapbox]
+            # access token of Mapbox GL JS
+            # Mapbox GL JS 的 access token
+            #accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+            # style for the light theme
+            #lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+            # style for the dark theme
+            #darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+            # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
+            #navigation = true
+            # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
+            #geolocate = true
+            # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
+            #scale = true
+            # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
+            #fullscreen = true
+        # Social share links in post page
+        [params.page.share]
+            enable = true
+            Twitter = true
+            Linkedin = true
+            Facebook = true
+            Whatsapp = true
+            #Telegram = true
+        [params.page.comment]
+            enable = true
+            # Disqus comment config (https://disqus.com/)
+            [params.page.comment.disqus]
+                enable = false
+                # Disqus shortname to use Disqus in posts
+                shortname = "itsimplenow"
+        [params.page.library]
+            [params.page.library.css]
+                # someCSS = "some.css"
+                # located in "assets/"
+                # Or
+                # someCSS = "https://cdn.example.com/some.css"
+            [params.page.library.js]
+                # someJavascript = "some.js"
+                # located in "assets/"
+                # Or 
+                # someJavascript = "https://cdn.example.com/some.js"
+        # Page SEO config
+        [params.page.seo]
+            # image URL
+            images = []
+            # Publisher info
+            [params.page.seo.publisher]
+                name = "xxxx"
+                logoUrl = "/images/avatar.png"
+    # TypeIt config
+    [params.typeit]
+        # typing speed between each step (measured in milliseconds)
+        speed = 100
+        # blinking speed of the cursor (measured in milliseconds)
+        cursorSpeed = 1000
+        # character used for the cursor (HTML format is supported)
+        cursorChar = "|"
+        # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+        duration = -1
+    # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
+    [params.verification]
+        google = ""
+        bing = ""
+        yandex = ""
+    # Site SEO config
+    [params.seo]
+        # image URL
+        image = "/images/Apple-Devices-Preview.png"
+        # thumbnail URL
+        thumbnailUrl = "/images/screenshot.png"  
+    # Analytics config
+    [params.analytics]
+        enable = false
+        # Google Analytics
+        [params.analytics.google]
+            id = ""
+            # whether to anonymize IP
+            anonymizeIP = true
+        # Fathom Analytics
+        [params.analytics.fathom]
+            id = ""
+            # server url for your tracker if you're self hosting
+            server = ""
+    # Cookie consent config
+    [params.cookieconsent]
+        enable = false
+        # text strings used for Cookie consent banner
+        [params.cookieconsent.content]
+            message = ""
+            dismiss = ""
+            link = ""
+    # CDN config for third-party library files
+    [params.cdn]
+        # CDN data file name, disabled by default
+        # ("jsdelivr.yml")
+        # located in "themes/LoveIt/assets/data/cdn/" directory
+        # you can store your own data files in the same path under your project:
+        # "assets/data/cdn/"
+        data = "jsdelivr.yml"
+    # Compatibility config
+    [params.compatibility]
+        # whether to use Polyfill.io to be compatible with older browsers
+        polyfill = false
+        # whether to use object-fit-images to be compatible with older browsers
+        objectFit = false
+
+[markup]
+    # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = true
+        lineNumbersInTable = true
+        # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+        noClasses = false
+        # Goldmark is from Hugo 0.60 the default library used for Markdown
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = true
+        [markup.goldmark.renderer]
+            # whether to use HTML tags directly in the document
+            unsafe = true
+    # Table Of Contents settings
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+
+# Author config
+[author]
+    name = "It's Simple Now"
+    email = "itsimplenow@gmail.com"
+    link = "https://itsimplenow.com"
+
+# Sitemap config
+[sitemap]
+    changefreq = "daily"
+    filename = "sitemap.xml"
+    priority = 1
+
+# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+    posts = ":year/:month/:day/:filename"
+    #posts = ":filename"
+
+# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+    # privacy of the Google Analytics (replaced by params.analytics.google)
+    # Google Analytics  (params.analytics.google)
+    [privacy.googleAnalytics]
+        # ...
+    [privacy.twitter]
+        enableDNT = true
+    [privacy.youtube]
+        privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+    [mediaTypes."text/plain"]
+        suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+    mediaType = "text/plain"
+    isPlainText = true
+    isHTML = false
+
+# Options to make hugo output files
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "MarkDown"]
+    section = ["HTML", "RSS"]
+    taxonomy = ["HTML", "RSS"]
+    taxonomyTerm = ["HTML"]

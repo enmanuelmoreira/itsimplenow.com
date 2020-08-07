@@ -1,0 +1,5 @@
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = "UA-172585545-1"
+
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = "itsimplenow"
