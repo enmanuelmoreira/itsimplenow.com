@@ -7,8 +7,9 @@
 [params]
     [params.page]
         [params.page.comment]
+            enable = true
             # Disqus comment config (https://disqus.com/)
             [params.page.comment.disqus]
-                enable = false
+                enable = true
                 # Disqus shortname to use Disqus in posts
                 shortname = "itsimplenow"

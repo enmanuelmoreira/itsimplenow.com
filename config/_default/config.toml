@@ -238,7 +238,7 @@ enableEmoji = true
             images = []
             # Publisher info
             [params.page.seo.publisher]
-                name = "xxxx"
+                name = "Enmanuel Moreira"
                 logoUrl = "/images/avatar.png"
     # TypeIt config
     [params.typeit]
