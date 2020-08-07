@@ -94,7 +94,7 @@ enableEmoji = true
                     # whether to use the absolute URL based on the baseURL in search index
                     absoluteURL = false
                     [languages.es.params.search.algolia]
-                        index = "dev_itsimplenow"
+                        index = "prod_itsimplenow"
                         appID = "AUX1EH7SV3"
                         searchKey = "6bf536bebf13b11091089ed13df178b4"
                 # Home page config
@@ -276,10 +276,10 @@ enableEmoji = true
             server = ""
     # Cookie consent config
     [params.cookieconsent]
-        enable = false
+        enable = true
         # text strings used for Cookie consent banner
         [params.cookieconsent.content]
-            message = ""
+            message = "Usamos cookies para mejorar tu experiencia en nuestra web."
             dismiss = ""
             link = ""
     # CDN config for third-party library files

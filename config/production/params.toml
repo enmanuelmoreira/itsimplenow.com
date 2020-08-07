@@ -1,1 +1,5 @@
-algolia_indexName = "prod_itsimplenow"
+[languages]
+    [languages.es]
+        [languages.es.params]
+            [languages.es.params.search.algolia]
+                index = "prod_itsimplenow"
