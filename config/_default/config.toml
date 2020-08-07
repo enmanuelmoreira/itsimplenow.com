@@ -3,7 +3,7 @@ defaultContentLanguage = "es"
 theme = "LoveIt"
 themesDir = "themes"
 #languageCode = "en-us"
-title = "It's Simple Now"
+title = "It's Simple Now - Guías y Tutoriales Linux | Virtualización | SysAdmin | Cloud"
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
@@ -131,7 +131,128 @@ enableEmoji = true
                     GitHub = "enmanuelmoreira"
                     Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
                     Twitter = "enmanuelmoreira"
- 
+    [languages.pt-br]
+        weight = 2
+        languageCode = "pt-br"
+        languageName = "Português"
+        hasCJKLanguage = false
+        paginate = 12
+        # googleAnalytics = ""
+        [languages.pt-br.menu]
+            [[languages.pt-br.menu.main]]
+                identifier = "posts"  
+                pre = ""
+                post = ""
+                name = "Posts"
+                url = "/posts/"
+                title = ""
+                weight = 1
+           [[languages.pt-br.menu.main]]
+                identifier = "tags"
+                pre = ""
+                post = ""
+                name = "Etiquetas"
+                url = "/tags/"
+                title = ""
+                weight = 2
+            [[languages.pt-br.menu.main]]
+                identifier = "categories"
+                pre = ""
+                post = ""
+                name = "Categorias"
+                url = "/categories/"
+                title = ""
+                weight = 3
+            [[languages.pt-br.menu.main]]
+                identifier = "about"
+                pre = ""
+                post = ""
+                name = "Sobre"
+                url = "/about/"
+                title = ""
+                weight = 4
+            [[languages.pt-br.menu.main]]
+                identifier = "github"
+                pre = "<i class='fab fa-github fa-fw'></i>"
+                post = ""
+                name = ""
+                url = "https://github.com/enmanuelmoreira"
+                title = "GitHub"
+                weight = 5
+             [languages.pt-br.params]
+                # site description
+                description = "Tutoriais e Recipes de um SysAdmin."
+                # site keywords
+                keywords = ["blog","personal","containers","virtualization","sysadmin","linux","cloud"]
+                # App icon config
+                [languages.pt-br.params.app]
+                    # optional site title override for the app when added to an iOS home screen or Android launcher
+                    title = "It's Simple Now"
+                    # whether to omit favicon resource links
+                    noFavicon = false
+                    # modern SVG favicon to use in place of older style .png and .ico files
+                    svgFavicon = ""
+                    # Android browser theme color
+                    themeColor = "#ffffff"
+                    # Safari mask icon color
+                    iconColor = "#5bbad5"
+                    # Windows v8-10 tile color
+                    tileColor = "#da532c"
+                # Search config
+                [languages.pt-br.params.search]
+                    enable = true
+                    # type of search engine ("lunr", "algolia")
+                    type = "algolia"
+                    # max index length of the chunked content
+                    contentLength = 4000
+                    # placeholder of the search bar
+                    placeholder = ""
+                    # max number of results length
+                    maxResultLength = 10
+                    # snippet length of the result
+                    snippetLength = 30
+                    # HTML tag name of the highlight part in results
+                    highlightTag = "em"
+                    # whether to use the absolute URL based on the baseURL in search index
+                    absoluteURL = false
+                    [languages.pt-br.params.search.algolia]
+                        index = "prod_itsimplenow"
+                        appID = "AUX1EH7SV3"
+                        searchKey = "6bf536bebf13b11091089ed13df178b4"
+                # Home page config
+                [languages.pt-br.params.home]
+                    # amount of RSS pages
+                    rss = 10
+                    # Home page profile
+                    [languages.pt-br.params.home.profile]
+                        enable = true
+                        # Gravatar Email for preferred avatar in home page
+                        gravatarEmail = ""
+                        # URL of avatar shown in home page
+                        avatarURL = "/images/avatar.png"
+                        # title shown in home page (HTML format is supported)
+                        title = ""
+                        # subtitle shown in home page
+                        subtitle = "Tutoriais e Recipes de um SysAdmin."
+                        # whether to use typeit animation for subtitle
+                        typeit = true
+                        # whether to show social links
+                        social = true
+                        # disclaimer (HTML format is supported)
+                        disclaimer = ""
+                    # Home page posts
+                    [languages.pt-br.params.home.posts]
+                        enable = true
+                        # special amount of posts in each home posts page
+                        paginate = 10
+                # Social config in home page
+                [languages.pt-br.params.social]
+                    Email = "itsimplenow@gmail.com"
+                    Linkedin = "enmanuelmoreira/?locale=pt_BR"
+                    Telegram = "itsimplenow"
+                    GitHub = "enmanuelmoreira"
+                    Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
+                    Twitter = "enmanuelmoreira"
 [params]
     version = "0.2.X"
     defaultTheme = "auto"
