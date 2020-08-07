@@ -263,7 +263,7 @@ enableEmoji = true
         thumbnailUrl = "/images/screenshot.png"  
     # Analytics config
     [params.analytics]
-        enable = false
+        enable = true
         # Google Analytics
         [params.analytics.google]
             id = ""
