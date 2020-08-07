@@ -1,10 +1,13 @@
-# Enable / Disable Google Analytics statistics for your site
-[languages]
-    [languages.es]
-        googleAnalytics = "UA-172585545-1"
-
-# Enable / Disable comments on the articles via Disqus.
 [params]
+    # Enable / Disable Google Analytics statistics for your site
+    [params.analytics]
+        enable = true
+        # Google Analytics
+        [params.analytics.google]
+            id = "UA-172585545-1"
+            # whether to anonymize IP
+            anonymizeIP = true
+    # Enable / Disable comments on the articles via Disqus.
     [params.page]
         [params.page.comment]
             enable = true
