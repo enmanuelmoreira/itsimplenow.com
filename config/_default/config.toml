@@ -15,7 +15,7 @@ enableEmoji = true
         languageName = "Español"
         hasCJKLanguage = false
         paginate = 12
-        googleAnalytics = "UA-172585545-1"
+        # googleAnalytics = ""
         [languages.es.menu]
             [[languages.es.menu.main]]
                 identifier = "posts"  

@@ -6,7 +6,7 @@
         [params.analytics.google]
             id = "UA-172585545-1"
             # whether to anonymize IP
-            anonymizeIP = true
+            anonymizeIP = false
     # Enable / Disable comments on the articles via Disqus.
     [params.page]
         [params.page.comment]
