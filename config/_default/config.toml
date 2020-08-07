@@ -61,7 +61,7 @@ enableEmoji = true
                 # site description
                 description = "Tutoriales y Recipes de un SysAdmin."
                 # site keywords
-                keywords = ["blog", "personal","containers","virtualization","sysadmin","linux","cloud"]
+                keywords = ["blog","personal","containers","virtualization","sysadmin","linux","cloud"]
                 # App icon config
                 [languages.es.params.app]
                     # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -173,7 +173,7 @@ enableEmoji = true
         ruby = true
         fraction = true
         fontawesome = true
-        linkToMarkdown = true
+        linkToMarkdown = false
         rssFullText = false
         [params.page.toc]
             enable = true
