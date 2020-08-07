@@ -1,4 +1,4 @@
-baseURL = "http://itsimplenow.com/"
+baseURL = "https://itsimplenow.com/"
 defaultContentLanguage = "es"
 theme = "LoveIt"
 themesDir = "themes"
