@@ -214,13 +214,13 @@ enableEmoji = true
             Facebook = true
             Whatsapp = true
             #Telegram = true
-        [params.page.comment]
-            enable = true
+        #[params.page.comment]
+        #    enable = true
             # Disqus comment config (https://disqus.com/)
-            [params.page.comment.disqus]
-                enable = true
+        #    [params.page.comment.disqus]
+        #        enable = true
                 # Disqus shortname to use Disqus in posts
-                shortname = "itsimplenow"
+        #        shortname = "itsimplenow"
         [params.page.library]
             [params.page.library.css]
                 # someCSS = "some.css"
