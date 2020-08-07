@@ -1,5 +1,15 @@
 # Enable / Disable Google Analytics statistics for your site
-googleAnalytics = "UA-172585545-1"
+[languages]
+    [languages.es]
+        googleAnalytics = "UA-172585545-1"
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = "itsimplenow"
+[params]
+    [params.page]
+        [params.page.comment]
+            enable = true
+            # Disqus comment config (https://disqus.com/)
+            [params.page.comment.disqus]
+                enable = true
+                # Disqus shortname to use Disqus in posts
+                shortname = "itsimplenow"

@@ -61,11 +61,11 @@ enableEmoji = true
                 # site description
                 description = "Tutoriales y Recipes de un SysAdmin."
                 # site keywords
-                keywords = ["blog", "personal","containers","virtualization","sysadmin","linux","cloud"]
+                keywords = ["blog","personal","containers","virtualization","sysadmin","linux","cloud"]
                 # App icon config
                 [languages.es.params.app]
                     # optional site title override for the app when added to an iOS home screen or Android launcher
-                    title = "Automatika"
+                    title = "It's Simple Now"
                     # whether to omit favicon resource links
                     noFavicon = false
                     # modern SVG favicon to use in place of older style .png and .ico files
@@ -94,7 +94,7 @@ enableEmoji = true
                     # whether to use the absolute URL based on the baseURL in search index
                     absoluteURL = false
                     [languages.es.params.search.algolia]
-                        index = "dev_itsimplenow"
+                        index = "prod_itsimplenow"
                         appID = "AUX1EH7SV3"
                         searchKey = "6bf536bebf13b11091089ed13df178b4"
                 # Home page config
@@ -173,7 +173,7 @@ enableEmoji = true
         ruby = true
         fraction = true
         fontawesome = true
-        linkToMarkdown = true
+        linkToMarkdown = false
         rssFullText = false
         [params.page.toc]
             enable = true
@@ -218,7 +218,7 @@ enableEmoji = true
             enable = true
             # Disqus comment config (https://disqus.com/)
             [params.page.comment.disqus]
-                enable = false
+                enable = true
                 # Disqus shortname to use Disqus in posts
                 shortname = "itsimplenow"
         [params.page.library]
@@ -238,7 +238,7 @@ enableEmoji = true
             images = []
             # Publisher info
             [params.page.seo.publisher]
-                name = "xxxx"
+                name = "Enmanuel Moreira"
                 logoUrl = "/images/avatar.png"
     # TypeIt config
     [params.typeit]
@@ -263,7 +263,7 @@ enableEmoji = true
         thumbnailUrl = "/images/screenshot.png"  
     # Analytics config
     [params.analytics]
-        enable = false
+        enable = true
         # Google Analytics
         [params.analytics.google]
             id = ""
@@ -276,10 +276,10 @@ enableEmoji = true
             server = ""
     # Cookie consent config
     [params.cookieconsent]
-        enable = false
+        enable = true
         # text strings used for Cookie consent banner
         [params.cookieconsent.content]
-            message = ""
+            message = "Usamos cookies para mejorar tu experiencia en nuestra web."
             dismiss = ""
             link = ""
     # CDN config for third-party library files
