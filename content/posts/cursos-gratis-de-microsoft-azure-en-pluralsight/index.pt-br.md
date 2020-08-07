@@ -1,12 +1,20 @@
 ---
-title: "Cursos Gratis De Microsoft Azure en Pluralsight"
+title: "Cursos Gratis De Microsoft Azure na Pluralsight"
 date: 2020-07-09
-categories: ["Certificaciones"]
-tags: ["azure", "microsoft", "cloud", "certificaciones"]
+lastmod: 2020-07-09
 author: "Enmanuel Moreira"
-noSummary: false
-resizeImages: false
+description: ""
 draft: false
+
+resources:
+- name: "featured-image"
+  src: "featured-image.jpeg"
+
+categories: ["Certificações"]
+tags: ["azure", "microsoft", "cloud", "certificações"]
+
+lightgallery: true
 ---
+
 
 TODO

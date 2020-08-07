@@ -15,6 +15,7 @@ tags: ["ovirt", "virtualización", "centos", "rhel"]
 
 lightgallery: true
 ---
+
 Hola chiquillos!  
 
 El día de hoy, vamos a instalar un servidor oVirt en Centos 8 / RHEL 8.  
