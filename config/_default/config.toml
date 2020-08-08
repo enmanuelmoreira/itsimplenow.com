@@ -5,7 +5,7 @@ themesDir = "themes"
 #languageCode = "en-us"
 title = "It's Simple Now - Guías y Tutoriales Linux | Virtualización | SysAdmin | Cloud"
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true
 
 [languages]
