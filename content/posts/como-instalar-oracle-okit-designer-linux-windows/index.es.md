@@ -4,7 +4,7 @@ date: 2020-08-07
 lastmod: 2020-08-08
 author: Enmanuel Moreira
 description: "En esta guía les voy a explicar como instalar la herramienta Okit Designer Tookit para diseñar nuestros propios diagramas de Oracle Cloud Infrastructure."
-draft: true
+draft: false
 
 resources:
 - name: "featured-image"
@@ -20,7 +20,7 @@ lightgallery: true
 
 Hola chiquillos!
 
-En esta guía les voy a explicar como instalar la herramienta Okit Designer Tookit para diseñar nuestros propios diagramas de Oracle Cloud Infrastructure..
+En esta guía les voy a explicar como instalar la herramienta Okit Designer Tookit para diseñar nuestros propios diagramas de Oracle Cloud Infrastructure.
 
 ## Okit Designer
 
@@ -233,6 +233,7 @@ Ahora, vamos a configurar para que WSL v2 sea la versión por defecto en nuestro
 ```powershell
 wsl --set-default-version 2
 ```
+
 Ya con esto terminamos de configurar WSL en nuestro sistema.  
 
 #### Instalando Git
@@ -317,7 +318,7 @@ Si no tenemos instalado y configurado la oci-cli (será tema para otro post), de
 
 Creamos el directorio containers/oci dentro del directorio raíz (oci-designer-toolkit) ; 
 
-**Fedora 32:** 
+**Fedora 32:**  
 
 ```bash
 $ mkdir /home/usuario/oci-designer-toolkit/containers/oci
