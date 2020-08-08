@@ -16,6 +16,8 @@ tags: ["linux", "fedora","tutoriales"]
 lightgallery: true
 ---
 
+<!--more-->
+
 Hola chiquillos!
 
 El día de hoy les quería comentar de una herramienta que conocí a través del sitio web **[4Fasters](https://4fasters.com.br)**: **[Notion](https://notion.so/)**  

@@ -3,7 +3,7 @@ title: "Cursos Gratis De Microsoft Azure en Pluralsight"
 date: 2020-07-09
 lastmod: 2020-07-09
 author: "Enmanuel Moreira"
-description: ""
+description: "El día de hoy les quería comentar que en el sitio web de Pluralsight (https://www.pluralsight.com/), se encuentran disponibles videos de entrenamiento de Microsoft Azure de manera gratuita."
 draft: false
 
 resources:
@@ -15,6 +15,8 @@ tags: ["azure", "microsoft", "cloud", "certificaciones"]
 
 lightgallery: true
 ---
+
+<!--more-->
 
 Hola chiquillos!
 

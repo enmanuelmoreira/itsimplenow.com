@@ -5,7 +5,7 @@ themesDir = "themes"
 #languageCode = "en-us"
 title = "It's Simple Now - Guías y Tutoriales Linux | Virtualización | SysAdmin | Cloud"
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true
 
 [languages]
@@ -214,7 +214,7 @@ enableEmoji = true
                     # HTML tag name of the highlight part in results
                     highlightTag = "em"
                     # whether to use the absolute URL based on the baseURL in search index
-                    absoluteURL = false
+                    absoluteURL = true
                     [languages.pt-br.params.search.algolia]
                         index = "prod_itsimplenow"
                         appID = "AUX1EH7SV3"
@@ -387,7 +387,7 @@ enableEmoji = true
     #    enable = true
     #    # Google Analytics
     #    [params.analytics.google]
-    #        id = "UA-172585545-1"
+    #        id = ""
     #        # whether to anonymize IP
     #        anonymizeIP = true
     #    # Fathom Analytics

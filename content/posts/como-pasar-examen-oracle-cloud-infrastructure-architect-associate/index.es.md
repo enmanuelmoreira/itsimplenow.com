@@ -3,7 +3,7 @@ title: "Como pasar el examen Oracle Cloud Infrastructure Architect Associate (1Z
 date: 2020-07-31
 lastmod: 2020-07-31
 author: "Enmanuel Moreira"
-description: ""
+description: "En el post anterior Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20) les conté del proceso de estudiar y rendir ese examen. Hoy nos toca hablar del examen Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 draft: false
 
 resources:
@@ -15,6 +15,8 @@ tags: ["oracle", "oci", "cloud", "certificaciones"]
 
 lightgallery: true
 ---
+
+<!--more-->
 
 Hola chiquillos!
 
