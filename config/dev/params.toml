@@ -4,7 +4,7 @@
             [languages.es.params.search]
                 enable = true
                 # type of search engine ("lunr", "algolia")
-                type = "algolia"
+                type = "lunr"
                 # max index length of the chunked content
                 contentLength = 4000
                 # placeholder of the search bar
@@ -17,5 +17,5 @@
                 highlightTag = "em"
                 # whether to use the absolute URL based on the baseURL in search index
                 absoluteURL = true
-                [languages.es.params.search.algolia]
-                    index = "dev_itsimplenow"
+                #[languages.es.params.search.algolia]
+                #    index = "dev_itsimplenow"
