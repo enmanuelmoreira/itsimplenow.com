@@ -268,7 +268,7 @@ Ejecutamos el instalador con permisos de Administrador y vamos a instalar con la
 
 ![Git Windows](/images/oci-okit-linux-windows/win-17.png "Siguiente")
 
-![Git Windows](/images/oci-okit-linux-windows/win-18.png "Instalar")
+![Git Windows](/images/oci-okit-linux-windows/win-18.png "Siguiente")
 
 ![Git Windows](/images/oci-okit-linux-windows/win-19.png "Instalar")
 
