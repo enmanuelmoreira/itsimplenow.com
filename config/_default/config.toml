@@ -216,7 +216,7 @@ enableEmoji = true
                     # whether to use the absolute URL based on the baseURL in search index
                     absoluteURL = true
                     [languages.pt-br.params.search.algolia]
-                        index = "prod_itsimplenow"
+                        index = "dev_itsimplenow"
                         appID = "AUX1EH7SV3"
                         searchKey = "6bf536bebf13b11091089ed13df178b4"
                 # Home page config
