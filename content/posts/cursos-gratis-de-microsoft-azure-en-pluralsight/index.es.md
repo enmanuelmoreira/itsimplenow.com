@@ -8,7 +8,7 @@ draft: false
 
 resources:
 - name: "featured-image"
-  src: "featured-image.jpeg"
+  src: "featured-image.jpg"
 
 categories: ["Certificaciones"]
 tags: ["azure", "microsoft", "cloud", "certificaciones"]
