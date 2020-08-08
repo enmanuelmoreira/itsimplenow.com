@@ -200,7 +200,7 @@ enableEmoji = true
                     tileColor = "#da532c"
                 # Search config
                 [languages.pt-br.params.search]
-                    enable = true
+                    enable = false
                     # type of search engine ("lunr", "algolia")
                     type = "algolia"
                     # max index length of the chunked content
@@ -216,9 +216,9 @@ enableEmoji = true
                     # whether to use the absolute URL based on the baseURL in search index
                     absoluteURL = true
                     [languages.pt-br.params.search.algolia]
-                        index = "prod_itsimplenow"
-                        appID = "AUX1EH7SV3"
-                        searchKey = "6bf536bebf13b11091089ed13df178b4"
+                        index = ""
+                        appID = ""
+                        searchKey = ""
                 # Home page config
                 [languages.pt-br.params.home]
                     # amount of RSS pages
@@ -459,8 +459,8 @@ enableEmoji = true
 
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-    posts = ":year/:month/:day/:filename"
-    #posts = ":filename"
+    #posts = ":year/:month/:day/:filename"
+    posts = ":filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
