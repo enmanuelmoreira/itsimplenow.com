@@ -16,6 +16,6 @@
                 # HTML tag name of the highlight part in results
                 highlightTag = "em"
                 # whether to use the absolute URL based on the baseURL in search index
-                absoluteURL = true
+                absoluteURL = false
                 [languages.es.params.search.algolia]
                     index = "dev_itsimplenow"
