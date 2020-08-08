@@ -16,6 +16,8 @@ tags: ["linux","tutoriales"]
 lightgallery: true
 ---
 
+<!--more-->
+
 Hola chiquillos!
 
 Hablando hace días con un amigo SysAdmin, tenía una necesidad bastante específica: el software que estaba instalando en un servidor era escrito en Java, y para configurar los parámetros del mismo, necesitaba SI o SI abrir la ventana del configurador, no obstante, el servidor que estaba instalando SORPRESAAAAA!!! no tenia la interfaz gráfica instalada (por obvias razones en un servidor de producción) y que él no encontraba la manera de hacerlo por la linea de comandos. La documentación del software en cuestión decía explícitamente que se debía abrir el configurador por X11.

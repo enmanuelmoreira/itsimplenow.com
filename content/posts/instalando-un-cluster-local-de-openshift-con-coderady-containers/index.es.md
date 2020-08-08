@@ -16,6 +16,8 @@ tags: ["openshift", "contenedores", "kubernetes", "devops", "redhat", "centos","
 lightgallery: true
 ---
 
+<!--more-->
+
 Hola chiquillos!
 
 En este tutorial les voy a explicar como desplegar un cluster sencillo de OpenShift para pruebas a través de de la aplicación CodeReady Containers.

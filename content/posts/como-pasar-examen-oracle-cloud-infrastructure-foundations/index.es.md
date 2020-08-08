@@ -3,7 +3,7 @@ title: "Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1
 date: 2020-07-23
 lastmod: 2020-07-23
 author: "Enmanuel Moreira"
-description: ""
+description: "El pasado 30/03/2020, Oracle anunció la liberación de su contenido y certificaciones orientadas a Cloud y Autonomus Database, la cual al principio iba a ser hasta el 15/05/2020, sin embargo, dada la gran cantidad de personas interesadas en certificarse, Oracle extiende el lapso hasta el 15/06/2020, tiempo suficiente para estudiar y rendir la prueba."
 draft: false
 
 resources:
@@ -15,6 +15,8 @@ tags: ["oracle", "oci", "cloud", "certificaciones"]
 
 lightgallery: true
 ---
+
+<!--more-->
 
 Hola chiquillos!
 

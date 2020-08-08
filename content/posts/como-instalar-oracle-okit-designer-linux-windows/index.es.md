@@ -16,6 +16,8 @@ tags: ["oracle","oci","contenedores","cloud","redhat","linux","centos","tutorial
 lightgallery: true
 ---
 
+<!--more-->
+
 Hola chiquillos!
 
 En esta guía les voy a explicar como instalar la herramienta Okit Designer Tookit para diseñar nuestros propios diagramas de infraestructura de OCI.
@@ -279,12 +281,28 @@ Ahora, ¿De donde sacamos toda esta información? En las siguientes imagenes lo 
 ![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-8.png "Copiamos el fingerprint, y lo pegamos en el parámetro fingerprint.")
 
 
-### Microsoft Windows
+### Microsoft Windows 10 Pro
 
-TODO:  
+Debemos descargar como prerrequisito Docker Desktop, sin embargo, solo soporta 64 bits.  
+
+También debemos habilitar Hyper-V, Contenedores y Windows Subsystem for Linux v2 (WSL):  
+
+#### TODO: COLOCAR LAS IMAGENES DE COMO INSTALAR ESTOS PRERREQUISITOS
 
 
+#### Instalando Git
 
+Descargamos el instalador de Git:  
+
+- 64 bits: <https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe>
+
+##### TODO: COLOCAR LAS IMAGENES DE COMO INSTALAR ESTOS PRERREQUISITOS
+
+#### Instalando Docker
+
+Descargamos el instalador de Docker Desktop:  
+
+-64 bits <https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe>
 
 ## Instalando Okit Designer
 
