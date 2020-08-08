@@ -1,20 +1,21 @@
 [languages]
     [languages.es]
         [languages.es.params]
-            enable = true
-            # type of search engine ("lunr", "algolia")
-            type = "algolia"
-            # max index length of the chunked content
-            contentLength = 4000
-            # placeholder of the search bar
-            placeholder = ""
-            # max number of results length
-            maxResultLength = 10
-            # snippet length of the result
-            snippetLength = 30
-            # HTML tag name of the highlight part in results
-            highlightTag = "em"
-            # whether to use the absolute URL based on the baseURL in search index
-            absoluteURL = false
-            [languages.es.params.search.algolia]
-                index = "prod_itsimplenow"
+            [languages.es.params.search]
+                enable = true
+                # type of search engine ("lunr", "algolia")
+                type = "algolia"
+                # max index length of the chunked content
+                contentLength = 4000
+                # placeholder of the search bar
+                placeholder = ""
+                # max number of results length
+                maxResultLength = 10
+                # snippet length of the result
+                snippetLength = 30
+                # HTML tag name of the highlight part in results
+                highlightTag = "em"
+                # whether to use the absolute URL based on the baseURL in search index
+                absoluteURL = false
+                [languages.es.params.search.algolia]
+                    index = "prod_itsimplenow"
