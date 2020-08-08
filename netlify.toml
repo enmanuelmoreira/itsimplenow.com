@@ -20,7 +20,8 @@
   ALGOLIA_INDEX_NAME = "dev_itsimplenow"
 
 [context.dev]
-  command = "hugo --environment dev -b $DEPLOY_PRIME_URL --buildFuture --buildDrafts && algolia/run-index-upload.sh -p"
+  #command = "hugo --environment dev -b $DEPLOY_PRIME_URL --buildFuture --buildDrafts && algolia/run-index-upload.sh -p"
+  command = "hugo --environment dev -b $DEPLOY_PRIME_URL --buildFuture --buildDrafts"
 
 # Use this configuration for specific branch development
 # URL: https://<feature-branch>--itsimplenow.netlify.app/
