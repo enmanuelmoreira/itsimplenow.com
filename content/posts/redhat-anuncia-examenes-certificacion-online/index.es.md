@@ -1,5 +1,5 @@
 ---
-title: "Red Hat anuncia sus examenes de Certificación Online"
+title: "Red Hat anuncia sus exámenes de Certificación para ser presentados Online"
 date: 2020-08-10
 lastmod: 2020-08-10
 author: Enmanuel Moreira
