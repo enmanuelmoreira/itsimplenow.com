@@ -22,6 +22,8 @@ Hola chiquillos!
 
 El día de hoy, vamos a instalar un servidor oVirt en Centos 8 / RHEL 8.  
 
+### ¿Qué es Ovirt?
+
 oVirt es una solución de virtualización libre y de código abierto, usado en sistemas Linux tales como Fedora, CentOS y RHEL. Viene a ser la alternativa libre de VMware Sphere en Linux. La comunidad oVirt es soportada por Red Hat y es considerado como un proyecto de suma importancia dentro del catalogo de productos de Red Hat, llamado Red Hat Enterprise Virtualization (RHEV)  
 
 La pagina del proyecto oVirt es: **www.ovirt.org**  
@@ -53,8 +55,10 @@ Además, deberemos tener una entrada en el servidor DNS o utilizar dnsmasq para 
 
 ### Requerimientos de Hardware  
 
-| Hardware      |      Minimo      |  Recomendado |
-|:---------------|:----------------:|:-------------:|
+***
+
+| Hardware        |      Minimo      |  Recomendado  |
+|:---------------:|:----------------:|:-------------:|
 | CPU (con soporte para Intel® 64 o AMD64 CPU, AMD-V™ o Intel VT®) |  CPU Dual Core. | CPU Quad Core o con mas núcleos. |
 | Memoria |    4 GB de RAM, sin embargo, la misma no debe estar siendo consumida por procesos adicionales. |  16 GB de RAM. |
 | Almacenamiento | 25 GB de espacio disponible. |    50 GB de espacio disponible. |
@@ -68,6 +72,8 @@ Con el siguiente comando verificamos si nuestra CPU soporta virtualizacion:
 
 ### Paso 1: Actualizamos el Servidor  
 
+***
+
 ```bash
 [root@ovirt ~]# dnf update -y
 ```
@@ -80,6 +86,8 @@ Una vez instaladas las actualizaciones, reiniciamos el servidor (en caso de habe
 
 ### Paso 2: Habilitamos los repositorios de oVirt  
 
+***
+
 Los paquetes de software necesarios para desplegar la plataforma oVirt, no se encuentran disponibles por defecto en los repositorios de CentOS /RHEL, por lo que los añadimos el repositorio de oVirt:  
 
 ```bash
@@ -88,17 +96,23 @@ Los paquetes de software necesarios para desplegar la plataforma oVirt, no se en
 
 ### Paso 3: Habilitamos los modulos javapackages-tools, pki-deps y PostgreSQL 12  
 
+***
+
 ```bash
 [root@ovirt ~]# dnf module enable javapackages-tools pki-deps postgresql:12 -y
 ```
 
 ### Paso 4: Instalamos la plataforma oVirt Engine  
 
+***
+
 ```bash
 [root@ovirt ~]# dnf install ovirt-engine -y
 ```
 
 ### Paso 5: Iniciamos el instalador de oVirt Engine  
+
+***
 
 Ejecutamos en la terminal el comando:
 
@@ -317,6 +331,8 @@ Hasta aquí ya hemos configurado el oVirt Engine, ahora vamos a configurar paso 
 
 ### Paso 6: Configurar oVirt Node  
 
+***
+
 Vamos al menú Computo -> Centro de Datos  
 
 ![Principal](/images/ovirt-4.4/ovirt-4.png)
@@ -366,6 +382,8 @@ Como trobleshooting tendriamos que colocar en host en Mantenimiento, escogiendo 
 ![Principal](/images/ovirt-4.4/ovirt-13.png)
 
 ### Paso 7: Creamos el almacenamiento de las imágenes de las VM e ISO  
+
+***
 
 Crearemos ahora el Dominio de Almacenamiento, previamente tenemos que crear las carpetas iso y data para almacenar tanto los instaladores como los discos virtuales. En la consola tecleamos:  
 

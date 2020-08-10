@@ -24,6 +24,8 @@ En esta guía les voy a explicar como instalar la herramienta Okit Designer Took
 
 ## Okit Designer
 
+***
+
 [OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) es un conjunto de herramientas que permiten diseñar, desplegar y visualizar ambientes de OCI a través de una interfaz web, lo que permite a arquitectos y diseñadores cloud contruir una representación visual de su infraestrutura y luego exportarla en los siguientes formatos:  
 
 - svg
@@ -42,7 +44,11 @@ Hay dos maneras de instalar Okit Designer: con Vagrant y Docker. En esta oportun
 
 ## Instalando Prerrequisitos
 
+***
+
 ### Fedora 32
+
+***
 
 Antes de instalar Docker, vamos a actualizar nuestro sistema:  
 
@@ -64,11 +70,15 @@ $ sudo dnf -y install dnf-plugins-core
 
 #### Instalando Git
 
+***
+
 ```bash
 $ sudo dnf -y install git
 ```
 
 #### Instalando Docker
+
+***
 
 Añadimos el repositorio de Docker-CE:  
 
@@ -171,6 +181,8 @@ Server: Docker Engine - Community
 
 #### Instalando Docker Compose
 
+***
+
 La versión actual es la 1.26.2, bajamos el ejecutable de Docker Compose y lo guardamos en el directorio /usr/local/bin:  
 
 ```bash
@@ -192,7 +204,11 @@ docker-compose version 1.26.2, build eefe0d31
 
 ### Microsoft Windows 10 Pro
 
+***
+
 #### Activando Componentes necesarios  
+
+***
 
 En el menú Inicio tecleamos "Activar o Desactivar Caracteristicas de Windows":  
 
@@ -218,6 +234,8 @@ Una vez que hayamos reiniciado el sistema, instalaremos WSL v2.
 
 #### Instalando WSL v2  
 
+***
+
 Descargamos el instalador de WSL v2:  
 
 <https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi>
@@ -237,6 +255,8 @@ wsl --set-default-version 2
 Ya con esto terminamos de configurar WSL en nuestro sistema.  
 
 #### Instalando Git
+
+***
 
 Descargamos el instalador de Git:  
 
@@ -288,6 +308,8 @@ C:\Users\usuario>
 
 #### Instalando Docker
 
+***
+
 Descargamos el instalador de Docker Desktop:  
 
 - 64 bits <https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe>
@@ -304,7 +326,11 @@ Ejecutamos el instalador con permisos de Administrador y vamos a instalar con la
 
 ## Instalando Okit Designer
 
+***
+
 ### Clonamos el repositorio de Okit
+
+***
 
 Clonamos el repositorio oficial de Okit Designer (la versión actual es la 0.9.2):  
 
@@ -313,6 +339,8 @@ $ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.g
 ```
 
 ### Creando archivo de configuración de Okit y la llave ssh para conectarnos a la API de OCI
+
+***
 
 Si no tenemos instalado y configurado la oci-cli (será tema para otro post), debemos crear un archivo de configuración que contendrá el id de la cuenta, además de la llave SSH para poder acceder a la API y desplegar lo que ya hayamos diseñado:  
 

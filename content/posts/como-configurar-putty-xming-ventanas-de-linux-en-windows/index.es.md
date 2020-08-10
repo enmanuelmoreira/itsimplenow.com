@@ -34,6 +34,8 @@ Ya con estas dos herramientas, además de una PC o Máquina Virtual con Linux (C
 
 ## Paso 1: Descargamos el software necesario en la máquina cliente
 
+***
+
 Procedemos a Descargar la versión actual de Putty para Windows:
 
 * 32 bits: **<https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.74-installer.msi>**
@@ -66,6 +68,8 @@ Final
 ![Finish](/images/putty-xming/putty-3.png)
 
 ## Paso 2: Instalando Xming
+
+***
 
 Iniciamos el instalador:
 
@@ -101,6 +105,8 @@ En la Barra de tareas nos aparecerá un Icono X, donde está residente el Xming
 
 ## Paso 3: Instalando Xming-Fonts
 
+***
+
 Click en Next
 
 ![Select Components](/images/putty-xming/xfonts-0.png)
@@ -114,6 +120,8 @@ Finalizamos la instalación
 ![Finish](/images/putty-xming/xfonts-2.png)
 
 ## Paso 4: Configuramos Xming con XLaunch
+
+***
 
 Abrimos XLaunch
 
@@ -136,6 +144,8 @@ Si queremos guardar la configuración actual y jugar mas a futuro con las opcion
 Ahora debemos colocar el acceso directo de Xming en C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp que es la carpeta de inicio de Windows.
 
 ## Paso 5: Modificando los valores del servidor SSH en Linux
+
+***
 
 Bien, ahora tenemos que ir nuestro servidor Linux y modificar con su editor de texto favorito (nano, vi), el siguente archivo /etc/sshd/sshd_config
 
@@ -162,6 +172,8 @@ sudo systemctl restart sshd
 ```
 
 ## Paso 6: Configurando Putty
+
+***
 
 Lo primero que tenemos que hacer, es ir al Menú Connection -> SSH -> X11 y activamos la opción Enable X11 forwarding:
 

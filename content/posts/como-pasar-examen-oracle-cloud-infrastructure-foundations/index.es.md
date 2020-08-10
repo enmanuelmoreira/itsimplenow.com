@@ -73,6 +73,8 @@ El primer nivel de la pirámide es el nivel Foundations. Los tópicos que debemo
 
 ### Materiales de Estudio
 
+***
+
 Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:
 
 * **The Oracle Foundations Associate Cloud Certification (PASS THE EXAM) – Full Course**  
@@ -90,6 +92,8 @@ Aparte del material gratuito que estuvo disponible, utilicé los siguientes recu
 * **[Descargar Diapositivas del Entrenamiento (ZIP)](https://www.oracle.com/a/ocom/docs/cloud/foundations_cert_content.zip)**
 
 ### El Examen
+
+***
 
 ¿Ya te sientes preparado para presentar el examen?
 
@@ -147,6 +151,8 @@ Damos click en Proceed Checkout y allí colocamos la información de nuestra tar
 
 ### Y... El pasado dia 11/04/2020 aprobé el examen!!!
 
+***
+
 ![exams-results](/images/oci-foundations/exam-score-report.png)
 
 Debes esperar de 24 a 48 hrs para que llegue a tu correo electrónico una notificación con el certificado, el cual podrás descargarlo en el sitio de **[CertView de Oracle](https://certview.oracle.com/)**
@@ -154,6 +160,8 @@ Debes esperar de 24 a 48 hrs para que llegue a tu correo electrónico una notifi
 Adicionalmente, puedes descargar tu Placa en **[YourAcclaim](https://www.youracclaim.com/)** y compartir tu felicidad por Linkedin :)
 
 ### Consejos al momento de presentar la prueba
+
+***
 
 * Debes tener una PC o Laptop que tenga cámara web y acceso al micrófono.
 * Una buena conexión a Internet.

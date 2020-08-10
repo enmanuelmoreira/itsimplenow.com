@@ -89,6 +89,8 @@ Los **[tópicos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-assoc
 
 ### Materiales de Estudio
 
+***
+
 Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:  
 
 - **[La documentacion Oficial de OCI en Oracle](https://docs.cloud.oracle.com/es-ww/iaas/Content/home.htm)**  
@@ -105,6 +107,8 @@ Aparte del material gratuito que estuvo disponible, utilicé los siguientes recu
 
 ### El Examen
 
+***
+
 - Costo actual: $150.00  
 - Idioma: Inglés (Lamentablemente Español no está disponible)  
 - Formato: Preguntas de Selección Simple y Múltiple  
@@ -116,17 +120,23 @@ Aparte del material gratuito que estuvo disponible, utilicé los siguientes recu
 
 ### Primer Intento: 30/04/2020
 
+***
+
 Esta vez el reto fue mayor. En el examen absolutamente todo el contenido fue cobrado, incluso hasta cierto tema con Federación que no se tocaba en los entrenamientos disponibles por Oracle. Dedicando 3 horas por dia por una semana no fui suficiente y reprobé con solo 1 punto porcentual de diferencia.  
 
 ![exams-results1](/images/oci-architect-associate/exam-score-report-1.png)
 
 ### Segundo Intento 07/05/2020
 
+***
+
 Después de fallar en el primer intento, me dediqué además de ver los videos de entrenamiento de Oracle, leí mucha documentación sobre Federación y Autonomous Database Warehouse (ADW) Puse especial atención en aquellas áreas en donde pude haber cometido errores en las preguntas de selección múltiple. Durante 1 semana, dedicandole 4 horas al dia, me sentí más confiado para enfrentar de nuevo el examen. Pero... volví a fallar, coindidencia: 64%  
 
 ![exams-results2](/images/oci-architect-associate/exam-score-report-2.png)
 
 ### Tercer Intento
+
+***
 
 Ya con este panorama, decidí invertirle mucho mas tiempo a estudiar, por lo que durante 1 mes estudié 3 horas al dia, solo descansando los dias sábados. Era si o si pasar la prueba y lo más importante, leer mucha más documentación de otros autores (por ejemplo el libro: **[Oracle Cloud Infrastructure Architect Associate All-in-One Exam Guide (Exam 1Z0-1072)](https://www.amazon.com/Oracle-Infrastructure-Architect-Associate-1Z0-1072-ebook/dp/B083CPVKFT)** de Roopesh Ramklass)  
 
@@ -139,6 +149,8 @@ Debes esperar de 24 a 48 hrs para que llegue a tu correo electrónico una notifi
 Adicionalmente, puedes descargar tu Placa en **[YourAcclaim](https://www.youracclaim.com/)** y compartir tu felicidad por Linkedin :)  
 
 ### Consejos al momento de presentar la prueba
+
+***
 
 - Debes tener una PC o Laptop que tenga cámara web y acceso al micrófono.  
 - Una buena conexión a Internet.  

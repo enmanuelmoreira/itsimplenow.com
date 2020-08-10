@@ -30,6 +30,8 @@ Al momento de esta publicación, tendremos instalada la version 4.4.8 de OpenShi
 
 ### Requisitos Minimos de Hardware
 
+***
+
 Para poder correr correctamente OpenShift, necesitaremos de estos requisitos mínimos de Hardware:
 
 * 4 CPUs virtuales (vCPUs)
@@ -40,9 +42,13 @@ CodeReady Containers se puede ejecutar tanto en Linux, Windows o MacOS. Sin emba
 
 ### Paso 1: Registrarnos en la página Developers de Red Hat
 
+***
+
 Para poder descargar el ejecutable de CodeReady Containers, vamos a necesitar registrarnos en el siguiente enlace: **[Red Hat Developers](https://developers.redhat.com/download-manager/link/3868678)** y además obtener nuestra clave Secret Pull.
 
 ### Paso 2: Instalamos dependencias necesarias
+
+***
 
 CodeReady Containers necesita los paquetes **libvirt** y **NetworkManager**, los cuales deben ser instalados.
 
@@ -63,6 +69,8 @@ $ sudo systemctl enable --now libvirtd
 ```
 
 ### Paso 3: Instalar CodeReady Containers
+
+***
 
 Descargamos el ejecutable actualizado de CRC desde el siguiente enlace:
 
@@ -123,6 +131,8 @@ Use "crc [command] --help" for more information about a command.
 ```
 
 ### Paso 4: Configuramos la máquina virtual de CodeReady Containers
+
+***
 
 Ejecutamos el siguiente comando para configurar la máquina anfitriona:
 
@@ -385,6 +395,8 @@ storage                                    4.4.8     True        False         F
 
 ### Paso 5: Accedemos al cluster
 
+***
+
 Se puede accesar al cluster desplegado localmente a través de la consola o bien por la consola web:
 
 ```bash
@@ -434,6 +446,8 @@ $ crc ip
 
 ### Paso 6: Deteniendo el cluster de OpenShift
 
+***
+
 Para detener el cluster, ejecutamos el siguiente comando:
 
 ```bash
@@ -449,6 +463,8 @@ $ crc start
 ```
 
 ### Paso 7: Eliminando el cluster de OpenShift
+
+***
 
 Si queremos borrar el cluster desplegado y ahorrarnos ese espacio en disco duro:
 
