@@ -134,7 +134,7 @@ Se necesitan privilegios de root o sudo para poder ejecutar las siguientes opera
 ![Chat Support](/images/redhat-online-exams/fedora-6.png "Escribiendo al disco")
 5. Una vez finalizado, iniciamos el disco USB con el ambiente del examen.  
 
-#### Método 2: Usando el programa dd
+#### Método 2: Usando el programa dd (Método válido tambien para CentOS 7/8 y RHEL 7/8)
 
 1. Descargamos la imagen .iso del ambiente del examen desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)  
 2. Identificamos nuestra unidad USB mediante el comando **lsblk**:  
