@@ -55,7 +55,7 @@ Según el documento [Getting Ready for your Red Hat Remote Exam](https://learn.r
 La Unidad de USB necesita ser borrada completamente para crear el ambiente del examen, por lo que se recomienda hacer un respaldo de los datos contenidos en el.
 {{< /admonition >}}
 
-- Una Webcam externa que tenga al menos 1 mtr de cable.
+- Una Webcam externa que tenga al menos 1 m. de cable.
 
 - Se permite un USB Hub para conectar mouse, teclado, sonido y micrófono.
 
@@ -67,13 +67,19 @@ La Unidad de USB necesita ser borrada completamente para crear el ambiente del e
 
 - Conexión a la Red cableado. No se permite conexión por Wi-Fi para asegurar la calidad de la transmisión durante el examen.
   
-- Si se realiza el examen en una Laptop, esta debe tener suficiente carga en la bateria y estar conectada al cargador al momento de realizar el examen.
+- Si se realiza el examen en una Laptop, la batería debe estar lo suficientemente cargada y estar conectada al cargador al momento de realizar el examen.
 
 ***
 
 ## Configuración del ambiente del examen
 
-Para configurar el ambiente del examen, necesitamos tres cosas: una Unidad USB de 8 GB de capacidad mínimo, el programa Fedora Image Writer y la imagen .iso que contiene el ambiente de la prueba.
+***
+
+Para configurar el ambiente del examen, necesitamos tres cosas:  
+
+- Una Unidad USB de 8 GB de capacidad mínimo.  
+- El programa Fedora Image Writer.  
+- La imagen .iso que contiene el ambiente de la prueba.  
 
 {{< admonition tip >}}
 Se requiere ser Administrador del sistema para poder ejecutar los pasos siguientes. Obten permisos de Administrador de su departamento de IT si estás usando un computador provisto por la empresa.
@@ -227,7 +233,11 @@ nvme0n1       259:0    0   477G  0 disk
 
 6. Ahora iniciamos el disco USB con el ambiente del examen  
 
+***
+
 ## Iniciando el disco USB con el ambiente del examen
+
+***
 
 1. Reinicia tu PC, y ve al Boot Menu, Selecciona el disco de inicio como USB Flash Drive.  
 {{< admonition note >}}
@@ -252,7 +262,11 @@ Depediendo del computador, la tecla para entrar al boot menu puede ser diferente
 
 Espero les haya gustado, ¡hasta la próxima!
 
+***
+
 ## Referencias
+
+***
 
 - [Red Hat Launches Remote Certification Exams](https://www.redhat.com/en/about/press-releases/red-hat-launches-remote-certification-exams)  
 
