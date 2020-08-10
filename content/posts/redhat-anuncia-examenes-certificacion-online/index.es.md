@@ -51,7 +51,7 @@ Según el documento [Getting Ready for your Red Hat Remote Exam](https://learn.r
 - 4GB de RAM como mínimo.
 
 - Unidad USB de 8GB mínimo de almacenamiento.
-{{< admonition >}}
+{{< admonition warning >}}
 La Unidad de USB necesita ser borrada completamente para crear el ambiente del examen, por lo que se recomienda hacer un respaldo de los datos contenidos en el.
 {{< /admonition >}}
 
@@ -98,11 +98,54 @@ Se requiere ser Administrador del sistema para poder ejecutar los pasos siguient
 4. Abrimos Fedora Media Writer para escribir la imagen .iso del ambiente del examen:  
 a. Seleccionamos **Imagen Personalizada**  
 ![FIW](/images/redhat-online-exams/fedora-media-writer-4.png "Imagen Personalizada")
-b. Escogemos la imagen .iso donde la hatamos descargado luego damos click a Abrir y nos llevará a la pantalla de Escribir Imagen Personalizada.  
+b. Escogemos la imagen .iso donde la hayamos descargado luego damos click a Abrir y nos llevará a la pantalla de Escribir Imagen Personalizada.  
 ![FIW](/images/redhat-online-exams/fedora-media-writer-5.png "Seleccionando Imagen")
-c. 
+c. Si la unidad USB está conectada al computador, Fedora Media Writer mostrará la unidad para crear el ambiente del examen  
+{{< admonition warning >}}
+Fedora Media Writes borrará la unidad USB para crear el ambiente del examen. Haz un respaldo de todos los datos antes de continuar.  
+{{< /admonition >}}
+![FIW](/images/redhat-online-exams/fedora-media-writer-6.png "Seleccionando Imagen")  
+d. Damos click en Escribir al disco par iniciar el proceso de escritura.  
+![FIW](/images/redhat-online-exams/fedora-media-writer-7.png "Escribiendo imagen")
+![FIW](/images/redhat-online-exams/fedora-media-writer-8.png "Comprobando datos")
+e. Finalizamos Fedora Media Writer  
+![FIW](/images/redhat-online-exams/fedora-media-writer-9.png "Finalizando")
+
+5. Ahora Iniciando el disco USB con el ambiente del examen  
+
+### Fedora 30 - Fedora 32
+
+{{< admonition info >}}
+Se necesitan privilegios de root o sudo para poder ejecutar las siguientes operaciones.  
+{{< /admonition >}}
+
+#### Método 1: Usando Fedora Media Writer
+
+
+#### Método 2: Usando el programa dd
 
 ## Iniciando el disco USB con el ambiente del examen
+
+1. Reinicia tu PC, y ve al Boot Menu, Selecciona el disco de inicio como USB Flash Drive.  
+{{< admonition note >}}
+Depediendo del computador, la tecla para entrar al boot menu puede ser diferente, las telcas mas comunes son F2, F4, F11, F12, delete, enter, etc.  
+{{< /admonition >}}
+2. En la pantalla de selección Boot order - puede ser diferente en varios computadores, la típica pantalla puede ser la siguiente:  
+![Boot Order](/images/redhat-online-exams/boot-0.png "Pantalla boot order")
+3. Esperamos que cargue el examen  
+![Boot exam](/images/redhat-online-exams/boot-1.png "Iniciando examen Red Hat")
+4. Click OK en la pantalla de bienvenida.  
+5. Preparamos el ambiente del examen en la pantalla Settings configurando por ejemplo el mouse, telcado, region/idioma, sonido, etc.  
+![Settings](/images/redhat-online-exams/boot-2.png "Configurando opciones")
+6. Vamos a la opción Network para asegurarnos que haya tomado los párametros de la red, y que esté conectado a Internet.  
+![Network](/images/redhat-online-exams/network.png "Parámetros de Red")
+7. Después de verificar que estemos conectados a Internet, cerramos la pantalla Settings para conectarnos a la página Red Hat Individual Exam Scheduler.  
+8. Inicamos sesión con el usuario y contraseña de nuestra cuenta redhat.com. Debe ser la misma con la que se adquirió el examen.  
+9.  Una vez iniciado el ambiente del examen, vamos a ejecutar la opción Compatibility Check para verificar que los requerimientos del sistema son correctos.  
+![Red Hat Individual Exam Scheduler](/images/redhat-online-exams/boot-3.png "Red Hat Individual Exam Scheduler")
+10. En caso de necesitar ayuda, tenemos la opción Raise a live chat with support.  
+![Chat Support](/images/redhat-online-exams/boot-4.png "Raise a live chat with support")
+11.   La sección **Your Exams** mostratrá los examanes agendados dentro de las próximas 24 horas. Haz click en **Your Exams** para comenzar con el examen.  
 
 
 
