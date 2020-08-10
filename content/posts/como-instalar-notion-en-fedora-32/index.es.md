@@ -37,17 +37,23 @@ Afortunadamente, a través de Electon y apoyándonos en un script, podemos compi
 
 ### Paso 1: Instalamos Node.js y algunas dependencias  
 
+***
+
 ```bash
 sudo dnf install nodejs p7zip-plugins ImageMagick fakeroot -y
 ```
 
 ### Paso 2: Instalamos dependencias desde npm
 
+***
+
 ```bash
 sudo npm -g install asar electron-packager electron-installer-redhat electron-installer-debian
 ```
 
-### Paso 3: Clonamos el repositorio notion-rpm-builder
+### Paso 3: Clonamos el repositorio notion-rpm-builder  
+
+***
 
 ```bash
 git clone https://github.com/enmanuelmoreira/notion-rpm-builder
@@ -60,6 +66,8 @@ cd notion-rpm-builder
 ```
 
 ### Paso 4: Descargamos la última versión de Notion
+
+***
 
 A día de hoy es la 2.0.8  
 
@@ -87,7 +95,9 @@ Donde se va a reemplazar **`<platform>`** por la versión del sistema operativo 
 
 Esperamos pacientemete unos minutos, y el paquete debería estar en la carpeta dist/installers
 
-### Paso 5: Instalamos el paquete contruido
+### Paso 5: Instalamos el paquete contruido  
+
+***
 
 Solo nos queda instalar el paquete notion-desktop
 
