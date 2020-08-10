@@ -4,7 +4,7 @@ date: 2020-08-10
 lastmod: 2020-08-10
 author: Enmanuel Moreira
 description: "Hay buenas noticias para todos aquellos que quedaron sin poder presentar los examenes de Red Hat (recordemos que los examenes de certificación de Red Hat solo se pueden hacer en un Centro Autorizado), y viendo la actual situación mundial con el COVID-19, finalmente Red Hat anunció la disponibilidad de algunos sus examenes para ser presentados en casa/oficina."
-draft: true
+draft: false
 
 resources:
 - name: "featured-image"
