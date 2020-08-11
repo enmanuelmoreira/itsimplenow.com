@@ -241,7 +241,7 @@ nvme0n1       259:0    0   477G  0 disk
 
 1. Reinicia tu PC, y ve al Boot Menu, Selecciona el disco de inicio como USB Flash Drive.  
 {{< admonition note >}}
-Depediendo del computador, la tecla para entrar al boot menu puede ser diferente, las telcas mas comunes son F2, F4, F11, F12, delete, enter, etc.  
+Depediendo del computador, la tecla para entrar al boot menu puede ser diferente, las teclas mas comunes son F2, F4, F11, F12, delete, enter, etc.  
 {{< /admonition >}}
 2. En la pantalla de selección Boot order - puede ser diferente en varios computadores, la típica pantalla puede ser la siguiente:  
 ![Boot Order](/images/redhat-online-exams/boot-0.png "Pantalla boot order")
