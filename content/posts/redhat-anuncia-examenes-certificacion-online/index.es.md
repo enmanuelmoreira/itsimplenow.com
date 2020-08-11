@@ -248,7 +248,7 @@ Depediendo del computador, la tecla para entrar al boot menu puede ser diferente
 3. Esperamos que cargue el examen  
 ![Boot exam](/images/redhat-online-exams/boot-1.png "Iniciando examen Red Hat")
 4. Click OK en la pantalla de bienvenida.  
-5. Preparamos el ambiente del examen en la pantalla Settings configurando por ejemplo el mouse, telcado, region/idioma, sonido, etc.  
+5. Preparamos el ambiente del examen en la pantalla Settings configurando por ejemplo el mouse, teclado, region/idioma, sonido, etc.  
 ![Settings](/images/redhat-online-exams/boot-2.png "Configurando opciones")
 6. Vamos a la opción Network para asegurarnos que haya tomado los párametros de la red, y que esté conectado a Internet.  
 ![Network](/images/redhat-online-exams/network.png "Parámetros de Red")
