@@ -206,7 +206,7 @@ nvme0n1         259:0    0   477G  0 disk
 5. Desconectamos la unidad USB y la conectamos de nuevo, si ejecutamos el comando **lsblk** veremos ahora el punyo de montaje de la unidad:  
 
 ```bash
-lsblk
+$ lsblk
 NAME          MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sda             8:0    0 931.5G  0 disk 
 ├─sda1          8:1    0    16M  0 part 
