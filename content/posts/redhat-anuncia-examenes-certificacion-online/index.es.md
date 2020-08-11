@@ -169,10 +169,10 @@ nvme0n1         259:0    0   477G  0 disk
 
 Aquí por ejemplo mi unidad USB sería la **sdc** (puede variar dependiendo de cuantos dispositivos de almacenamiento tengas instalados en tu PC)  
 
-3. Como **sudo** ejecutamos el comando **dd**  
+3. Como **sudo** ejecutamos el comando **dd** donde "if=/path" es la ruta completa donde se encuentra la imagen .iso y "of=/dev/sdc" es la unidad USB destino.  
 
 ```bash
-$ sudo dd if=/home/usuario/Descargas/rhrexboot.iso of=/dev/sda bs=512k
+$ sudo dd if=/home/usuario/Descargas/rhrexboot.iso of=/dev/sdc bs=512k
 2417+1 records in
 2417+1 records out
 1267597312 bytes (1.3 GB, 1.2 GiB) copied, 0.483596 s, 2.6 GB/s
