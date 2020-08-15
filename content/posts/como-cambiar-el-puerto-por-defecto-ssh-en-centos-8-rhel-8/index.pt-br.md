@@ -62,7 +62,7 @@ Vemos que o servidor ssh está a escutar pela porta 22.
 
 ***
 
-O arquivo de configuração do servidor SSH se encontra localizado em /etc/ssh/sshd_config, vamos modifica-lô com o seu editor de textos preferido e mudar a porta padrão:  
+O arquivo de configuração do servidor SSH encontra-se encontra localizado em /etc/ssh/sshd_config, vamos modifica-lô com o seu editor de textos preferido e mudar a porta padrão:  
 
 ```bash
 [root@centos82 ~]# vim /etc/ssh/sshd_config
