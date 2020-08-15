@@ -187,7 +187,7 @@ ssh: connect to host centos82.itsimplenow.com port 22: Connection refused
 
 ```bash
 $ sftp root@centos82.itsimplenow.com
-ssh: connect to host centos-8.centlinux.com port 22: Connection refused
+ssh: connect to host centos82.itsimplenow.com port 22: Connection refused
 Connection closed.
 Connection closed
 ```
