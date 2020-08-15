@@ -60,7 +60,7 @@ ago 15 11:59:26 centos82.itsimplenow.com sshd[4970]: pam_unix(sshd:session): ses
 
 Vemos que o servidor ssh está a escutar pela porta 22.  
 
-## Mudar a porta padrâo
+## Mudar a porta padrão
 
 ***
 
@@ -128,7 +128,7 @@ public (active)
   rich rules:
 ```
 
-Vamos bloquear a porta padrâo (22) e vamos permitir o tráfego da nova porta:  
+Vamos bloquear a porta padrão (22) e vamos permitir o tráfego pela nova porta:  
 
 ```bash
 [root@centos82 ~]# firewall-cmd --permanent --remove-service=ssh
@@ -139,7 +139,7 @@ success
 success
 ```
 
-## Reiniciar serviço e comprobando as mudanças
+## Reiniciar o serviço e comprovar as mudanças feitas
 
 ***
 
@@ -174,7 +174,7 @@ ago 15 13:18:23 centos82.itsimplenow.com systemd[1]: Started OpenSSH server daem
 
 ```
 
-## Ingresar ao servidor SSH com as mudanças feitas
+## Ingresar ao servidor SSH com as novas configurações
 
 ***
 
