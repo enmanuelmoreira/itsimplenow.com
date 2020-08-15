@@ -8,7 +8,7 @@ draft: true
 
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.png"
 
 categories: ["Segurança"]
 tags: ["redhat","centos","segurança"]
@@ -22,7 +22,7 @@ Nesta guia vamos mudar a porta padrão de SSH no CentOS 8 / RHEL 8.
 
 O serviço SSH fornece um canal seguro sob uma rede insegura usando uma arquitetura cliente/servidor, conetando um cliente SSH ao servidor SSH. A porta padrão é a 22 no protocolo TCP, geralmente usada em sistemas Unix/Linux, como também em Microsoft Windows.
 
-É uma boa prática mudar a porta padrão, já que SSH é o foco favorito dos atacantes. Apesar de poder troca-lâ, não há garantia nenhuma de não ser encontrada, devido a que há ferramentas que permitem escanear portas abertas em um servidor. Porém, não vamos deixar tão fácil a entrada ao nosso sistema.
+É uma boa prática mudar a porta padrão, já que SSH é o alvo favorito dos atacantes. Apesar de poder troca-lâ, não há garantia nenhuma de não ser encontrada, devido a que há ferramentas que permitem escanear portas abertas em um servidor. Porém, não vamos deixar tão fácil a entrada ao nosso sistema.
 
 ## Comprovar o status do servidor SSH
 
@@ -62,7 +62,7 @@ Vemos que o servidor ssh está a escutar pela porta 22.
 
 ***
 
-O arquivo de configuração do servidor SSH está ubicado em /etc/ssh/sshd_config, vamos modifica-lô com o seu editor de textos preferido e mudar a porta padrão:  
+O arquivo de configuração do servidor SSH se encontra localizado em /etc/ssh/sshd_config, vamos modifica-lô com o seu editor de textos preferido e mudar a porta padrão:  
 
 ```bash
 [root@centos82 ~]# vim /etc/ssh/sshd_config
@@ -80,7 +80,7 @@ Tiramos o # e mudamos a porta:
 Port 2222
 ```
 
-Guardamos as mudanças e saímos do editor.  
+Salvamos o arquivo e saímos do editor.  
 
 ## Configurar SELinux para permitir a porta personalizada
 

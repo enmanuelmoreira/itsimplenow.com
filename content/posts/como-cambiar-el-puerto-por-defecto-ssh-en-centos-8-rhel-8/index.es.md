@@ -8,7 +8,7 @@ draft: true
 
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.png"
 
 categories: ["Seguridad"]
 tags: ["redhat","centos","seguridad"]
