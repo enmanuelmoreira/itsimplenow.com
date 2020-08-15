@@ -200,7 +200,7 @@ enableEmoji = true
                     tileColor = "#da532c"
                 # Search config
                 [languages.pt-br.params.search]
-                    enable = false
+                    enable = true
                     # type of search engine ("lunr", "algolia")
                     type = "algolia"
                     # max index length of the chunked content
@@ -216,9 +216,9 @@ enableEmoji = true
                     # whether to use the absolute URL based on the baseURL in search index
                     absoluteURL = true
                     [languages.pt-br.params.search.algolia]
-                        index = ""
-                        appID = ""
-                        searchKey = ""
+                        index = "prod_itsimplenow_pt"
+                        appID = "AUX1EH7SV3"
+                        searchKey = "6bf536bebf13b11091089ed13df178b4"
                 # Home page config
                 [languages.pt-br.params.home]
                     # amount of RSS pages

@@ -22,8 +22,6 @@ Hola chiquillos!
 
 Hay buenas noticias para todos aquellos que quedaron sin poder presentar los examenes de Red Hat (recordemos que los examenes de certificación de Red Hat solo se pueden hacer en un Centro Autorizado), y viendo la actual situación mundial con el COVID-19, finalmente Red Hat [anunció](https://www.redhat.com/en/about/press-releases/red-hat-launches-remote-certification-exams), la disponibilidad de algunos sus examenes para ser presentados en casa/oficina.
 
-***
-
 ## Exámenes Disponibles  
 
 ***
@@ -37,8 +35,6 @@ A partir del 3 de agosto de 2020, estarán disponibles los siguientes examenes p
 - [Red Hat Certified Specialist in OpenShift Administration exam (EX280V42K)](https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam)
 
 - [Red Hat Certified Specialist in OpenShift Application Development exam (EX288V42K)](https://www.redhat.com/en/services/training/ex288-red-hat-certified-specialist-openshift-application-development-exam)
-
-***
 
 ## Requerimientos Técnicos
 
@@ -68,8 +64,6 @@ La Unidad de USB necesita ser borrada completamente para crear el ambiente del e
 - Conexión a la Red cableado. No se permite conexión por Wi-Fi para asegurar la calidad de la transmisión durante el examen.
   
 - Si se realiza el examen en una Laptop, la batería debe estar lo suficientemente cargada y estar conectada al cargador al momento de realizar el examen.
-
-***
 
 ## Configuración del ambiente del examen
 
@@ -233,8 +227,6 @@ nvme0n1       259:0    0   477G  0 disk
 
 6. Ahora iniciamos el disco USB con el ambiente del examen  
 
-***
-
 ## Iniciando el disco USB con el ambiente del examen
 
 ***
@@ -261,8 +253,6 @@ Depediendo del computador, la tecla para entrar al boot menu puede ser diferente
 11. en la sección **Your Exams** se podrán los examanes agendados dentro de las próximas 24 horas. Haz click en **Your Exams** para comenzar con el examen.  
 
 Espero les haya gustado, ¡hasta la próxima!
-
-***
 
 ## Referencias
 
