@@ -193,7 +193,7 @@ Connection closed
 Nos conectamos a SSH pela nova porta, teremos que indicar o operador -p para indicar a porta:  
 
 ```bash
-$ ssh root@entos82.itsimplenow.com -p 2222
+$ ssh root@centos82.itsimplenow.com -p 2222
 The authenticity of host '[centos82.itsimplenow.com]:2222 ([centos82.itsimplenow.com]:2222)' can't be established.
 ECDSA key fingerprint is SHA256:4MDhGEIJQAbfnFPlrTwPOJrcYaAmARmsN8xAlWAb6u0.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
