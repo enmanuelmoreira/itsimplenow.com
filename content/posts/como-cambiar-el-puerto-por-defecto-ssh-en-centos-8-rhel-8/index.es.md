@@ -4,7 +4,7 @@ date: 2020-08-15
 lastmod: 2020-08-15
 author: Enmanuel Moreira
 description: "En esta guía vamos a cambiar el puerto por defecto del servicio SSH en CentOS 8 / RHEL 8."
-draft: true
+draft: false
 
 resources:
 - name: "featured-image"
