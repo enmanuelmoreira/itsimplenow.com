@@ -16,9 +16,7 @@ tags: ["redhat","centos","segurança"]
 lightgallery: true
 ---
 
-## TODO
-
-Olá Pessoal!
+Olá Pessoal, tudo bem?
 
 Nesta guia vamos mudar a porta padrão de SSH no CentOS 8 / RHEL 8.
 
