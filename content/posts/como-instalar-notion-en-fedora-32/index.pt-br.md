@@ -20,20 +20,20 @@ lightgallery: true
 
 Olá Pessoal, tudo bem?
 
-Hoje queria-lhes falar de uma ferramenta que conhecí através do website **[4Fasters](https://4fasters.com.br)**: **[Notion](https://notion.so/)**  
+Hoje queria-lhes falar de uma ferramenta que conhecí via **[4Fasters](https://4fasters.com.br)**: **[Notion](https://notion.so/)**  
 
 O websiye da **[Notion](https://notion.so/)** define à ferramenta como:  
 > Is a collaboration platform with markdown support that integrates kanban boards, tasks, wikis, and databases. The company claims to be an all-in-one workspace for note-taking, knowledge and data management, project and task management.  
 
-Notion é um ótimo software para organizar a nossa vida, é tão potente que nos permite levar um registodas nossas tarefas las tareas, escrever notas, fazer gráficos, etc. O melhor é que as mudanças se sincronizam e armazenam na núvem pelo que se podem acessar em qualquer lugar e momento.  
+Notion é um ótimo software para organizar a nossa vida, é tão potente que nos permite levar um registo das nossas tarefas, escrever notas, fazer gráficos, etc. O melhor é que as mudanças se sincronizam e armazenam na núvem pelo que se podem acessar em qualquer lugar e momento.  
 
-Notion tem duas versões: Uma pessoal personal e outra de Pago. Os preços e planes da subscripção se podem ver neste **[enlace](https://www.notion.so/pricing)**  
+Notion tem duas versões: Uma pessoal e outra de Pago. Os preços e planes da subscripção se podem ver neste **[enlace](https://www.notion.so/pricing)**  
 
-Suporta Microsoft Windows, MacOS, Android e iOS (além de ter uma versão Web) Infelizmente, ainda não tem uma versão para oficial para o Linux e segundo o que podemos ler da conta da Notion no Twiter **[Twitter](https://twitter.com/NotionHQ)** não vai ser introduzido ao mercado Linux em um futuro próximo.  
+Suporta Microsoft Windows, MacOS, Android e iOS (além de ter uma versão Web) Infelizmente, ainda não tem uma versão oficial para o Linux e segundo o que podemos ler na conta da Notion no **[Twitter](https://twitter.com/NotionHQ)** não vai ser introduzido ao mercado Linux em um futuro próximo.  
 
 {{< tweet 912737143327301634 >}}
 
-Por sorte, através de Electon e com o apóio de um script, podemos compilar e instalar Notion em Fedora 32 tomando o instalador para Microsoft Windows.
+Por sorte, através de Electon e com o apóio de um script, podemos compilar e instalar Notion em Fedora 32 a usar o instalador para Microsoft Windows.
 
 ### Passo 1: Instalamos Node.js e algumas dependências  
 
@@ -87,13 +87,13 @@ Executamos o script:
 ./build.sh <platform>
 ```
 
-Onde vai se trocar **`<platform>`** pela versão do sistema operativo do instalador (neste caso Windows)  
+Onde vai ser trocado **`<platform>`** pela versão do sistema operativo do instalador (neste caso Windows)  
 
 ```bash
 ./build.sh windows
 ```
 
-Aguardamos uns minutos, e o pacote já contruído devería estar na pasta dist/installers
+Aguardamos uns poucos minutos, e o pacote já contruído devería estar na pasta dist/installers
 
 ### Passo 5: Instalamos o pacote contruído  
 
