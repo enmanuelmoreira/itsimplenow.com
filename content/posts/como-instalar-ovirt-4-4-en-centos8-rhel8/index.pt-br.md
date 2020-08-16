@@ -312,9 +312,9 @@ Respondemos as perguntas do instalador, para escolher a opção padrão pulsamos
 [ INFO  ] Execution of setup completed successfully
 ```
 
-O firewall se configurará automáticamente abrindo as puertass necessárias para a administração da plataforma oVirt Engine e também da consola das maquinas virtuais.  
+O firewall vai se configurar automáticamente abrindo as portas necessárias para a administração da plataforma oVirt Engine e também da consola das maquinas virtuais.  
 
-Accedemos agora à plataforma web, abrimos um navegador e digitamos a URL:  
+Entramos agora à plataforma web, abrimos um navegador e digitamos a URL:  
 
 ***[https://ovirt.example.com](https://ovirt.example.com)***
 
@@ -322,7 +322,7 @@ Ahora poderemos ver a interface de administración do oVirt:
 
 ![Ecrã Principal](/images/ovirt-4.4/ovirt-1.png)
 
-Click em Portal de Administração, colocamos usuario: admin e palavra-chave (a que previamente configuramos no setup):  
+Click em Portal de Administração, colocamos usuario: admin e a palavra-chave (a que previamente configuramos no setup):  
 
 ![Inicio de Sessão](/images/ovirt-4.4/ovirt-2.png)
 ![Principal](/images/ovirt-4.4/ovirt-3.png)
@@ -351,7 +351,7 @@ Criamos um novo cluster de dados, trocando o Centro de Dados que criamos anterio
 
 ![Principal](/images/ovirt-4.4/ovirt-7.png)
 
-As opções mais importantes para configurar são: Arquitetura da CPU (neste caso x86_64) e Tipo de CPU, como eu tenho um processador AMD, vou escolher a opção AMD EPYC (se tiveres um processador Intel deves de troca-lâ pela familia a que pertença a CPU)  
+As opções mais importantes para configurar são: Arquitetura da CPU (neste caso x86_64) e Tipo de CPU, como eu tenho uma CPU AMD, vou escolher a opção AMD EPYC (se tiveres uma CPU Intel deves de troca-lâ pela familia a que pertença a CPU)  
 
 Agora vamos ao menú Computo -> Hosts para configurar o host local  
 
@@ -375,7 +375,7 @@ Uma vez finalizada a instalação, o host já se encontraria ativo.
 
 ![Principal](/images/ovirt-4.4/ovirt-12.png)
 
-No caso que o host não se ativasse o que dê o erro  “não operacional”, teremos que revisar que o tipo da CPU escolhida seja o correto para a arquitetura onde está se executando o Hypervisor. Isto acontece quando se escolhe um processador AMD quando trata-se de um Intel o vice-versa.  
+No caso que o host não se ativasse o que dê o erro “não operacional”, teremos que revisar que o tipo da CPU escolhida seja o correto para a arquitetura onde está se executando o Hypervisor. Isto acontece quando se escolhe um processador AMD quando trata-se de um Intel o vice-versa.  
 
 Aplicando trobleshooting teriamos que colocar o host em Manutenção, escolhemos o host da lista, e click no botão Administração, Manutenção, quanto a seguinte imagem:  
 
@@ -391,7 +391,7 @@ Agora vamos criar o Domínio de Armazenamento, previamente temos que criar as pa
 [root@ovirt ~]# mkdir -p /vz/{iso,data}
 ```
 
-Ajustamos o dono das pastas, neste caso: usuário vdsm, grupo kvm:  
+Ajustamos o owner das pastas, neste caso: usuário vdsm, grupo kvm:  
 
 ```bash
 [root@ovirt ~]# chown /vz -R vdsm:kvm
