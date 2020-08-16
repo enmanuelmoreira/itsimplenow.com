@@ -1,5 +1,5 @@
 ---
-title: "Red Hat anuncia os testes de Certificação Online"
+title: "Red Hat anuncia os seus testes de Certificação Online"
 date: 2020-08-08
 lastmod: 2020-08-09
 author: Enmanuel Moreira
@@ -16,12 +16,11 @@ tags: ["redhat","certificações","sysadmin","rhcsa","rhce","rhel"]
 lightgallery: true
 ---
 
-
 <!--more-->
 
 Olá Pessoal, tudo bem?
 
-Boas notícias para quem ainda não puderam fazer os testes de certificação de Red Hat (lembremos que os testes de certificação de Red Hat só se podem fazer em um Centro Autorizado), e além da situação atual com o COVID-19, finalmente Red Hat [anunciou](https://www.redhat.com/en/about/press-releases/red-hat-launches-remote-certification-exams), a disponibilidade de alguns dos testes para poder ser feitos em casa/escritório.  
+Boas notícias para quem ainda não puderam fazer os testes de certificação de Red Hat (lembremos que os testes de certificação de Red Hat só se podem fazer em um Centro Autorizado), e além da situação atual com o COVID-19, finalmente Red Hat [anunciou](https://www.redhat.com/en/about/press-releases/red-hat-launches-remote-certification-exams), a disponibilidade de alguns dos seus testes para poder ser feitos em casa/escritório.  
 
 ## Testes Disponíveis  
 
@@ -56,9 +55,9 @@ A Unidade USB precisa ser apagada completamente para criar o ambiente do teste, 
 
 - É permitido um USB Hub para ligar mouse, teclado, som e microfone.
 
-- Mouse e Teclado. Podem ser externos e deven ser de cabo (não são permitidos mouses ou teclados wireless) e no caso se ser usada uma laptop. a mesma deverá permanecer fechada ao momento de fazer o teste.
+- Mouse e Teclado. Podem ser externos e deven ser de cabo (não são permitidos mouses ou teclados wireless) e no caso de ser usada uma laptop, a mesma deverá permanecer fechada ao momento de fazer o teste.
 
-- Som y microfone. Verificar que o microfone não esteja mute antes de fazer o teste.
+- Som e microfone. Verificar que o microfone não esteja mute antes de fazer o teste.
 
 - Conexão a Internet com velocidades mínimas de download de 768Kbps e upload de 512Kbps.
 
