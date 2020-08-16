@@ -381,11 +381,11 @@ Aplicando trobleshooting teriamos que colocar o host em Manutenção, escolhemos
 
 ![Principal](/images/ovirt-4.4/ovirt-13.png)
 
-### Passo 7: Criamos o armazenamento das imagens das VM e ISO  
+### Passo 7: Criamos o armazenamento das imagens VM e ISO  
 
 ***
 
-Agora vamos criar o Domínio de Armazenamento, previamente tenemos que criar as pastas iso e data para armazenar tanto os instaladores quanto os discos virtuais. Na consola tecleamos:  
+Agora vamos criar o Domínio de Armazenamento, previamente temos que criar as pastas iso e data para armazenar tanto os instaladores quanto os discos virtuais. Na consola tecleamos:  
 
 ```bash
 [root@ovirt ~]# mkdir -p /vz/{iso,data}
