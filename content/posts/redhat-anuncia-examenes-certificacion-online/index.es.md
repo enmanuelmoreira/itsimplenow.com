@@ -197,7 +197,7 @@ nvme0n1         259:0    0   477G  0 disk
 └─nvme0n1p3     259:3    0   519M  0 part 
 ```
 
-5. Desconectamos la unidad USB y la conectamos de nuevo, si ejecutamos el comando **lsblk** veremos ahora el punyo de montaje de la unidad:  
+5. Desconectamos la unidad USB y la conectamos de nuevo, si ejecutamos el comando **lsblk** veremos ahora el punto de montaje de la unidad:  
 
 ```bash
 $ lsblk
@@ -245,12 +245,12 @@ Depediendo del computador, la tecla para entrar al boot menu puede ser diferente
 6. Vamos a la opción Network para asegurarnos que haya tomado los párametros de la red, y que esté conectado a Internet.  
 ![Network](/images/redhat-online-exams/network.png "Parámetros de Red")
 7. Después de verificar que estemos conectados a Internet, cerramos la pantalla Settings para conectarnos a la página Red Hat Individual Exam Scheduler.  
-8. Inicamos sesión con el usuario y contraseña de nuestra cuenta redhat.com. Debe ser la misma con la que se adquirió el examen.  
+8. Iniciamos sesión con el usuario y contraseña de nuestra cuenta redhat.com. Debe ser la misma con la que se adquirió el examen.  
 9.  Una vez iniciado el ambiente del examen, vamos a ejecutar la opción Compatibility Check para verificar que los requerimientos del sistema son correctos.  
 ![Red Hat Individual Exam Scheduler](/images/redhat-online-exams/boot-3.png "Red Hat Individual Exam Scheduler")
 10. En caso de necesitar ayuda, tenemos la opción **Raise a live chat with support.**  
 ![Chat Support](/images/redhat-online-exams/boot-4.png "Raise a live chat with support")
-11. en la sección **Your Exams** se podrán los examanes agendados dentro de las próximas 24 horas. Haz click en **Your Exams** para comenzar con el examen.  
+11. En la sección **Your Exams** se podrán los examanes agendados dentro de las próximas 24 horas. Haz click en **Your Exams** para comenzar con el examen.  
 
 Espero les haya gustado, ¡hasta la próxima!
 
