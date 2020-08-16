@@ -40,11 +40,11 @@ Em 3 de agosto de 2020, estarão disponíveis os seguintes testes para ser feito
 
 ***
 
-Segundo o documento [Getting Ready for your Red Hat Remote Exam](https://learn.redhat.com/jfvwy86652/attachments/jfvwy86652/certification_resources/2/3/Getting%20Ready%20for%20your%20Red%20Hat%20Remote%20Exam_4_Aug_20.pdf), se vão precisar cumplir con as seguintes condições:  
+Segundo o documento [Getting Ready for your Red Hat Remote Exam](https://learn.redhat.com/jfvwy86652/attachments/jfvwy86652/certification_resources/2/3/Getting%20Ready%20for%20your%20Red%20Hat%20Remote%20Exam_4_Aug_20.pdf), vais precisar cumprir con as seguintes condições:  
 
-- Um PC com só um monitor ativo, o uma Laptop com processador Intel/AMD. No caso da laptop, se vai permitir ligar um monitor externo, porém, a laptop deverá permanecer fechada ao momento de fazer o teste.
+- Um PC com só um monitor ativo, o uma Laptop com processador Intel/AMD. No caso do laptop, vai se permitir ligar um monitor externo, porém, a laptop deverá permanecer fechada ao momento de fazer o teste.
 
-- 4GB de memoria RAM como mínimo.
+- 4GB de memoria RAM no mínimo.
 
 - Unidade USB de 8GB mínimo de armazenamento.
 {{< admonition warning >}}
@@ -57,11 +57,11 @@ A Unidade USB precisa ser apagada completamente para criar o ambiente do teste, 
 
 - Mouse e Teclado. Podem ser externos e deven ser de cabo (não são permitidos mouses ou teclados wireless) e no caso de ser usada uma laptop, a mesma deverá permanecer fechada ao momento de fazer o teste.
 
-- Som e microfone. Verificar que o microfone não esteja mute antes de fazer o teste.
+- Som e microfone. Verificar que o microfone não esteja mudo antes de fazer o teste.
 
 - Conexão a Internet com velocidades mínimas de download de 768Kbps e upload de 512Kbps.
 
-- Conexão a rede por cabo. Não se permite conexão pelo Wi-Fi, isto para asegurar a quaalidade da transmissão de dados durante o teste.
+- Conexão a rede por cabo. Não se permite conexão pelo Wi-Fi, isto para assegurar a qualidade da transmissão de dados durante o teste.
   
 - Se o teste fosse feito em uma Laptop, a bateria da mesma deve estar carregada o suficiente e estar ligada ao carregador durante o teste.
 
@@ -69,23 +69,23 @@ A Unidade USB precisa ser apagada completamente para criar o ambiente do teste, 
 
 ***
 
-Para cria o ambiente do teste, precisamos de três coisas:  
+Para criar o ambiente do teste, precisamos de três coisas:  
 
 - Uma Unidade USB de 8 GB de capacidade mínimo.  
 - O software Fedora Image Writer.  
 - A imagem .iso que contém o ambiente do teste.  
 
 {{< admonition tip >}}
-Precisam-se privilegios de Administrador do sistema para poder executar todos os pasos a seguir. Deves de obter privilegios de Administrador da tua equipa de TI se estas a usar um PC fornecido pela empresa.
+Precisam-se privilegios de Administrador do sistema para poder executar todos os passos a seguir. Deves de obter privilegios de Administrador da tua equipa de TI se estas a usar um PC fornecido pela empresa.
 {{< /admonition >}}
 
 ### Windows 7, 8.1 / 10
 
-1. Descarregamos a imagem .iso do ambiente do teste desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)
+1. Baixamos a imagem .iso do ambiente do teste desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)
 
 2. Conectamos a unidade USB ao computador.
 
-3. Descarregamos e instalamos o software Fedora Media Writer desde [aquí](https://getfedora.org/fmw/FedoraMediaWriter-win32-latest.exe)
+3. Baixamos e instalamos o software Fedora Media Writer desde [aquí](https://getfedora.org/fmw/FedoraMediaWriter-win32-latest.exe)
 
 ![Licença](/images/redhat-online-exams/fedora-media-writer-0.png "Licença do Programa de Instalação")
 
@@ -98,7 +98,7 @@ Precisam-se privilegios de Administrador do sistema para poder executar todos os
 4. Abrimos o software Fedora Media Writer para escrever a imagen .iso do ambiente do teste:  
 a. Selecionamos **Imagem Personalizada**  
 ![FIW](/images/redhat-online-exams/fedora-media-writer-4.png "Imagem Personalizada")
-b. Escolhemos a imagem .iso onde tinhamos descarregado, depois click em Abrir.  
+b. Escolhemos a imagem .iso onde tinhamos baixado, depois click em Abrir.  
 ![FIW](/images/redhat-online-exams/fedora-media-writer-5.png "A Escolher Imagem")
 c. Se a unidade USB se encontrar conectada ao computador, o Fedora Media Writer vai mostrar a unidade para criar o ambiente do teste.  
 {{< admonition warning >}}
@@ -121,13 +121,13 @@ Precisam-se privilegios de root ou sudo para poder executar as operações segui
 
 #### Método 1: Fedora Media Writer
 
-1. Descarregamos a imagem .iso do ambiente do examen desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)
+1. Baixamos a imagem .iso do ambiente do examen desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)
 2. Instalamos o Fedora Image Writer desde Software:  
 ![Software](/images/redhat-online-exams/fedora-0.png "Aplicação Software")
 ![Software](/images/redhat-online-exams/fedora-1.png "Procuramos o software Fedora Media Writer")
 ![Instalação](/images/redhat-online-exams/fedora-2.png "Instalamos o Fedora Media Writer")
 ![Fedora Media Writer](/images/redhat-online-exams/fedora-3.png "Executamos o Fedora Media Writer")
-3. Escolhemos a imagem .iso onde tinhamos descarregado, logo click em Abrir e veremos o ecrã Escrever Imagem Personalizada.  
+3. Escolhemos a imagem .iso onde tinhamos baixado, logo click em Abrir e veremos o ecrã Escrever Imagem Personalizada.  
 ![Imagem](/images/redhat-online-exams/fedora-4.png "Imagem Personalizada")
 ![Chat Support](/images/redhat-online-exams/fedora-5.png "A Escolher Imagem")
 4. Iniciamos a escritura do disco USB, devemos de forcener a nossa senha de root.  
@@ -136,7 +136,7 @@ Precisam-se privilegios de root ou sudo para poder executar as operações segui
 
 #### Método 2: A Usar o programa dd (Método válido tambien para CentOS 7/8 y RHEL 7/8)
 
-1. Descarregamos a imagem .iso do ambiente do examen desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)  
+1. Baixamos a imagem .iso do ambiente do examen desde [aquí](https://static.redhat.com/downloads/training-certification/rhrexboot.iso)  
 2. Identificamos a nossa unidade USB mediante o comando **lsblk**:  
 
 ```bash
@@ -161,7 +161,7 @@ nvme0n1         259:0    0   477G  0 disk
 └─nvme0n1p3     259:3    0   519M  0 part
 ```
 
-Neste caso, por exemplo, a minha unidade USB seria a **sdc** (pode ser diferente, a depender de quantos dispotivos estiverem instalados no seu PC)  
+Neste caso, por exemplo, a minha unidade USB seria a **sdc** (pode ser diferente, vai depender de quantos dispotivos estiverem instalados no seu PC)  
 
 3. Com privilegios de **sudo** executamos o comando **dd** onde "if=/path" é a rota completa aonde se encontrar a imagem .iso e "of=/dev/sdc" é a rota da unidade USB destino.  
 
@@ -225,7 +225,7 @@ nvme0n1       259:0    0   477G  0 disk
 └─nvme0n1p3   259:3    0   519M  0 part 
 ```
 
-6. Ahora iniciamos o disco USB com o ambiente do examen  
+6. Agora iniciamos o disco USB com o ambiente do examen  
 
 ## Iniciando o disco USB com o ambiente do examen
 
@@ -240,11 +240,11 @@ Dependendo do teu computador, a tecla para entrar ao boot menu pode ser diferent
 3. Esperamos a que carregue o teste.  
 ![Boot exam](/images/redhat-online-exams/boot-1.png "A Iniciar teste Red Hat")
 4. Click OK no ecrã de bem-vinda.  
-5. Preparamos o ambiente do teste no ecrã Settings, vamos configurar por exemplo o mouse, teclado, região/lingua, som, etc.  
+5. Preparamos o ambiente do teste no ecrã "Settings", vamos configurar por exemplo o mouse, teclado, região/lingua, som, etc.  
 ![Settings](/images/redhat-online-exams/boot-2.png "Configurando opções")
-1. Vamos à opção Network para asegurarnos que tinha tomado os parámetros da rede e que o computador esteja conectado à Internet.  
+1. Vamos à opção Network para assegurarmos que tinha tomado os parámetros da rede e que o computador esteja conectado à Internet.  
 ![Network](/images/redhat-online-exams/network.png "Parámetros de Rede")
-7. Uma vez que tinhamos verificado a conexão à Internet, fechamos a janela Settings para conectarnos ao website da Red Hat Individual Exam Scheduler.  
+7. Uma vez que tinhamos verificado a conexão com a Internet, fechamos a janela Settings para conectarnos ao website da Red Hat Individual Exam Scheduler.  
 8. Fazemos Login com o usuario e senha da nossa conta redhat.com. Deve ser a mesma com a que se comprou o teste.  
 9. Uma vez dentro do ambiente do teste, executamos a opção Compatibility Check para verificar que os requisitos do sistema estiverem correctos.  
 ![Red Hat Individual Exam Scheduler](/images/redhat-online-exams/boot-3.png "Red Hat Individual Exam Scheduler")
