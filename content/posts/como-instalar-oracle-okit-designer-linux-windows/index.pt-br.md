@@ -1,9 +1,9 @@
 ---
-title: "Como Instalar Okit Designer Tookit en Linux y Windows para diseñar diagramas de Oracle Cloud Infrastructure"
+title: "Como Instalar Okit Designer Tookit no Linux e Windows para desenhar diagramas de Oracle Cloud Infrastructure"
 date: 2020-08-07
 lastmod: 2020-08-08
 author: Enmanuel Moreira
-description: "Nesta guia vou explicar como instalar a ferramenta Okit Designer Tookit para desenhar os nossos próprios desenhos de diagramas de Oracle Cloud Infrastructure."
+description: "Nesta guia vou explicar como instalar a ferramenta Okit Designer Tookit para desenhar os nossos próprios diagramas de Oracle Cloud Infrastructure."
 draft: false
 
 resources:
@@ -20,13 +20,13 @@ lightgallery: true
 
 Olá Pessoal, tudo bem?
 
-Nesta guia vou explicar como instalar a ferramenta Okit Designer Tookit para desenhar os nossos próprios desenhos de diagramas de Oracle Cloud Infrastructure.
+Nesta guia vou explicar como instalar a ferramenta Okit Designer Tookit para desenhar os nossos próprios diagramas de Oracle Cloud Infrastructure.
 
 ## Okit Designer
 
 ***
 
-[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) é um conjunto de ferramentas que permitem desenhar, desplegar e visualizar ambientes de OCI através de uma interfaz web, o que permite a arquitetos e desenhadores  cloud contruir uma representação visual da infraestrutura e logo poder ser exportada nos seguintes formatos:  
+[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) é um conjunto de ferramentas que permitem desenhar, deployar e visualizar ambientes de OCI através de uma interfaz web, o que permite aos arquitetos e desenhadores cloud contruir uma representação visual da sua infraestrutura e logo poder ser exportada nos seguintes formatos:  
 
 - svg
 - png
@@ -38,9 +38,9 @@ Uma vez que se tinha completado o desenho, este pode ser exportado às seguintes
 - Terraform
 - OCI Resource Manager  
 
-Isto acelera o despliegue de uma infraestrutura completa em OCI.  
+Isto acelera o deploy de uma infraestrutura completa em OCI.  
 
-Há duas maneiras de instalar Okit Designer: uma com o Vagrant e outra com o Docker. Nesta ocasião o que vamos fazer é instala-lô pelo Docker e Docker Compose para aisla-lô do nosso sistema.  
+Há duas maneiras de instalar Okit Designer: uma com o Vagrant e outra com o Docker. Nesta ocasião o que vamos fazer é instala-lô pelo Docker e Docker Compose para que esteja isolado do nosso sistema.  
 
 ## Instalar Requisitos
 
@@ -68,7 +68,7 @@ Logo, Instalamos o pacote:
 $ sudo dnf -y install dnf-plugins-core
 ```
 
-#### Instalar Git
+#### Instalar o Git
 
 ***
 
@@ -76,11 +76,11 @@ $ sudo dnf -y install dnf-plugins-core
 $ sudo dnf -y install git
 ```
 
-#### Instalar Docker
+#### Instalar o Docker
 
 ***
 
-Anadimos o repositorio do Docker-CE:  
+Adicionamos o repositorio do Docker-CE:  
 
 ```bash
 $ sudo tee /etc/yum.repos.d/docker-ce.repo<<EOF
@@ -100,7 +100,7 @@ $ sudo dnf makecache
 $ sudo dnf install docker-ce docker-ce-cli containerd.io -y
 ```
 
-Habilitamos o servicio e o iniciamos:  
+Habilitamos o serviço e o iniciamos:  
 
 ```bash
 $ sudo systemctl enable --now docker
@@ -179,23 +179,23 @@ Server: Docker Engine - Community
   GitCommit:        fec3683
 ```
 
-#### Instalar Docker Compose
+#### Instalar o Docker Compose
 
 ***
 
-A versão atual é a 1.26.2, baixamos el executable do Docker Compose y o salvamos na pasta /usr/local/bin:  
+A versão atual é a 1.26.2, baixamos el executable do Docker Compose e o salvamos na pasta /usr/local/bin:  
 
 ```bash
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-Le asignamos permisos de ejecución:  
+Mudamos os privilegios de executação ao Docker-Compose:  
 
 ```bash
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-Comprobamos si está correctamente instalado:  
+Comprovamos se está corretamente instalado:  
 
 ```bash
 $ docker-compose --version
@@ -206,95 +206,95 @@ docker-compose version 1.26.2, build eefe0d31
 
 ***
 
-#### Activando Componentes necesarios  
+#### Ativando Componentes necesarios  
 
 ***
 
-En el menú Inicio tecleamos "Activar o Desactivar Caracteristicas de Windows":  
+No menu Inicio, pesquisamos a ferramenta "Ativar o Desativar Características de Windows":  
 
 ![Inicio](/images/oci-okit-linux-windows/win-0.png "Menú Inicio")
 
-Activamos los siguientes componentes:  
+Ativamos os seguintes componentes:  
 
-- Contenedores
+- Containers
 - Hyper-V
 - Subsistema de Windows para Linux
 
-![Inicio](/images/oci-okit-linux-windows/win-1.png "Activar o Desactivar Caracteristicas")
+![Inicio](/images/oci-okit-linux-windows/win-1.png "Ativar o Desativar Características")
 
-Esperamos que se instalen los componentes requeridos:  
+Aguardamos a que se instalem os componentes requeridos:  
 
-![Inicio](/images/oci-okit-linux-windows/win-2.png "Instalando caracteristicas")
+![Inicio](/images/oci-okit-linux-windows/win-2.png "A Instalar características")
 
-Reiniciamos el sistema:  
+Reiniciamos o sistema:  
 
 ![Inicio](/images/oci-okit-linux-windows/win-3.png "Reiniciar")
 
 Una vez que hayamos reiniciado el sistema, instalaremos WSL v2.
 
-#### Instalando WSL v2  
+#### Instalar o WSL v2  
 
 ***
 
-Descargamos el instalador de WSL v2:  
+Baixamos o instalador de WSL v2:  
 
 <https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi>
 
-Abrimos el instalador con permisos de administrador y seguimos los pasos:  
+Abrimos o instalador com privilegios de administrador e seguimos os passos:  
 
-![WSLv2](/images/oci-okit-linux-windows/win-4.png "Abriendo Instalador")
+![WSLv2](/images/oci-okit-linux-windows/win-4.png "A Abrir Instalador")
 
-![WSLv2](/images/oci-okit-linux-windows/win-5.png "Finalizando instalación")
+![WSLv2](/images/oci-okit-linux-windows/win-5.png "A Finalizar instalação")
 
-Ahora, vamos a configurar para que WSL v2 sea la versión por defecto en nuestro sistema. Para ello debemos abrir una ventana de PoweShell como Administrador (yo uso la versión 7 que puedes descargar [aquí](https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi)) y colocamos el siguiente comando:
+Agora, vamos configurar que WSL v2 seja a versão padrão do nosso sistema. Para isto, devemos abrir unaa terminal de PoweShell como Administrador (eu utilizo a versão 7 que podes baixar [aquí](https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi)) e colocamos o seguinte comando:
 
 ```powershell
 wsl --set-default-version 2
 ```
 
-Ya con esto terminamos de configurar WSL en nuestro sistema.  
+Já com isto acabamos de configurar no nosso sistema.  
 
-#### Instalando Git
+#### Instalar o Git
 
 ***
 
-Descargamos el instalador de Git:  
+Baixamos o instalador do Git:  
 
 - 64 bits: <https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe>
 
-Ejecutamos el instalador con permisos de Administrador y vamos a instalar con las opciones por defecto:
+Abrimos o instalador com privilegios de Administrador e vamos instalar com as opções padrão:
 
-![Git Windows](/images/oci-okit-linux-windows/win-6.png "Licencia")
+![Git Windows](/images/oci-okit-linux-windows/win-6.png "Licença")
 
-![Git Windows](/images/oci-okit-linux-windows/win-7.png "Directorio Destino, lo dejamos en la ubicación predeterminada")
+![Git Windows](/images/oci-okit-linux-windows/win-7.png "Pasta Destino, o dexicamos na localização padrão")
 
-![Git Windows](/images/oci-okit-linux-windows/win-8.png "Seleccionamos los componentes a instalar, dejaremos los que estan por defecto")
+![Git Windows](/images/oci-okit-linux-windows/win-8.png "Selecionamos os componentes a instalar, deixamos aqueles que estão padrão")
 
-![Git Windows](/images/oci-okit-linux-windows/win-9.png "Iconos del Menú Inicio")
+![Git Windows](/images/oci-okit-linux-windows/win-9.png "Icones do Menú Inicio")
 
-![Git Windows](/images/oci-okit-linux-windows/win-10.png "Dejamos por defecto o podemos cambiar el editor de textos predeterminado")
+![Git Windows](/images/oci-okit-linux-windows/win-10.png "Dexiamos as opções padrão ou podemos trocar o editor de textos padrão")
 
-![Git Windows](/images/oci-okit-linux-windows/win-11.png "Dejamos la opción recomendada")
+![Git Windows](/images/oci-okit-linux-windows/win-11.png "Deixamos a opção recomendada")
 
-![Git Windows](/images/oci-okit-linux-windows/win-12.png "Dejamos el ejecutable de ssh que viene con el instalador, en caso de tener ya instalado putty, podemos escoger la segunda opción")
+![Git Windows](/images/oci-okit-linux-windows/win-12.png "Deixamos o executable de ssh que vem com o instalador, no caso de já ter instalado o putty, escolhemos a segunda opção")
 
-![Git Windows](/images/oci-okit-linux-windows/win-13.png "Dejamos por defecto a OpenSSL para emitir certificados X509")
+![Git Windows](/images/oci-okit-linux-windows/win-13.png "Deixamos padrão a OpenSSL para emitir certificados X509")
 
-![Git Windows](/images/oci-okit-linux-windows/win-14.png "Siguiente")
+![Git Windows](/images/oci-okit-linux-windows/win-14.png "Seguinte")
 
-![Git Windows](/images/oci-okit-linux-windows/win-15.png "Sigiuente")
+![Git Windows](/images/oci-okit-linux-windows/win-15.png "Seguinte")
 
-![Git Windows](/images/oci-okit-linux-windows/win-16.png "Siguiente")
+![Git Windows](/images/oci-okit-linux-windows/win-16.png "Seguinte")
 
-![Git Windows](/images/oci-okit-linux-windows/win-17.png "Siguiente")
+![Git Windows](/images/oci-okit-linux-windows/win-17.png "Seguinte")
 
-![Git Windows](/images/oci-okit-linux-windows/win-18.png "Siguiente")
+![Git Windows](/images/oci-okit-linux-windows/win-18.png "Seguinte")
 
 ![Git Windows](/images/oci-okit-linux-windows/win-19.png "Instalar")
 
-![Git Windows](/images/oci-okit-linux-windows/win-20.png "Finalizando instalación")
+![Git Windows](/images/oci-okit-linux-windows/win-20.png "A Finalizar instalación")
 
-Vamos al CMD de Windows o PowerShell y verificamos la versión de Git instalada:  
+Abrimos um CMD de Windows ou PowerShell e verificamos a versão do Git instalado:  
 
 ```cmd
 Microsoft Windows [Versión 10.0.19041.423]
@@ -306,45 +306,45 @@ git version 2.28.0.windows.1
 C:\Users\usuario>
 ```
 
-#### Instalando Docker
+#### Instalar o Docker
 
 ***
 
-Descargamos el instalador de Docker Desktop:  
+Baixamos o instalador do Docker Desktop:  
 
 - 64 bits <https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe>
 
-Ejecutamos el instalador con permisos de Administrador y vamos a instalar con las opciones por defecto:  
+Abrimos o instalador com privilegios de Administrador e vamos instalar o Docker Desktop com as opções padrão:  
 
-![Docker](/images/oci-okit-linux-windows/win-21.png "Dejamos habilitadas ambas opciones, activar WSL v2 y que coloque un acceso directo en el escritorio")
+![Docker](/images/oci-okit-linux-windows/win-21.png "Deixamos habilitadas ambas opções, ativar WSL v2 e permitimos colocar um acesso direito na Área de Trabalho")
 
-![Docker](/images/oci-okit-linux-windows/win-22.png "Instalando")
+![Docker](/images/oci-okit-linux-windows/win-22.png "A Instalar")
 
-![Docker](/images/oci-okit-linux-windows/win-23.png "Reiniciamos el sistema nuevamente")
+![Docker](/images/oci-okit-linux-windows/win-23.png "Reiniciamos o sistema novamente")
 
-![Docker](/images/oci-okit-linux-windows/win-24.png "Una vez reiniciamos, lo veremos en la barra de tareas")
+![Docker](/images/oci-okit-linux-windows/win-24.png "Reiniciamos mais uma vez, veremos o icone de Docker na barra de tarefas")
 
-## Instalando Okit Designer
-
-***
-
-### Clonamos el repositorio de Okit
+## Instalar Okit Designer
 
 ***
 
-Clonamos el repositorio oficial de Okit Designer (la versión actual es la 0.9.2):  
+### Clonamos o repositorio do Okit
+
+***
+
+Clonamos o repositorio oficial do Okit Designer (a versão atual é a 0.9.2):  
 
 ```bash
 $ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.git
 ```
 
-### Creando archivo de configuración de Okit y la llave ssh para conectarnos a la API de OCI
+### A Criar o arquivo de configuração do Okit e a chave ssh para nos conectar à API do OCI
 
 ***
 
-Si no tenemos instalado y configurado la oci-cli (será tema para otro post), debemos crear un archivo de configuración que contendrá el id de la cuenta, además de la llave SSH para poder acceder a la API y desplegar lo que ya hayamos diseñado:  
+No caso de não ter instalado e configuado a oci-cli (será tema para outro post), deveremos criar um arquvo de configuração que terá contenido o id da conta, além da chave SSH para poder acessar à API e fazer deploy do que tinhamos desenhado:  
 
-Creamos el directorio containers/oci dentro del directorio raíz (oci-designer-toolkit) ; 
+Criamos a pasta containers/oci dentro da pasta oci-designer-toolkit: 
 
 **Fedora 32:**  
 
@@ -360,7 +360,7 @@ PS D:\Users\usuario>mkdir D:\Users\usuario\oci-designer-toolkit\containers\oci
 PS D:\Users\usuario>cd D:\Users\usuario\oci-designer-toolkit\containers\oci
 ```
 
-Generamos la llave ssh, colocando la ubicación donde queremos guardar el archivo y el formato .pem (En Windows podemos dejarla en la ubicación predeterminada (directorio .ssh en la carpeta home del usuario) y luego copiarla a nuestra carpeta containers\oci):  
+Geramos a chave ssh, vamos colocar a localização aonde queremos salvar o arquivo e como formato .pem (No Windows podemos deixar a localização padrão (pasta .ssh na pasta home do usuario) e logo copia-lâ à nossa pasta containers\oci):  
 
 ```bash
 $ ssh-keygen -t rsa -b 4096 -m PEM
@@ -386,7 +386,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Creamos el archivo de configuración en /home/usuario/oci-designer-toolkit/containers/oci/config, con su editor de textos de confianza:  
+Criamos o arquivo de configuração em /home/usuario/oci-designer-toolkit/containers/oci/config, com o seu editor de textos preferido:  
 
 **Fedora 32:**  
 
@@ -394,7 +394,7 @@ Creamos el archivo de configuración en /home/usuario/oci-designer-toolkit/conta
 $ vim /home/usuario/oci-designer-toolkit/containers/oci/config
 ```
 
-En **Windows 10 Pro**, abrimos un Notepad y vamos a escribir los siguientes parámetros:
+No **Windows 10 Pro**, abrimos o Notepad e vamos escrever os seguintes parámetros:
 
 ```plaintext
 [DEFAULT]
@@ -405,35 +405,35 @@ tenancy=ocid1.tenancy.oc1..aaaaaaaawpqblfem........
 region=us-phoenix-1
 ```
 
-Donde:  
+Onde:  
 
-- **user** es el identificador OCID de usuario en OCI
-- **fingerprint** es la huella digital de la llave ssh
-- **key_file** es la ubicación donde está almacenada la llave privada ssh (la guardamos en **/home/usuario/oci-designer-toolkit/containers/oci/oci_api_key.pem**)
-- **tenancy** es el identificador OCID de tu cuenta
-- **region** es la región por defecto donde despliegues la infraestructura
+- **user** é o identificador OCID do usuário no OCI
+- **fingerprint** é a  la impressâo digital da chave ssh
+- **key_file** é onde se encontra localizada a chave privada ssh (a salvamos em **/home/usuario/oci-designer-toolkit/containers/oci/oci_api_key.pem**)
+- **tenancy** é o identificador OCID da tua conta
+- **region** é a região padrão donde vais desployar a infraestrutura
 
-Ahora, ¿De donde sacamos toda esta información? En las siguientes imagenes lo vamos a ver.  
+Agora bem, ¿Onde conseguimos toda essa informação? Vamos ver as seguintes imagens:.  
 
-![OCI Cuenta](/images/oci-okit-linux-windows/oci-0.png "Colocamos el nombre de nuestra Cuenta")
+![OCI Cuenta](/images/oci-okit-linux-windows/oci-0.png "Colocamos o nome da nossa Conta")
 
-![OCI Login](/images/oci-okit-linux-windows/oci-1.png "Iniciamos sesión en la página de OCI.")
+![OCI Login](/images/oci-okit-linux-windows/oci-1.png "Login no website da OCI.")
 
-![Pantalla Principal](/images/oci-okit-linux-windows/oci-2.png "Vamos al icono de Perfil y hacemos click en nuestro usuario registrado.")
+![Pantalla Principal](/images/oci-okit-linux-windows/oci-2.png "Vamos ao icone de Perfil e fazemos click no nosso usuário cadastrado.")
 
-![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-3.png "Copiamos nuestra OCID de usuario y la colocamos en el parámetro user.")
+![Ecrã Usuarios](/images/oci-okit-linux-windows/oci-3.png "Copiamos a nossa OCID de usuário e a colocamos no parámetro user.")
 
-![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-4.png "Vamos a la opción Tenancy.")
+![Ecrã Usuarios](/images/oci-okit-linux-windows/oci-4.png "Vamos à opção Tenancy.")
 
-![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-5.png "Copiamos nuestra OCID de la cuenta y la colocamos en el parámetro tenancy.")
+![Ecrã Usuarios](/images/oci-okit-linux-windows/oci-5.png "Copiamos nuestra OCID de la cuenta y la colocamos en el parámetro tenancy.")
 
-![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-6.png "Vamos de nuevo a la pantalla usuarios, opción API Keys, y agregamos una nueva.")
+![Ecrã Usuarios](/images/oci-okit-linux-windows/oci-6.png "Vamos de novo ao ecrã usuários, opção API Keys, e adicionamos uma nova.")
 
-![API Key](/images/oci-okit-linux-windows/oci-7.png "Arrastramos solo la LLAVE PÚBLICA, y click en Add.")
+![API Key](/images/oci-okit-linux-windows/oci-7.png "Colamos só a CHAVE PÚBLICA, e click em Add.")
 
-![Pantalla Usuarios](/images/oci-okit-linux-windows/oci-8.png "Copiamos el fingerprint, y lo pegamos en el parámetro fingerprint.")
+![Ecrã Usuarios](/images/oci-okit-linux-windows/oci-8.png "Copiamos o fingerprint, e o colamos no parámetro fingerprint.")
 
-Vamos al directorio y ejecutamos docker-compose para descargar las imagenes y contruir el contenedor:  
+Vamos à pasta e executamos docker-compose para baixar as imagens e contruir o container:  
 
 **Fedora 32:**  
 
@@ -449,7 +449,7 @@ PS D:\Users\usuario> cd .\oci-designer-toolkit\containers\docker
 PS D:\Users\usuario\oci-designer-toolkit\containers\docker>docker-compose up
 ```
 
-Dependiendo de la velocidad de nuestro sistema, se puede tardar entre 5 a 15 minutos en construir y ejecutar el contenedor.  
+A Depender da velocidade do nosso sistema, se pode demorar entre 5 a 15 minutos em construir e executar o container.  
 
 ```plaintext
 Building okit
@@ -490,7 +490,7 @@ Resolving Dependencies
 
 Dependencies Resolved
 
-...  -- SALIDA OMITIDA -- ...
+...  -- SAÍDA OMITIDA -- ...
 
 Successfully built 047213fa08c0
 Successfully tagged okit:latest
@@ -506,12 +506,12 @@ okit    | [2020-08-07 21:47:47 +0000] [12] [INFO] Booting worker with pid: 12
 okit    | [2020-08-07 21:47:47 +0000] [13] [INFO] Booting worker with pid: 13
 ```
 
-Solo nos resta ir al link <http://localhost/okit/designer> desde nuestro navegador para acceder a la herramienta.  
+Só nos resta ir ao link <http://localhost/okit/designer> desde o nosso navegador para acceder à ferramenta.  
 
-![Pantalla Principal](/images/oci-okit-linux-windows/okit-main.png "Pantalla Principal")
+![Ecrã Principal](/images/oci-okit-linux-windows/okit-main.png "Ecrã Principal")
 
-Si hacemos click en el menú de sandwich, verermos las opciones disponibles.  
+Se fizeremos click no menu de sandwich, poderemos ver as opções disponíveis.  
 
-![Okit Opciones](/images/oci-okit-linux-windows/okit-options.png "Pantalla de Opciones")
+![Okit Opções](/images/oci-okit-linux-windows/okit-options.png "Ecrã Opções")
 
-Espero les haya gustado este tutorial, ¡hasta la próxima!
+Espero que tinham gostado deste tutorial, até a próxima!

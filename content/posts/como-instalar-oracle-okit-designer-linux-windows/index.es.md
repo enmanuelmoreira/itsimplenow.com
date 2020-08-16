@@ -282,7 +282,7 @@ Ejecutamos el instalador con permisos de Administrador y vamos a instalar con la
 
 ![Git Windows](/images/oci-okit-linux-windows/win-14.png "Siguiente")
 
-![Git Windows](/images/oci-okit-linux-windows/win-15.png "Sigiuente")
+![Git Windows](/images/oci-okit-linux-windows/win-15.png "Siguiente")
 
 ![Git Windows](/images/oci-okit-linux-windows/win-16.png "Siguiente")
 
@@ -510,7 +510,7 @@ Solo nos resta ir al link <http://localhost/okit/designer> desde nuestro navegad
 
 ![Pantalla Principal](/images/oci-okit-linux-windows/okit-main.png "Pantalla Principal")
 
-Si hacemos click en el menú de sandwich, verermos las opciones disponibles.  
+Si hacemos click en el menú de sandwich, veremos las opciones disponibles.  
 
 ![Okit Opciones](/images/oci-okit-linux-windows/okit-options.png "Pantalla de Opciones")
 
