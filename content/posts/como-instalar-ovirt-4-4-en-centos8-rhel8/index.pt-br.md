@@ -1,9 +1,9 @@
 ---
-title: "Como instalar oVirt 4.4 en Centos 8 - RHEL 8"
+title: "Como instalar oVirt 4.4 en Centos 8 / RHEL 8"
 date: 2020-08-04
 lastmod: 2020-08-04
 author: "Enmanuel Moreira"
-description: "En este articulo vamos a configurar un servidor Self-hosted (standalone) de oVirt en CentOS - RHEL 8"
+description: "Hoje vamos a instalar un servidor Self-hosted (standalone) de Ovirt no Centos 8 / RHEL 8."
 draft: false
 
 resources:
@@ -427,8 +427,8 @@ Já temos configurado o Domínio de armazenamento.
 
 ![Principal](/images/ovirt-4.4/ovirt-18.png)
 
-Con todos estos passos teremos um host totalmente funcional para fazer provas.
+Com todos estes passos teremos um host totalmente funcional para fazer provas.
 
 Espero que tinham gostado, até a próxima!
 
-Fuentes: ***[Installing oVirt as a self-hosted engine using the command line](https://www.ovirt.org/documentation/installing_ovirt_as_a_self-hosted_engine_using_the_command_line/)***
+Fontes: ***[Installing oVirt as a self-hosted engine using the command line](https://www.ovirt.org/documentation/installing_ovirt_as_a_self-hosted_engine_using_the_command_line/)***

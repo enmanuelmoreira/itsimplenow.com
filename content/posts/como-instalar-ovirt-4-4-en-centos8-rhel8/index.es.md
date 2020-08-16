@@ -1,5 +1,5 @@
 ---
-title: "Como instalar oVirt 4.4 en Centos 8 - RHEL 8"
+title: "Como instalar oVirt 4.4 en Centos 8 / RHEL 8"
 date: 2020-08-04
 lastmod: 2020-08-04
 author: "Enmanuel Moreira"
