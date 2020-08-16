@@ -33,7 +33,7 @@ oVirt consiste de dos componentes principales:
 * oVirt Engine  
 * oVirt Node  
 
-oVirt Engine es la interfaz grafica web en la que se pueden gestionar máquinas virtuales, computo, redes y recursos de almacenamiento.  
+oVirt Engine es la interfaz gráfica web en la que se pueden gestionar máquinas virtuales, computo, redes y recursos de almacenamiento.  
 
 oVirt Node es un servidor RHEL / CentOS o Fedora, en el que el servicio vdsm actúa como actua como Hypervisor (KVM) en la cual todas las maquinas virtuales son creadas.  
 
@@ -94,7 +94,7 @@ Los paquetes de software necesarios para desplegar la plataforma oVirt, no se en
 [root@ovirt ~]# dnf install http://resources.ovirt.org/pub/yum-repo/ovirt-release44.rpm -y
 ```
 
-### Paso 3: Habilitamos los modulos javapackages-tools, pki-deps y PostgreSQL 12  
+### Paso 3: Habilitamos los módulos javapackages-tools, pki-deps y PostgreSQL 12  
 
 ***
 
@@ -361,7 +361,7 @@ Click en Nuevo.
 
 ![Principal](/images/ovirt-4.4/ovirt-9.png)
 
-Tenemos que colocar el nombre del cluster donde va a estar ubicado, en este caso el que creamos anteriormente (***cluster1***), al ser el Hypervisor en el mismo host donde está instalado el oVirt Engine, debemos coloca como Nombre localhost y en Nombre de host localhost igual. En la autenticación escogemos la opción por contraseña de usuario root.  
+Tenemos que colocar el nombre del cluster donde va a estar ubicado, en este caso el que creamos anteriormente (***cluster1***), al ser el Hypervisor en el mismo host donde está instalado el oVirt Engine, debemos colocar como Nombre **localhost** y en Nombre de host **localhost** igual. En la autenticación escogemos la opción por contraseña de usuario root.  
 
 ![Principal](/images/ovirt-4.4/ovirt-10.png)
 
@@ -369,7 +369,7 @@ Nos va a indicar este mensaje, damos click en Aceptar.
 
 ![Principal](/images/ovirt-4.4/ovirt-11.png)
 
-A este punto, se van a instalar los paquetes necesarios para el correcto funcionamiento de oVirt Node. Si vamos al Dashboard y hacemos click en el icono de la campanita (esquina superiord derecha) veremos el prograso de la instalación.  
+A este punto, se van a instalar los paquetes necesarios para el correcto funcionamiento de oVirt Node. Si vamos al Dashboard y hacemos click en el icono de la campanita (esquina superior derecha) veremos el progreso de la instalación.  
 
 Una vez finalizada la instalación, tendremos al host ejecutándose.  
 

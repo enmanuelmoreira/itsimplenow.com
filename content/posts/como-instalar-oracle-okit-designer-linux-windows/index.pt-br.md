@@ -80,7 +80,7 @@ $ sudo dnf -y install git
 
 ***
 
-Adicionamos o repositorio do Docker-CE:  
+Adicionamos o repositório do Docker-CE:  
 
 ```bash
 $ sudo tee /etc/yum.repos.d/docker-ce.repo<<EOF
@@ -93,7 +93,7 @@ gpgkey=https://download.docker.com/linux/fedora/gpg
 EOF
 ```
 
-Atualizamos os repositorios e instalamos o Docker:  
+Atualizamos os repositórios e instalamos o Docker:  
 
 ```bash
 $ sudo dnf makecache
@@ -328,11 +328,11 @@ Abrimos o instalador com privilegios de Administrador e vamos instalar o Docker 
 
 ***
 
-### Clonamos o repositorio do Okit
+### Clonamos o repositório do Okit
 
 ***
 
-Clonamos o repositorio oficial do Okit Designer (a versão atual é a 0.9.2):  
+Clonamos o repositório oficial do Okit Designer (a versão atual é a 0.9.2):  
 
 ```bash
 $ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.git
