@@ -26,7 +26,7 @@ En esta guía les voy a explicar como instalar la herramienta Okit Designer Took
 
 ***
 
-[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) es un conjunto de herramientas que permiten diseñar, desplegar y visualizar ambientes de OCI a través de una interfaz web, lo que permite a arquitectos y diseñadores cloud contruir una representación visual de su infraestrutura y luego exportarla en los siguientes formatos:  
+[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) es un conjunto de herramientas que permiten diseñar, desplegar y visualizar ambientes de OCI a través de una interfaz web, lo que permite a arquitectos y diseñadores cloud contruir una representación visual de su infraestructura y luego exportarla en los siguientes formatos:  
 
 - svg
 - png

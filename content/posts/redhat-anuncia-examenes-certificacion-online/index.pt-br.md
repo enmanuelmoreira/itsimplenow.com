@@ -102,7 +102,7 @@ b. Escolhemos a imagem .iso onde tinhamos baixado, depois click em Abrir.
 ![FIW](/images/redhat-online-exams/fedora-media-writer-5.png "A Escolher Imagem")
 c. Se a unidade USB se encontrar conectada ao computador, o Fedora Media Writer vai mostrar a unidade para criar o ambiente do teste.  
 {{< admonition warning >}}
-O Fedora Media Writes apagará todos os dados da unidade USB para criar o ambiente do teste. Faz um backup de todos os dados antes de continuar.  
+O Fedora Media Writer apagará todos os dados da unidade USB para criar o ambiente do teste. Faz um backup de todos os dados antes de continuar.  
 {{< /admonition >}}
 ![FIW](/images/redhat-online-exams/fedora-media-writer-6.png "A Escolher Imagem")  
 d. Click em Escrever ao disco, para começar o processo de escritura.  
@@ -111,12 +111,12 @@ d. Click em Escrever ao disco, para começar o processo de escritura.
 e. Finalizamos o Fedora Media Writer  
 ![FIW](/images/redhat-online-exams/fedora-media-writer-9.png "Final")
 
-5. Ahora iniciamos o disco USB com o ambiente do teste.  
+5. Agora iniciamos o disco USB com o ambiente do teste.  
 
 ### Fedora 30 - Fedora 32
 
 {{< admonition info >}}
-Precisam-se privilegios de root ou sudo para poder executar as operações seguientes.  
+Precisam-se privilegios de root ou sudo para poder executar as operações seguintes.  
 {{< /admonition >}}
 
 #### Método 1: Fedora Media Writer
