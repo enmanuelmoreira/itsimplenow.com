@@ -20,7 +20,7 @@ lightgallery: true
 
 Hola chiquillos!
 
-En este tutorial les voy a explicar como desplegar un cluster sencillo de OpenShift para pruebas a través de de la aplicación CodeReady Containers.
+En este tutorial les voy a explicar como desplegar un cluster sencillo de OpenShift para pruebas a través de la aplicación CodeReady Containers.
 
 OpenShift es la solución de Red Hat para la orquestación de contenedores basado en Kubernetes. ¿Te animas a probar la última versión de OpenShift sin tener que instalar un set de masters y workers?
 

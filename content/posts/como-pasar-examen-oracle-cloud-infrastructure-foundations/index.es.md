@@ -24,9 +24,9 @@ El pasado 30/03/2020, Oracle **[anunció](https://www.oracle.com/corporate/blog/
 
 Las certificaciones de Oracle Cloud están divididas en 3 grandes paths:
 
-* Architect - para aquellos profesiones que se encuentren trabajando en la arquitectura de servicios de Oracle Cloud.
-* Operations - para aquellos profesiones que se encuentren trabajando en el área de operaciones de servicios de Oracle Cloud.
-* Developer - para aquellos profesiones que se encuentren trabajando con desarrollo y programación de productor y sistemas en Oracle Cloud.
+* Architect - para aquellos profesionales que se encuentren trabajando en la arquitectura de servicios de Oracle Cloud.
+* Operations - para aquellos profesionales que se encuentren trabajando en el área de operaciones de servicios de Oracle Cloud.
+* Developer - para aquellos profesionales que se encuentren trabajando con desarrollo y programación de productor y sistemas en Oracle Cloud.
 
 Los paths de aprendizaje son los siguientes:
 
@@ -122,7 +122,7 @@ Buscamos el examen que queremos presentar (en este caso Oracle Cloud Infrastruct
 
 Escogemos donde queremos presentarlo (Test Center, Casa u Oficina)
 
-Te recomiendo hacer click al botón Run Pre-Check, el software le hará una serie de pruebas a tu equipo para saber si cumple los mínimos requisitos
+Te recomiendo hacer click al botón **Run Pre-Check**, el software le hará una serie de pruebas a tu equipo para saber si cumple los mínimos requisitos
 
 ![exam](/images/oci-foundations/exam-3.png)
 
@@ -131,7 +131,7 @@ Aceptamos los términos y condiciones
 ![terms and conditions 1](/images/oci-foundations/exam-4.png)
 ![terms and conditions 2](/images/oci-foundations/exam-5.png)
 
-Revisamos quer todo esté correcto con nuestro examen y damos click en Next:
+Revisamos que todo esté correcto con nuestro examen y damos click en Next:
 
 ![exam](/images/oci-foundations/exam-6.png)
 
