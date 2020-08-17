@@ -110,8 +110,8 @@ Além do material gratuito que esteve disponível, usei os seguintes recursos:
 ***
 
 - Custo atual: $150.00  
-- Língua: Inglés (Lamentablemente Español no está disponible)  
-- Formato: Preguntas de Selección Simple y Múltiple  
+- Língua: Inglés (Infelizmente o teste não está disponivel em Português nem Espanhol)  
+- Formato: Perguntas de Seleção Simples e Múltiple  
 - Modalidade: Proctored  
 - Duração: 85 minutos  
 - Número de Perguntas: 60  
@@ -156,7 +156,7 @@ Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclai
 - Uma boa conexão para Internet.  
 - Tenta de iniciar sessão pelo menos 30 antes do teste e possas seguir os passos que te vai indicar o software da Pearson.  
 - Ficar em um lugar tranquilo e bem iluminado, depende do proctor que te toque pode ser exigente ou indulgente.  
-- Uma vez que o teste començar, não te podes levantar da cadeira, tenta ir à casa de banho antes.  
+- Uma vez que o teste començar, não te podes levantar da cadeira, procura ir à casa de banho antes.  
 - Ter o DNI em mão ou Passaporte **VIGENTE**  
 - Navegadores suportados: Mozilla Firefox, Google Chrome, Microsoft Edge.  
 
