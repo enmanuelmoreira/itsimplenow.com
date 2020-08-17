@@ -1,5 +1,5 @@
 ---
-title: "Cursos Gratis De Microsoft Azure na Pluralsight"
+title: "Aulas Gratis Da Microsoft Azure na Pluralsight"
 date: 2020-07-09
 lastmod: 2020-07-09
 author: "Enmanuel Moreira"
