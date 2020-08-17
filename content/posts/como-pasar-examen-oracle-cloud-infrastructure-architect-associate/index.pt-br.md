@@ -3,7 +3,7 @@ title: "Como passar o teste Oracle Cloud Infrastructure Architect Associate (1Z0
 date: 2020-07-31
 lastmod: 2020-07-31
 author: "Enmanuel Moreira"
-description: "Em um post anterior falei do processo de estudar e fazer esse teste. Hoje vou falar do teste Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
+description: "Em um post anterior falei do processo de estudar e fazer aquele teste. Hoje vou falar do teste Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 draft: false
 
 resources:
@@ -20,7 +20,7 @@ lightgallery: true
 
 Olá Pessoal, tudo bem?
 
-Em um post anterior **[Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20)](https://itsimplenow.com/2020/07/23/como-pasar-el-examen-oracle-cloud-infrastructure-foundations-2020-1z0-1085-20/)** falei do processo de estudar e fazer esse teste. Hoje vou falar do teste **[Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)](https://www.oracle.com/cloud/iaas/training/architect-associate.html)**
+Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20)](https://itsimplenow.com/como-pasar-el-examen-oracle-cloud-infrastructure-foundations-2020-1z0-1085-20/)** falei do processo de estudar e fazer esse teste. Hoje vou falar do teste **[Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)](https://www.oracle.com/cloud/iaas/training/architect-associate.html)**
 
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
@@ -110,7 +110,7 @@ Além do material gratuito que esteve disponível, usei os seguintes recursos:
 ***
 
 - Custo atual: $150.00  
-- Língua: Inglés (Infelizmente o teste não está disponivel em Português nem Espanhol)  
+- Língua: Inglés (Infelizmente o teste não está disponível nem em Português nem no Espanhol)  
 - Formato: Perguntas de Seleção Simples e Múltiple  
 - Modalidade: Proctored  
 - Duração: 85 minutos  
@@ -122,7 +122,7 @@ Além do material gratuito que esteve disponível, usei os seguintes recursos:
 
 ***
 
-Esta vez o reto foi maior. No teste todo foi cobrado, incluindo até certo tema com Federação que não vi nos treinos disponíveis pela Oracle. Dediquei 3 horas por dia por uma semana mas não foi suficiente e fui reprovado com apenas um punto abaixo da nota mínima exigida.  
+Esta vez o reto foi maior. No teste todo foi cobrado, incluindo até certo tema com Federação que não vi nos treinos disponíveis pela Oracle. Dediquei 3 horas por dia por uma semana mas não foi suficiente e fui não passei o teste com apenas um punto abaixo da nota mínima exigida.  
 
 ![exams-results1](/images/oci-architect-associate/exam-score-report-1.png "Exam Score 30/04/2020")
 
@@ -146,7 +146,7 @@ Marquei o teste para o dia 21/07/2020. E às três é de vez!
 
 Deves esperar 24 a 48 hrs para que chegue a teu correio eletrónico uma notificaçao com o certificado, o qual poderás baixa-lô na website de **[CertView de Oracle](https://certview.oracle.com/)**  
 
-Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclaim.com/)** e compartilhar tua felicidade pelo Linkedin :)  
+Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclaim.com/)** e compartilhar a tua felicidade pelo Linkedin :)  
 
 ### Dicas no momento de fazer o teste
 
@@ -155,7 +155,7 @@ Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclai
 - Uma PC ou Laptop que tenha webcam e acesso ao microfone.  
 - Uma boa conexão para Internet.  
 - Tenta de iniciar sessão pelo menos 30 antes do teste e possas seguir os passos que te vai indicar o software da Pearson.  
-- Ficar em um lugar tranquilo e bem iluminado, depende do proctor que te toque pode ser exigente ou indulgente.  
+- Ficar em um lugar tranquilo e bem iluminado, o proctor pode ser bem exigente ou indulgente.  
 - Uma vez que o teste començar, não te podes levantar da cadeira, procura ir à casa-de-banho antes.  
 - Ter o DNI em mão ou Passaporte **VIGENTE**  
 - Navegadores suportados: Mozilla Firefox, Google Chrome, Microsoft Edge.  
