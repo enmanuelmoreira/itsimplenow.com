@@ -24,7 +24,7 @@ En el post anterior **[Como pasar el examen Oracle Cloud Infrastructure Foundati
 
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
-> Esta prueba está diseñada para profesionales responsables de diseñar soluciones de infraestructura utlizando los servicios de Oracle Cloud Infrastructure
+> Esta prueba está diseñada para profesionales responsables de diseñar soluciones de infraestructura utilizando los servicios de Oracle Cloud Infrastructure
 
 Los **[tópicos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associate-2019-study-guide.pdf)** que debemos estudiar son los siguientes:
 

@@ -26,7 +26,7 @@ En esta guía les voy a explicar como instalar la herramienta Okit Designer Took
 
 ***
 
-[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) es un conjunto de herramientas que permiten diseñar, desplegar y visualizar ambientes de OCI a través de una interfaz web, lo que permite a arquitectos y diseñadores cloud contruir una representación visual de su infraestrutura y luego exportarla en los siguientes formatos:  
+[OCI designer toolKIT (OKIT)](https://github.com/oracle/oci-designer-toolkit) es un conjunto de herramientas que permiten diseñar, desplegar y visualizar ambientes de OCI a través de una interfaz web, lo que permite a arquitectos y diseñadores cloud contruir una representación visual de su infraestructura y luego exportarla en los siguientes formatos:  
 
 - svg
 - png
@@ -282,7 +282,7 @@ Ejecutamos el instalador con permisos de Administrador y vamos a instalar con la
 
 ![Git Windows](/images/oci-okit-linux-windows/win-14.png "Siguiente")
 
-![Git Windows](/images/oci-okit-linux-windows/win-15.png "Sigiuente")
+![Git Windows](/images/oci-okit-linux-windows/win-15.png "Siguiente")
 
 ![Git Windows](/images/oci-okit-linux-windows/win-16.png "Siguiente")
 
@@ -510,7 +510,7 @@ Solo nos resta ir al link <http://localhost/okit/designer> desde nuestro navegad
 
 ![Pantalla Principal](/images/oci-okit-linux-windows/okit-main.png "Pantalla Principal")
 
-Si hacemos click en el menú de sandwich, verermos las opciones disponibles.  
+Si hacemos click en el menú de sandwich, veremos las opciones disponibles.  
 
 ![Okit Opciones](/images/oci-okit-linux-windows/okit-options.png "Pantalla de Opciones")
 

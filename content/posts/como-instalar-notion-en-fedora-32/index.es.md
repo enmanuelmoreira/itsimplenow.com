@@ -25,7 +25,7 @@ El día de hoy les quería comentar de una herramienta que conocí a través del
 El site de **[Notion](https://notion.so/)** define a la herramienta como:  
 > Is a collaboration platform with markdown support that integrates kanban boards, tasks, wikis, and databases. The company claims to be an all-in-one workspace for note-taking, knowledge and data management, project and task management.  
 
-Notion es una excelente herramienta para organizar nuestra vida, es tan potente que nos permite llevar un registro de las tareas, realizar notas, hacer graficos, etc. Lo mejor es que los cambios se sincronizan pudiendolos accesar desde cualquier lugar en cualquier momento.  
+Notion es una excelente herramienta para organizar nuestra vida, es tan potente que nos permite llevar un registro de las tareas, realizar notas, hacer gráficos, etc. Lo mejor es que los cambios se sincronizan pudiendolos accesar desde cualquier lugar en cualquier momento.  
 
 Hay dos versiones: Una personal y otra de Pago. Los precios de la suscripción se pueden ver en este **[enlace](https://www.notion.so/pricing)**  
 
