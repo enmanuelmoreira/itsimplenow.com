@@ -130,7 +130,7 @@ Esta vez o reto foi maior. No teste todo foi cobrado, incluindo até certo tema 
 
 ***
 
-Depois de falhar na primeira tentativa, além de ver os videos do treino da Oracle, dediquei muito tempo a ler muita documentação sob Federação e Autonomous Database Warehouse (ADW) Pus especial atenção em aquelas áreas onde pude ter cometido erros nas perguntas de seleção múltiple. Durante 1 semana, dediquei 4 horas ao dia, sentí mais confiança para enfrentar de novo o teste. Mas... voltei a falhar, coindidência: 64%  
+Depois de falhar na primeira tentativa, além de ver os videos do treino da Oracle, dediquei muito tempo a ler muita documentação sob Federação e Autonomous Database Warehouse (ADW) Pus especial atenção em aquelas áreas onde pude ter cometido erros nas perguntas de seleção múltiple. Durante 1 semana, dediquei 4 horas ao dia, sentí mais confiança para enfrentar de novo o teste. Mas... falhei de novo, coindidência: 64%  
 
 ![exams-results2](/images/oci-architect-associate/exam-score-report-2.png "Exam Score 07/05/2020")
 
