@@ -160,6 +160,6 @@ Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclai
 - Ter o DNI em mão ou Passaporte **VIGENTE**  
 - Navegadores suportados: Mozilla Firefox, Google Chrome, Microsoft Edge.  
 
-Como comentário final, tem que dedicar muito tempo a estudar e ler muita documentação. Comparar conceitos com outros autores pode resultar útil demais, aliás, praticar com o Free Tier da OCI me ajudou para poder passar um teste tão exigente como este.  
+Como comentário final, vocês têm que dedicar muito tempo a estudar e ler muita documentação. Comparar conceitos com outros autores pode resultar útil demais, aliás, praticar com o Free Tier da OCI me ajudou para poder passar um teste tão exigente como este.  
 
 Espero que tinham gostado, até a próxima!
