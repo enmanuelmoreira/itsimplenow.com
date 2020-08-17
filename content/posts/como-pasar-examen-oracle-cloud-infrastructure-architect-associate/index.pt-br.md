@@ -140,7 +140,7 @@ Depois de falhar na primeira tentativa, além de ver os videos do treino da Orac
 
 Com esta cena, decidí invertir muito mais tempo a estudar, pelo qual, estudei durante 1 mes, 3 horas por dia, a descansar só os sábados. Já era obrigatório passar o teste e o que é mais importante, ler muita mais documentação de outros autores (por exemplo o livro: **[Oracle Cloud Infrastructure Architect Associate All-in-One Exam Guide (Exam 1Z0-1072)](https://www.amazon.com/Oracle-Infrastructure-Architect-Associate-1Z0-1072-ebook/dp/B083CPVKFT)** do Roopesh Ramklass)  
 
-Agendé o teste para o dia 21/07/2020. Y a terceira foi a vencida:
+Marquei o teste para o dia 21/07/2020. E às três é de vez!  
 
 ![exams-results3](/images/oci-architect-associate/exam-score-report-3.png "Exam Score 21/07/2020")
 
@@ -156,7 +156,7 @@ Adicionalmente, podes baixar tua Placa em **[YourAcclaim](https://www.youracclai
 - Uma boa conexão para Internet.  
 - Tenta de iniciar sessão pelo menos 30 antes do teste e possas seguir os passos que te vai indicar o software da Pearson.  
 - Ficar em um lugar tranquilo e bem iluminado, depende do proctor que te toque pode ser exigente ou indulgente.  
-- Uma vez que o teste començar, não te podes levantar da cadeira, procura ir à casa de banho antes.  
+- Uma vez que o teste començar, não te podes levantar da cadeira, procura ir à casa-de-banho antes.  
 - Ter o DNI em mão ou Passaporte **VIGENTE**  
 - Navegadores suportados: Mozilla Firefox, Google Chrome, Microsoft Edge.  
 
