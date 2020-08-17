@@ -38,7 +38,11 @@ Lo único que tienes que hacer es visitar la página de cursos de **[Microsoft A
 
 Role IQ permiten al estudiante hacer una prueba de sus conocimientos o habilidades en un determinado tema. De esta manera, se puede conocer con exactitud el nivel de proficiencia técnica y asi poder aprender lo necesario para ampliar el conocimiento. Role IQ esta organizado de acuerdo a los roles que los estudiantes actualemente ocupan, aspiran a ocupar o simplemente desean ampliar su conocimiento. Ejemplos de estos, tenemos Azure Ingeniero IA, Ingeniero de Datos Cientifico de Datos.
 
+![Roles IQ](/images/azure-pluralsight/role-iq.png "Roles IQ")
+
 Los **[Paths de aprendizaje](https://www.pluralsight.com/product/paths)** combinan herramientas especificas que permiten a los estudiantes desarrollar nuevas habilidades o cursar una certificación de principio a fin. Además, pueden probar sus nuevos conocimientos para asegurarse que los conocimientos adquiridos son sólidos.
+
+![Pluralsight Channels](/images/azure-pluralsight/pluralsight-channels.png "Pluralsight Channels")
 
 ### Lista de cursos disponibles desde la suscripción gratuita
 

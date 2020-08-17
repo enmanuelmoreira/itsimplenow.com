@@ -16,7 +16,6 @@ tags: ["oracle", "oci", "cloud", "certificações"]
 lightgallery: true
 ---
 
-
 <!--more-->
 
 Olá Pessoal, tudo bem?
