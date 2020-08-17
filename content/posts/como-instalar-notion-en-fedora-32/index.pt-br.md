@@ -1,9 +1,9 @@
 ---
-title: "Como instalar Notion en Fedora 32"
+title: "Como instalar Notion no Fedora 32"
 date: 2020-08-01
 lastmod: 2020-08-01
 author: "Enmanuel Moreira"
-description: "Neste post vamos instalar a ferramenta Notion em Fedora 32" 
+description: "Neste post vamos instalar a ferramenta Notion no Fedora 32" 
 draft: false
 
 resources:
@@ -27,7 +27,7 @@ O websiye da **[Notion](https://notion.so/)** define à ferramenta como:
 
 Notion é um ótimo software para organizar a nossa vida, é tão potente que nos permite levar um registo das nossas tarefas, escrever notas, fazer gráficos, etc. O melhor é que as mudanças se sincronizam e armazenam na núvem pelo que se podem acessar em qualquer lugar e momento.  
 
-Notion tem duas versões: Uma pessoal e outra de Pago. Os preços e planes da subscripção se podem ver neste **[enlace](https://www.notion.so/pricing)**  
+Notion tem duas versões: Uma pessoal e outra de Pago. Os preços e os planos de assinatura se podem ver neste **[enlace](https://www.notion.so/pricing)**  
 
 Suporta Microsoft Windows, MacOS, Android e iOS (além de ter uma versão Web) Infelizmente, ainda não tem uma versão oficial para o Linux e segundo o que podemos ler na conta da Notion no **[Twitter](https://twitter.com/NotionHQ)** não vai ser introduzido ao mercado Linux em um futuro próximo.  
 
@@ -65,7 +65,7 @@ Entramos na pasta
 cd notion-rpm-builder
 ```
 
-### Passo 4: Baixamos a última versão de Notion
+### Passo 4: Baixamos a última versão do Notion
 
 ***
 
