@@ -124,7 +124,7 @@ Aparte del material gratuito que estuvo disponible, utilicé los siguientes recu
 
 Esta vez el reto fue mayor. En el examen absolutamente todo el contenido fue cobrado, incluso hasta cierto tema con Federación que no se tocaba en los entrenamientos disponibles por Oracle. Dedicando 3 horas por dia por una semana no fui suficiente y reprobé con solo 1 punto porcentual de diferencia.  
 
-![exams-results1](/images/oci-architect-associate/exam-score-report-1.png)
+![exams-results1](/images/oci-architect-associate/exam-score-report-1.png "Exam Score 30/04/2020")
 
 ### Segundo Intento 07/05/2020
 
@@ -132,7 +132,7 @@ Esta vez el reto fue mayor. En el examen absolutamente todo el contenido fue cob
 
 Después de fallar en el primer intento, me dediqué además de ver los videos de entrenamiento de Oracle, leí mucha documentación sobre Federación y Autonomous Database Warehouse (ADW) Puse especial atención en aquellas áreas en donde pude haber cometido errores en las preguntas de selección múltiple. Durante 1 semana, dedicandole 4 horas al dia, me sentí más confiado para enfrentar de nuevo el examen. Pero... volví a fallar, coindidencia: 64%  
 
-![exams-results2](/images/oci-architect-associate/exam-score-report-2.png)
+![exams-results2](/images/oci-architect-associate/exam-score-report-2.png "Exam Score 07/05/2020")
 
 ### Tercer Intento
 
@@ -142,7 +142,7 @@ Ya con este panorama, decidí invertirle mucho mas tiempo a estudiar, por lo que
 
 Agendé la prueba para el día 21/07/2020. Y la tercera fue la vencida:
 
-![exams-results3](/images/oci-architect-associate/exam-score-report-3.png)
+![exams-results3](/images/oci-architect-associate/exam-score-report-3.png "Exam Score 21/07/2020")
 
 Debes esperar de 24 a 48 hrs para que llegue a tu correo electrónico una notificación con el certificado, el cual podrás descargarlo en el sitio de **[CertView de Oracle](https://certview.oracle.com/)**  
 
