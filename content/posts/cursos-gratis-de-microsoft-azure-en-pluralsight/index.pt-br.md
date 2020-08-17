@@ -26,6 +26,8 @@ Esta é uma grande oportunidade para poder aprender uma(s) nova(s) habilidad(es)
 
 Assim que se tu és uma pessoa que ama as tecnologias IT e queres acelerar a tua careira para tornar-te um Azure Expert, ou simplesmente desejas atualizar conhecimentos, não percas mais tempo.  
 
+![Azure](/images/azure-pluralsight/build-expertise-azure-pluralsight.png "Build Azure Expertise")
+
 ### Cómo se pode acceder às aulas da Microsoft Azure na Pluralsight?
 
 ***
@@ -50,8 +52,8 @@ Os **[Paths de aprendizajem](https://www.pluralsight.com/product/paths)** combin
 
 Se é a primeira vez que usas Pluralsight o se já tens uma conta e queres mexer no conteúdo gratis da Aure sem muito problema, da-lhe uma olhada à **[página de ajuda da Pluralsight sobre as aulas da Microsoft Azure](https://help.pluralsight.com/help/microsoft-azure-courses)**  
 
-Uma vez tenhas configurada a tua conta, podes encontrar a lista das aulas que estão disponíveis na assinatura gratuita, a acessar através da página principal da Pluralsight e tinhas iniciado sessão corretamente (também podes fazer click no icone Home na esquina superior esquerda) ou mais rápido ainda através de **[este link](https://app.pluralsight.com/library/)** Una vez que te encuentres en esa pantalla, los cursos van a estar en una sección llamada "Courses List", muy cerca del final de la página, la cual contendrá una lista con todos los cursos disponibles para el usuario.  
+Uma vez tenhas configurada a tua conta, podes encontrar a lista das aulas que estão disponíveis na assinatura gratuita, a acessar através da página principal da Pluralsight e tinhas iniciado sessão corretamente (também podes fazer click no icone Home na esquina superior esquerda) ou mais rápido ainda através de **[este link](https://app.pluralsight.com/library/)** quando te encontrares nesse ecrã, as aulas vão ficar numa secção chamada "Courses List", muito perto do pé da página, a qual vai conter uma lista com todas as aulas disponíveis para o usuário.  
 
-A pesar que la sitio web de Pluralsight está en inglés, los videos están subtitulados en varios idiomas, inclusive en español (que por cierto, la traducción de los mismos está genial y muy acorde al contenido) así como también en portugués.  
+Apesar que o website da Pluralsight está em inglês, os videos tem legenda em várias línguas (espanhol, português) tem uma legenda muito fixe e muito acorde ao conteúdo.  
 
 Espero que tinham gostado, até a próxima!
