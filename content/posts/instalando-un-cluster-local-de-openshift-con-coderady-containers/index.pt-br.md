@@ -10,8 +10,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-categories: ["Contenedores"]
-tags: ["openshift", "contenedores", "kubernetes", "devops", "redhat", "centos","tutoriales"]
+categories: ["Containers"]
+tags: ["openshift", "Containers", "kubernetes", "devops", "redhat", "centos","tutoriais"]
 
 lightgallery: true
 ---

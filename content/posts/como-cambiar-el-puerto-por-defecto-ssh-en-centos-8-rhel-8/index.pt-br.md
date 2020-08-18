@@ -90,7 +90,7 @@ Salvamos o arquivo e saímos do editor.
 
 Por padrão, o SELinux não permite a conexão pelo SSH a uma porta distinta à porta padrão, porém, podemos configurar o SELinux para permitir a porta que temos mudado.  
 
-Vamos precisar do comando **semanage**, que está no pacote **policycoreutils-python-utils**, em caso de não estar instalando no nosso sistema, vamos instala-lô:  
+Vamos precisar do comando **semanage**, que está no pacote **policycoreutils-python-utils**, no caso de não estar instalando no nosso sistema, vamos instala-lô:  
 
 ```bash
 [root@centos82 ~]# dnf install policycoreutils-python-utils
