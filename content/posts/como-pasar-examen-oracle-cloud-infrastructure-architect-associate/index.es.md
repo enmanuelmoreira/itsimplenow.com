@@ -20,7 +20,7 @@ lightgallery: true
 
 Hola chiquillos!
 
-En el post anterior **[Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20)](https://itsimplenow.com/2020/07/23/como-pasar-el-examen-oracle-cloud-infrastructure-foundations-2020-1z0-1085-20/)** les conté del proceso de estudiar y rendir ese examen. Hoy nos toca hablar del examen **[Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)](https://www.oracle.com/cloud/iaas/training/architect-associate.html)**
+En el post anterior **[Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20)](https://itsimplenow.com/como-pasar-el-examen-oracle-cloud-infrastructure-foundations-2020-1z0-1085-20/)** les conté del proceso de estudiar y rendir ese examen. Hoy nos toca hablar del examen **[Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)](https://www.oracle.com/cloud/iaas/training/architect-associate.html)**
 
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
