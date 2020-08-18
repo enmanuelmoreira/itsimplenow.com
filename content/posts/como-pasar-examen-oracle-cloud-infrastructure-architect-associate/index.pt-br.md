@@ -24,7 +24,7 @@ Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Foundatio
 
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
-> Este teste está estruturado para professionais responsables de arquitetar soluções de infraestrutura a utilizar os serviços de Oracle Cloud Infrastructure
+> Este teste está estruturado para professionais responsáveis de arquitetar soluções de infraestrutura a utilizar os serviços de Oracle Cloud Infrastructure
 
 Os **[pontos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associate-2019-study-guide.pdf)** que devemos estudar são os seguintes:
 
@@ -93,7 +93,7 @@ Os **[pontos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associat
 
 Além do material gratuito que esteve disponível, usei os seguintes recursos:  
 
-- **[A documentação Oficial da OCI na Oracle](https://docs.cloud.oracle.com/es-ww/iaas/Content/home.htm)**  
+- **[A documentação Oficial da OCI na Oracle](https://docs.cloud.oracle.com/pt-br/iaas/Content/home.htm)**  
 
 - O Livro **[Oracle Cloud Infrastructure Architect Associate All-in-One Exam Guide (Exam 1Z0-1072)](https://www.amazon.com/Oracle-Infrastructure-Architect-Associate-1Z0-1072-ebook/dp/B083CPVKFT)** do Roopesh Ramklass  
 
