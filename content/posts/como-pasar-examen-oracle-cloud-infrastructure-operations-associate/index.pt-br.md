@@ -27,7 +27,7 @@ Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Architect
 > Este teste está estruturado para professionais responsáveis de administrar soluções de infraestrutura a utilizar os serviços da Oracle Cloud Infrastructure
 
 {{< admonition note >}}
-Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste disponível (o 1Z0-1067-20) o qual tem muito conteúdo novo.
+Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste (o 1Z0-1067-20) o qual tem muito conteúdo novo.
 {{< /admonition >}}
 
 Os **[pontos](https://www.oracle.com/a/ocom/docs/oci-operations-associate-certification-2020-study-guide.pdf)** que devemos estudar são os seguintes:
