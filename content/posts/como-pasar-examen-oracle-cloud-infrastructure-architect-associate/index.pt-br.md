@@ -1,7 +1,7 @@
 ---
 title: "Como passar o teste Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 date: 2020-07-31
-lastmod: 2020-07-31
+lastmod: 2020-08-20
 author: "Enmanuel Moreira"
 description: "Em um post anterior falei do processo de estudar e fazer aquele teste. Hoje vou falar do teste Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 draft: false
@@ -24,7 +24,11 @@ Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Foundatio
 
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
-> Este teste está estruturado para professionais responsáveis de arquitetar soluções de infraestrutura a utilizar os serviços de Oracle Cloud Infrastructure
+> Este teste está estruturado para professionais responsáveis de arquitetar soluções de infraestrutura a utilizar os serviços de Oracle Cloud Infrastructure.
+
+{{< admonition note >}}
+Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste disponível (o 1Z0-1072-20) o qual tem muito conteúdo novo.
+{{< /admonition >}}
 
 Os **[pontos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associate-2019-study-guide.pdf)** que devemos estudar são os seguintes:
 
@@ -92,6 +96,14 @@ Os **[pontos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associat
 ***
 
 Além do material gratuito que esteve disponível, usei os seguintes recursos:  
+
+- **[Treino Oficial da Oracle Infrastructure Architect Associate (Deves de ter uma conta na Oracle)](https://learn.oracle.com/ols/learning-path/become-oci-architect-associate/35644/75658)**
+
+- **[Teste de Prática](http://oukc.oracle.com/public/redir.html?type=player&offid=2453405669)**
+
+- **[Práticas Oficiais do Nível 100 da OCI](https://www.oracle.com/cloud/iaas/training/foundation.html)**
+
+- **[Práticas Oficiais do Nível 200 da OCI](https://www.oracle.com/cloud/iaas/training/advanced.html)**
 
 - **[A documentação Oficial da OCI na Oracle](https://docs.cloud.oracle.com/pt-br/iaas/Content/home.htm)**  
 
