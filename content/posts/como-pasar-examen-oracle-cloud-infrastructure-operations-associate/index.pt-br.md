@@ -1,7 +1,7 @@
 ---
 title: "Como passar o teste Oracle Cloud Infrastructure Operations Associate (1Z0-1067-19)"
 date: 2020-08-18
-lastmod: 2020-08-18
+lastmod: 2020-08-20
 author: "Enmanuel Moreira"
 description: "Em um post anterior falei do processo de estudar e fazer aquele teste. Hoje vou falar do teste Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 draft: false
@@ -27,7 +27,7 @@ Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Architect
 > Este teste está estruturado para professionais responsáveis de administrar soluções de infraestrutura a utilizar os serviços da Oracle Cloud Infrastructure
 
 {{< admonition note >}}
-Em 15 de julho de 2020, há uma nova versão do teste disponível (o 1Z0-1067-20) o qual tem muito conteúdo novo, pelo que te recomendo ir ao seguinte [link](https://learn.oracle.com/ols/learning-path/managing-cloud-operations/35644/60972?xd_co_f=Mjc2NzJkMTExYzlhODQyNTcxZTE1NzkyNTAyNzgzMjQ=).
+Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste disponível (o 1Z0-1067-20) o qual tem muito conteúdo novo.
 {{< /admonition >}}
 
 Os **[pontos](https://www.oracle.com/a/ocom/docs/oci-operations-associate-certification-2020-study-guide.pdf)** que devemos estudar são os seguintes:
@@ -78,6 +78,10 @@ Os **[pontos](https://www.oracle.com/a/ocom/docs/oci-operations-associate-certif
 ***
 
 Além do material gratuito que esteve disponível, usei os seguintes recursos:  
+
+- **[Treino Oficial da Oracle Infrastructure Cloud Operations (Deves de ter uma conta na Oracle)](https://learn.oracle.com/ols/learning-path/managing-cloud-operations/35644/60972?xd_co_f=Mjc2NzJkMTExYzlhODQyNTcxZTE1NzkyNTAyNzgzMjQ=)**
+
+- **[Teste de Prática](http://oukc.oracle.com/public/redir.html?type=player&offid=2481913383)**
 
 - **[A documentação Oficial da OCI na Oracle](https://docs.cloud.oracle.com/pt-br/iaas/Content/home.htm)**  
 

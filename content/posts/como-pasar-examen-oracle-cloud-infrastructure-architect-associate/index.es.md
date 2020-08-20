@@ -1,7 +1,7 @@
 ---
 title: "Como pasar el examen Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 date: 2020-07-31
-lastmod: 2020-07-31
+lastmod: 2020-08-20
 author: "Enmanuel Moreira"
 description: "En el post anterior Como pasar el examen Oracle Cloud Infrastructure Foundations 2020 (1z0-1085-20) les conté del proceso de estudiar y rendir ese examen. Hoy nos toca hablar del examen Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F)"
 draft: false
@@ -25,6 +25,10 @@ En el post anterior **[Como pasar el examen Oracle Cloud Infrastructure Foundati
 > Designed for professionals responsible for designing infrastructure solutions using Oracle Cloud Infrastructure services
 
 > Esta prueba está diseñada para profesionales responsables de diseñar soluciones de infraestructura utilizando los servicios de Oracle Cloud Infrastructure
+
+{{< admonition note >}}
+A partir del 15 de julio de 2020, hay una nueva versión disponible del examen (la 1Z0-1072-20) la cual tiene mucho contenido nuevo.
+{{< /admonition >}}
 
 Los **[tópicos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associate-2019-study-guide.pdf)** que debemos estudiar son los siguientes:
 
@@ -92,6 +96,14 @@ Los **[tópicos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-assoc
 ***
 
 Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:  
+
+- **[Entrenamiento Oficial de Oracle Infrastructure Cloud Operations (Debes estar registrado con una cuenta Oracle)](https://learn.oracle.com/ols/learning-path/become-oci-architect-associate/35644/75658)**
+
+- **[Examen de Práctica](http://oukc.oracle.com/public/redir.html?type=player&offid=2453405669)**
+
+- **[Prácticas Oficiales Nivel 100 de OCI](https://www.oracle.com/cloud/iaas/training/foundation.html)**
+
+- **[Prácticas Oficiales nivel 200 de OCI](https://www.oracle.com/cloud/iaas/training/advanced.html)**
 
 - **[La documentacion Oficial de OCI en Oracle](https://docs.cloud.oracle.com/es-ww/iaas/Content/home.htm)**  
 

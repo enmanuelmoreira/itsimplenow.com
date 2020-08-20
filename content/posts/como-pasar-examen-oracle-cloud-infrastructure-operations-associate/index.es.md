@@ -1,7 +1,7 @@
 ---
 title: "Como pasar el examen Oracle Cloud Infrastructure Operations Associate (1Z0-1067-19)"
 date: 2020-08-18
-lastmod: 2020-08-18
+lastmod: 2020-08-20
 author: "Enmanuel Moreira"
 description: "En el post anterior Como pasar el examen Oracle Cloud Infrastructure Architect Associate (1Z0-1072-F) les conté del proceso de estudiar y rendir ese examen. Hoy nos toca hablar del examen Oracle Cloud Infrastructure Operations Associate (1Z0-1067-19)"
 draft: false
@@ -27,7 +27,7 @@ En el post anterior **[Como pasar el examen Oracle Cloud Infrastructure Architec
 > Esta prueba está diseñada para profesionales responsables de administrar soluciones de infraestructura utilizando los servicios de Oracle Cloud Infrastructure
 
 {{< admonition note >}}
-A partir del 15 de julio de 2020, hay una nueva versión disponible del examen (la 1Z0-1067-20) la cual tiene mucho contenido nuevo, te recomiendo que vayas al siguiente [enlace](https://learn.oracle.com/ols/learning-path/managing-cloud-operations/35644/60972?xd_co_f=Mjc2NzJkMTExYzlhODQyNTcxZTE1NzkyNTAyNzgzMjQ=).
+A partir del 15 de julio de 2020, hay una nueva versión disponible del examen (la 1Z0-1067-20) la cual tiene mucho contenido nuevo.
 {{< /admonition >}}
 
 Los **[tópicos](https://www.oracle.com/a/ocom/docs/oci-operations-associate-certification-2020-study-guide.pdf)** que debemos estudiar son los siguientes:  
@@ -77,7 +77,11 @@ Los **[tópicos](https://www.oracle.com/a/ocom/docs/oci-operations-associate-cer
 
 ***
 
-Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:    
+Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:  
+
+- **[Entrenamiento Oficial de Oracle Infrastructure Cloud Operations (Debes estar registrado con una cuenta Oracle)](https://learn.oracle.com/ols/learning-path/managing-cloud-operations/35644/60972?xd_co_f=Mjc2NzJkMTExYzlhODQyNTcxZTE1NzkyNTAyNzgzMjQ=)**
+
+- **[Examen de Práctica](http://oukc.oracle.com/public/redir.html?type=player&offid=2481913383)**
 
 - **[La documentacion Oficial de OCI en Oracle](https://docs.cloud.oracle.com/es-ww/iaas/Content/home.htm)**  
 
