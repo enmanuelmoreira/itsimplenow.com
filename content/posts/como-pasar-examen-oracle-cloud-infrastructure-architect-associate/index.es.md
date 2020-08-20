@@ -97,7 +97,7 @@ Los **[tópicos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-assoc
 
 Aparte del material gratuito que estuvo disponible, utilicé los siguientes recursos:  
 
-- **[Entrenamiento Oficial de Oracle Infrastructure Cloud Operations (Debes estar registrado con una cuenta Oracle)](https://learn.oracle.com/ols/learning-path/become-oci-architect-associate/35644/75658)**
+- **[Entrenamiento Oficial de Oracle Infrastructure Architect Associate Operations (Debes estar registrado con una cuenta Oracle)](https://learn.oracle.com/ols/learning-path/become-oci-architect-associate/35644/75658)**
 
 - **[Examen de Práctica](http://oukc.oracle.com/public/redir.html?type=player&offid=2453405669)**
 

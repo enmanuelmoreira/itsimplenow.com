@@ -27,7 +27,7 @@ Em um post anterior **[Como passar o teste Oracle Cloud Infrastructure Foundatio
 > Este teste está estruturado para professionais responsáveis de arquitetar soluções de infraestrutura a utilizar os serviços de Oracle Cloud Infrastructure.
 
 {{< admonition note >}}
-Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste disponível (o 1Z0-1072-20) o qual tem muito conteúdo novo.
+Em 15 de julho de 2020, a Oracle liberou uma nova versão do teste (o 1Z0-1072-20) o qual tem muito conteúdo novo.
 {{< /admonition >}}
 
 Os **[pontos](https://www.oracle.com/a/ocom/docs/1Z0-1072-oci-architect-associate-2019-study-guide.pdf)** que devemos estudar são os seguintes:
