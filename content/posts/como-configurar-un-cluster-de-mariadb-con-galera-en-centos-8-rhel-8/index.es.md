@@ -4,7 +4,7 @@ date: 2020-08-23
 lastmod: 2020-08-23
 author: Enmanuel Moreira
 description: "MariaDB es uno de los servidores de base de datos de código abierto más popular. Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre. Es ofrecido por la mayor parte de los proveedores cloud y está por efecto en muchas distribuciones Linux.  "
-draft: false
+draft: true
 
 resources:
 - name: "featured-image"
