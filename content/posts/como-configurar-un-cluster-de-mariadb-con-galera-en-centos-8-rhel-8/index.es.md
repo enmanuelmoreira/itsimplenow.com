@@ -1,54 +1,54 @@
 ---
-title: "Como Instalar MariaDB no CentOS 8 / RHEL 8"
-date: 2020-08-21
-lastmod: 2020-08-21
+title: "Como Configurar un Cluster de MariaDB con Galera en CentOS 8 / RHEL 8"
+date: 2020-08-23
+lastmod: 2020-08-23
 author: Enmanuel Moreira
-description: "Nesta guia vamos instalar MariaDB no CentOS 8 / RHEL 8."
+description: "MariaDB es uno de los servidores de base de datos de código abierto más popular. Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre. Es ofrecido por la mayor parte de los proveedores cloud y está por efecto en muchas distribuciones Linux.  "
 draft: false
 
 resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-categories: ["Linux", "Banco de Dados"]
-tags: ["redhat","centos","mariadb","banco de dados"]
+categories: ["Linux", "Base de Datos"]
+tags: ["redhat","centos","mariadb","base de datos","cluster"]
 
 lightgallery: true
 ---
 
 <!--more-->
 
-Olá Pessoal, tudo bem?
+Hola chiquillos!
 
-O [MariaDB](https://mariadb.org/) Server, é um dos bancos de dados de código aberto mais popular do mercado. É desenvolvido pelo Michael (Monty) Widenius —fundador da MySQL—, pela fundação MariaDB e pela comunidade de desenvolvedores de software livre. É forcenido pela maior parte dos fornecedores cloud e é padrão em muitas distros Linux.  
+[MariaDB](https://mariadb.org/) es uno de los servidores de base de datos de código abierto más popular. Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre. Es ofrecido por la mayor parte de los proveedores cloud y está por efecto en muchas distribuciones Linux.  
 
-Tem compatibilidade com o MySQL já qe possui os mesmos comandos, interfaces, API e livrarias, sendo o seu objetivo poder trocar um server pelo outro direitamente. Introduz dois motores de armazenamento novos: o Aria —que substitui ao MyISAM— e outro chamado XtraDB —que substitui ao InnoDB—.  
+Tiene una alta compatibilidad con MySQL ya que posee las mismas órdenes, interfaces, API y bibliotecas, siendo su objetivo poder cambiar un servidor por otro directamente. Introduce dos motores de almacenamiento nuevos, uno llamado Aria —que reemplaza a MyISAM— y otro llamado XtraDB —en sustitución de InnoDB—.  
 
-Nesta guia vamos instalar MariaDB no CentOS 8 / RHEL 8.
+En esta guía vamos a instalar MariaDB en CentOS 8 / RHEL 8.
 
-## Instalar o MariaDB Server  
-
-***
-
-Há duas maneiras de instalar o MariaDB: Através do AppStream de CentOS / RHEL ou direito pelos repositórios oficiais do  MariaDB:  
-
-### Instalar pelo AppStream
+## Instalando MariaDB Server  
 
 ***
 
-Instalar o MariaDB pelo AppStream é muito fácil, devemos entrar em uma terminal e executar o seguinte comando com privilégios root:  
+Hay dos maneras de instalar MariaDB: A través del AppStream de CentOS / RHEL o directamente desde los repositorios oficiales de MariaDB:  
+
+### Instalar desde AppStream
+
+***
+
+Instalar MariaDB mediante AppStream es muy facil, debemos entrar a una terminal y ejecutar el siguiente comando con privilegios root:  
 
 ```bash
 [root@centos ~]# dnf install @mariadb
 ```
 
-### Instalar pelo Repositório da Fundação MariaDB
+### Instalar desde el repositorio de la Fundación MariaDB
 
 ***
 
-A Fundação MariaDB oferece pacotes precompilados que podem ser instalados através do seu repositório. Se mantém sempre atualizado e com pleno suporte da comunidade.  
+La Fundación MariaDB ofrece paquetes precompilados que pueden ser instalados a través de su repositorio. Se mantiene siempre actualizado y con soporte de la comunidad.  
 
-Para instala-lôs, devemos incluir os repositórios ao nosso sistema:  
+Para instalarlos, debemos añadir los repositorios a nuestro sistema:  
 
 #### CentOS 8
 
@@ -75,7 +75,7 @@ EOF
 ```
 
 {{< admonition note >}}
-Vamos precisar desativar o MariaDB dos repositórios **rhel-8-for-x86_64-appstream-rpms** e **AppStream** de maneira temporal no RHEL 8 e no CentOS 8 respectivamente para permitir ao dnf baixar e instalar os pacotes desde o repositótio oficial do MariaDB.
+Necesitaremos deshabilitar MariaDB de los repositorios de **rhel-8-for-x86_64-appstream-rpms** y **AppStream** de manera temporal en RHEL 8 and CentOS 8 respectivamente para permitir a dnf descargar e instalar los paquetes desde el repositorio oficial de MariaDB.
 {{< /admonition >}}
 
 ```plaintext
@@ -89,23 +89,23 @@ dnf --disablerepo=AppStream install -y MariaDB-server MariaDB-client
 dnf --disablerepo=rhel-8-for-x86_64-appstream-rpms install -y MariaDB-server MariaDB-client
 ```
 
-## Iniciar o Serviço MariaDB
+## Iniciar el Servicio MariaDB
 
 ***
 
-Uma vez seja instalado o server MariaDB, iniciamos o serviço:  
+Una vez instalado el servidor MariaDB, iniciamos el servicio:  
 
 ```bash
 [root@centos ~]# systemctl enable --now mariadb
 ```
 
-Vamos comprobar que se esteja a executar:  
+Comprobamos que se esté ejecutando:  
 
 ```bash
 [root@centos ~]# systemctl status mariadb
 ```
 
-Devía de mostrar a seguinte saída:  
+Nos debería mostrar la siguiente salida:  
 
 ```plaintext
 ● mariadb.service - MariaDB 10.4.14 database server
@@ -137,17 +137,17 @@ ago 21 22:39:54 centos.itsimplenow.local mysqld[8003]: Version: '10.4.14-MariaDB
 ago 21 22:39:54 centos.itsimplenow.local systemd[1]: Started MariaDB 10.4.14 database server.
 ```
 
-## Executar o Assistente de Configuração do Server MariaDB
+## Ejecutar el Asistente de Configuración del Servidor MariaDB
 
 ***
 
-Vamos executar o comando **mysql_secure_installation** para inicializar pela primeira vez o server MariaDB:  
+Ejecutamos el comando **mysql_secure_installation** para inicializar por primera vez el servidor MariaDB:  
 
 ```bash
 [root@centos ~]# mysql_secure_installation
 ```
 
-Respondemos às preguntas do instalador:  
+Respodemos las preguntas del instalador:  
 
 ```laintext
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
@@ -165,14 +165,14 @@ can log into the MariaDB root user without the proper authorisation.
 
 You already have your root account protected, so you can safely answer 'n'.
 
-Switch to unix_socket authentication [Y/n] N <-- DESATIVAMOS LA AUTENTICACION UNIX
+Switch to unix_socket authentication [Y/n] N <-- DESHABILITAMOS LA AUTENTICACION UNIX
  ... skipping.
 
 You already have your root account protected, so you can safely answer 'n'.
 
-Change the root password? [Y/n] Y  <-- MUDAMOS A PALAVRA-CHAVE DO USURIO ROOT
-New password: <-- NOVA PALAVRA-CHAVE CONTRASEÑA
-Re-enter new password: <-- ESCREVEMOS DE NOVO A PALAVRA-CHAVE
+Change the root password? [Y/n] Y  <-- CAMBIAMOS LA CONTRASEÑA ROOT
+New password: <-- NUEVA CONTRASEÑA
+Re-enter new password: <-- REESCRIBIMOS LA NUEVA CONTRASEÑA
 Password updated successfully!
 Reloading privilege tables..
  ... Success!
@@ -184,20 +184,20 @@ them.  This is intended only for testing, and to make the installation
 go a bit smoother.  You should remove them before moving into a
 production environment.
 
-Remove anonymous users? [Y/n] Y <-- TIRAMOS O ACESSO AOS USUÁRIOS ANÓNIMOS
+Remove anonymous users? [Y/n] Y <-- REMOVEMOS EL ACCESO A USUARIOS ANONIMOS
  ... Success!
 
 Normally, root should only be allowed to connect from 'localhost'.  This
 ensures that someone cannot guess at the root password from the network.
 
-Disallow root login remotely? [Y/n] Y <-- DESATIVAMOS O ACESSO ROOT DE MANEIRA REMOTA«
+Disallow root login remotely? [Y/n] Y <-- DESHABILITAMOS EL ACCESO A ROOT DE MANERA REMOTA
  ... Success!
 
 By default, MariaDB comes with a database named 'test' that anyone can
 access.  This is also intended only for testing, and should be removed
 before moving into a production environment.
 
-Remove test database and access to it? [Y/n] Y <-- APAGAMOS O BANCO DE DADOS DE TESTE
+Remove test database and access to it? [Y/n] Y <-- ELIMINAMOS LA BASE DE DATOS TEST
  - Dropping test database...
  ... Success!
  - Removing privileges on test database...
@@ -206,7 +206,7 @@ Remove test database and access to it? [Y/n] Y <-- APAGAMOS O BANCO DE DADOS DE 
 Reloading the privilege tables will ensure that all changes made so far
 will take effect immediately.
 
-Reload privilege tables now? [Y/n] Y  <-- ATUALIZAMOS OS PRIVILÉGIOS«
+Reload privilege tables now? [Y/n] Y  <-- RECARGAMOS LOS PRIVILEGIOS
  ... Success!
 
 Cleaning up...
@@ -217,18 +217,18 @@ installation should now be secure.
 Thanks for using MariaDB!
 ```
 
-## Acessar ao MariaDB
+## Accesar a MariaDB
 
 ***
 
-O que resta por fazer, é acessar ao server com o seguinte comando:  
+Lo que nos queda ahora, es accesar al servidor mediante el siguiente comando:  
 
 ```bash
 [root@centos ~]# mysql -u root -p
 Enter password:
 ```
 
-Vamos pôr a nossa palavra-chave, e já devíamos de poder acessar ao nosso server  
+Colocamos nuestra contraseña, y ya deberiamos poder entrar al servidor.  
 
 ```bash
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -242,4 +242,4 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 MariaDB [(none)]>
 ```
 
-Espero que tinham gostado deste tutorial, até a próxima!
+Espero les haya gustado este tutorial, ¡hasta la próxima!

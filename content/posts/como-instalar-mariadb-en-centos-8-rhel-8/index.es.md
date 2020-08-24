@@ -20,7 +20,7 @@ lightgallery: true
 
 Hola chiquillos!
 
-[MariaDB](https://mariadb.org/) es uno de los servidores de base de datos de código abierto más popular. Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre. Es ofrecido por la mayor parte de los proveedores cloud y está por efecto en muchas distribuciones Linux.  
+[MariaDB](https://mariadb.org/) es uno de los servidores de base de datos de código abierto más popular. Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre. Es ofrecido por la mayor parte de los proveedores cloud y está por defecto en muchas distribuciones Linux.  
 
 Tiene una alta compatibilidad con MySQL ya que posee las mismas órdenes, interfaces, API y bibliotecas, siendo su objetivo poder cambiar un servidor por otro directamente. Introduce dos motores de almacenamiento nuevos, uno llamado Aria —que reemplaza a MyISAM— y otro llamado XtraDB —en sustitución de InnoDB—.  
 
@@ -75,7 +75,7 @@ EOF
 ```
 
 {{< admonition note >}}
-Necesitaremos deshabilitar MariaDB de los repositorios de **rhel-8-for-x86_64-appstream-rpms** y **AppStream** de manera temporal en RHEL 8 and CentOS 8 respectivamente para permitir a dnf descargar e instalar los paquetes desde el repositorio oficial de MariaDB.
+Necesitaremos deshabilitar MariaDB de los repositorios de **rhel-8-for-x86_64-appstream-rpms** y **AppStream** de manera temporal en RHEL 8 y en CentOS 8 respectivamente para permitir a dnf descargar e instalar los paquetes desde el repositorio oficial de MariaDB.
 {{< /admonition >}}
 
 ```plaintext
@@ -147,7 +147,7 @@ Ejecutamos el comando **mysql_secure_installation** para inicializar por primera
 [root@centos ~]# mysql_secure_installation
 ```
 
-Respodemos las preguntas del instalador:  
+Respondemos las preguntas del instalador:  
 
 ```laintext
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
