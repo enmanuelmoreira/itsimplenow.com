@@ -4,7 +4,7 @@ date: 2020-08-21
 lastmod: 2020-08-21
 author: Enmanuel Moreira
 description: "Nesta guia vamos instalar MariaDB no CentOS 8 / RHEL 8."
-draft: true
+draft: false
 
 resources:
 - name: "featured-image"
