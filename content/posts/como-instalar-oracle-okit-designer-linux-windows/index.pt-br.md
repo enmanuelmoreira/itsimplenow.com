@@ -1,7 +1,7 @@
 ---
 title: "Como Instalar Okit Designer Tookit no Linux e Windows para desenhar diagramas de Oracle Cloud Infrastructure"
 date: 2020-08-07
-lastmod: 2020-08-08
+lastmod: 2020-08-29
 author: Enmanuel Moreira
 description: "Nesta guia vou explicar como instalar a ferramenta Okit Designer Tookit para desenhar os nossos próprios diagramas de Oracle Cloud Infrastructure."
 draft: false
@@ -342,7 +342,7 @@ $ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.g
 
 ***
 
-No caso de não ter instalado e configuado a oci-cli (será tema para outro post), deveremos criar um arquvo de configuração que terá contenido o id da conta, além da chave SSH para poder acessar à API e fazer deploy do que tinhamos desenhado:  
+No caso de não ter instalado e configuado a oci-cli (o qual explicarei neste [POST](https://itsimplenow.com/pt-br/como-instalar-oracle-cloud-infrastructure-cli-en-linux-windows)), deveremos criar um arquivo de configuração que terá contenido o id da conta, além da chave SSH para poder acessar à API e fazer deploy do que tinhamos desenhado:  
 
 Criamos a pasta containers/oci dentro da pasta oci-designer-toolkit: 
 

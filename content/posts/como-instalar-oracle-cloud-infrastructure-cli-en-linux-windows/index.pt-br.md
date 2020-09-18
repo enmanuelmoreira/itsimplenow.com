@@ -1,7 +1,7 @@
 ---
-title: "Como Instalar Foreman no CentOS 8 / RHEL 8"
-date: 2020-08-25
-lastmod: 2020-08-25
+title: "Como Instalar a Oracle Cloud Infrastructure CLI no Linux e no Windows"
+date: 2020-08-29
+lastmod: 2020-08-29
 author: Enmanuel Moreira
 description: ""
 draft: true
@@ -10,8 +10,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
 
-categories: ["Linux","Automação","Tutorial"]
-tags: ["redhat","centos","automação","infraestrutura"]
+categories: ["Linux","Cloud","Tutorial"]
+tags: ["linux","oracle","oci","cloud"]
 lightgallery: true
 ---
 
@@ -19,6 +19,6 @@ lightgallery: true
 
 Olá Pessoal, tudo bem?
 
-TODO
+TODO:
 
 Espero que tinham gostado deste tutorial, até a próxima!
