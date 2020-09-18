@@ -342,7 +342,7 @@ $ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.g
 
 ***
 
-Si no tenemos instalado y configurado la oci-cli (será tema para otro post), debemos crear un archivo de configuración que contendrá el id de la cuenta, además de la llave SSH para poder acceder a la API y desplegar lo que ya hayamos diseñado:  
+Si no tenemos instalado y configurado la oci-cli (explicado en este [POST](https://itsimplenow.com/como-instalar-oracle-cloud-infrastructure-cli-en-linux-windows)), debemos crear un archivo de configuración que contendrá el id de la cuenta, además de la llave SSH para poder acceder a la API y desplegar lo que ya hayamos diseñado:  
 
 Creamos el directorio containers/oci dentro del directorio raíz (oci-designer-toolkit) ; 
 
