@@ -3,7 +3,7 @@ title: "Como Instalar Oracle Cloud Infrastructure CLI en Linux y Windows"
 date: 2020-08-29
 lastmod: 2020-08-29
 author: Enmanuel Moreira
-description: ""
+description: "El día de hoy les voy a mostrar como instalar la herramienta CLI de Oracle Cloud Infrastructure para Linux y Windows.  "
 draft: false
 
 resources:
