@@ -1,17 +1,17 @@
 ---
-title: "Instalar um cluster local do OpenShift 4.4 com CodeReady Containers"
-date: 2020-07-08
-lastmod: 2020-07-23
+title: "O qué é Infraestrutura como Código (IaaC) e PORQUÉ devias de APRENDE-LÔ"
+date: 2020-09-01
+lastmod: 2020-09-01
 author: Enmanuel Moreira
-description: "Neste tutorial vou-lhes explicar como desployar um cluster simples do OpenShift para provas através da aplicação CodeReady Containers."
-draft: true
+description: ""
+draft: false
 
 resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-categories: ["Containers"]
-tags: ["openshift", "Containers", "kubernetes", "devops", "redhat", "centos","tutoriais"]
+categories: ["Contenedores"]
+tags: ["infraestrutura", "devops"]
 
 lightgallery: true
 ---
@@ -20,5 +20,6 @@ lightgallery: true
 
 Olá Pessoal, tudo bem?
 
+TODO:
 
 Espero que tinham gostado, até a próxima!
