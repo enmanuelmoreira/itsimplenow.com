@@ -1,11 +1,38 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: {{ .Date }}
+author: Enmanuel Moreira
+description: ""
 draft: true
+
+
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+categories: [""]
+tags: ["","",""]
+
+lightgallery: true
 ---
 
+<!--more-->
+
+## PROMO DigitalOcean
+
+***
+
+Antes de comenzar, quería contarles que hay una promoción en DigitalOcean donde te dan un crédito de USD 100.00 durante 60 días para que puedas probar los servicios que este Proveedor Cloud ofrece. Lo único que tienes que hacer es suscribirte a DigitalOcean con el siguiente enlace: <https://bit.ly/digitalocean-itsm>
+
+***
+
+¡Hola a todos!
 
 
+Espero les haya gustado este artículo, ¡hasta la próxima!
+
+***
 
 Si te pareció útil este artículo, puedes brindarme un café :)
 
