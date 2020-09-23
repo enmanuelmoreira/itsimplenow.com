@@ -54,11 +54,11 @@ Según el [anuncio](https://people.redhat.com/mlessard/ansiblemtl/presentations/
 
 - Uno de los cambios importantes es que ahora algunas colecciones formaran parte de Ansible 2.10: <https://github.com/ansible-community/ansible-build-data/blob/main/2.10/CHANGELOG-v2.10.rst>  
 
-La Lista es larga así que te recomiendo le eches un vistazo: <https://github.com/ansible-community/ansible-build-data/blob/2.10.0/2.10/ansible-2.10.0.deps>  
+La Lista es larga así que te recomiendo le des un vistazo: <https://github.com/ansible-community/ansible-build-data/blob/2.10.0/2.10/ansible-2.10.0.deps>  
 
 Y aqui -> <https://github.com/ansible-collections>  
 
-- Uno de los principales problemas que tenía Ansible es la gran diferencia de versiones entre la versión de código abierto (manejada por la comunidad y con aportes de voluntarios) y las que provenian por clientes desarrolladores de Red Hat, que tenía al menos 4500 objetos entre modulos, roles, etc; en donde podían haber dos modulos para la misma tarea (por ejemplo: Helm) por esta razón, se decidió separar los módulos y plugins "base" y colocar los demás como Ansible Collections (roles, módulos, plugins, documentación, etc), para así organizarlos y garantizar un versionado correcto y semántico, además de que el llamado de estas colecciones sea rápida y facilmente portable. Es por ello, que al momento de la instalación de Ansible 2.10, se instalará también un paquete llamado **ansible-core** que los contendrá.  
+- Uno de los principales problemas que tenía Ansible es la gran diferencia de versiones entre la versión de código abierto (manejada por la comunidad y con aportes de voluntarios) y las que provenian por parte de pedidos de los clientes y/o desarrolladores de Red Hat, que tenía al menos 4500 objetos entre modulos, roles, etc; en donde podían existir dos modulos para la misma tarea (por ejemplo: Helm) Por esta razón, se decidió separar los módulos y plugins "base" y colocar los demás como Ansible Collections (roles, módulos, plugins, documentación, etc), para así organizarlos y garantizar un versionado correcto y semántico, además de que el llamado de estas colecciones sea rápida y facilmente portable. Es por ello, que al momento de la instalación de Ansible 2.10, se instalará también un paquete llamado **ansible-core** que los contendrá.  
 
 - Por el lado Microsoft Windows, ya no serán soportados los sistemas operarivos: Windows Server 2008, 2008 R2 y Windows 7. Para más información: <https://docs.ansible.com/ansible/latest/user_guide/windows_faq.html#windows-faq-server2008>
 
