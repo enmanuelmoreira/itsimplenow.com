@@ -82,14 +82,14 @@ Según la página de [AMD](https://www.amd.com/en/support/kb/release-notes/rn-am
 Lo primero que debemos hacer, es instalar el Repositorio EPEL y el habilitar Repositorio PowerTools:  
 
 ```
-sudo dnf install epel-release
-sudo dnf config-manager --enable PowerTools
+$ sudo dnf install epel-release
+$ sudo dnf config-manager --enable PowerTools
 ```
 
 Ahora instalamos los paquetes necesarios para que se pueda compilar el driver correctamente:  
 
 ```bash
-sudo dnf install -y gcc make kernel-headers-`uname -r` kernel-devel-`uname -r` kernel-modules-extra
+$ sudo dnf install -y gcc make kernel-headers-`uname -r` kernel-devel-`uname -r` kernel-modules-extra
 ```
 
 ## Descargando el Driver Radeon
@@ -101,20 +101,20 @@ Descargamos el driver desde la página:
 <https://www.amd.com/en/support/kb/release-notes/rn-amdgpu-unified-linux-20-20>:  
 
 ```bash
-wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.20-1089974-rhel-8.2.tar.xz
+$ wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.20-1089974-rhel-8.2.tar.xz
 ```
 
 Lo desempaquetamos:  
 
 
 ```bash
-tar xfJv https://drivers.amd.com/drivers/linux/amdgpu-pro-20.20-1089974-rhel-8.2.tar.xz
+$ tar xfJv https://drivers.amd.com/drivers/linux/amdgpu-pro-20.20-1089974-rhel-8.2.tar.xz
 ```
 
 Y le cambiamos el nombre a la carpeta a **amdgpu**
 
 ```bash
-mv amdgpu-pro-20.20-1089974-rhel-8.2 amdgpu
+$ mv amdgpu-pro-20.20-1089974-rhel-8.2 amdgpu
 ```
 
 ## Creando el Repositorio Local
@@ -126,7 +126,7 @@ El instalador va a instalar (obvio) todos los paquetes necesarios para que los d
 Abrimos el editor de textos de su preferencia (yo usaré vim):  
 
 ```bash
-sudo vim /etc/yum.repos.d/amdgpu.repo
+$ sudo vim /etc/yum.repos.d/amdgpu.repo
 ```
 
 Y pegamos el siguiente contenido:  
@@ -152,19 +152,19 @@ Donde **baseurl=file:///var/local/amdgpu/** lo vamos a reemplazar por el directo
 Entramos a la carpeta **amdgpu**:  
 
 ```bash
-cd amdgpu
+$ cd amdgpu
 ```
 
 Ejecutamos el script de instalación:  
 
 ```bash
-sudo ./amdgpu-install
+$ sudo ./amdgpu-install
 ```
 
 Va a tardar unos minutos en instalar y compilar el driver, una vez instalado, reiniciamos el sistema:  
 
 ```bash
-sudo systemctl reboot
+$ sudo systemctl reboot
 ```
 
 Ya reiniciado el sistema, procedemos a instalar los componentes de OpenCL:
@@ -172,13 +172,13 @@ Ya reiniciado el sistema, procedemos a instalar los componentes de OpenCL:
 - Si tenemos una tarjeta gráfica POLARIS o anterior (la mia es una RX560X):
 
 ```bash
-sudo dnf install ibdrm-amdgpu libdrm-amdgpu-common clinfo-amdgpu-pro opencl-amdgpu-pro-comgr amdgpu-pro-core opencl-orca-amdgpu-pro-icd libopencl-amdgpu-pro
+$ sudo dnf install ibdrm-amdgpu libdrm-amdgpu-common clinfo-amdgpu-pro opencl-amdgpu-pro-comgr amdgpu-pro-core opencl-orca-amdgpu-pro-icd libopencl-amdgpu-pro
 ```
 
 - Si nuestra gráfica es VEGA o superior:  
 
 ```bash
-sudo dnf install libdrm-amdgpu libdrm-amdgpu-common clinfo-amdgpu-pro opencl-amdgpu-pro-comgr amdgpu-pro-core opencl-amdgpu-pro-icd libopencl-amdgpu-pro
+$ sudo dnf install libdrm-amdgpu libdrm-amdgpu-common clinfo-amdgpu-pro opencl-amdgpu-pro-comgr amdgpu-pro-core opencl-amdgpu-pro-icd libopencl-amdgpu-pro
 ```
 
 Ya con esos pasos, tendremos instalados los drivers.  
