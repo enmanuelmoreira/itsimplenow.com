@@ -132,7 +132,7 @@ Donde **baseurl=file:///var/local/amdgpu/** lo vamos a reemplazar por el directo
 
 ***
 
-Entramos a la carpeta **amdgpu** y listamos el contenido:  
+Entramos a la carpeta **amdgpu**:  
 
 ```bash
 cd amdgpu
