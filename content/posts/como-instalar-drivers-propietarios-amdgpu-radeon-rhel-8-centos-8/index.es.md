@@ -75,6 +75,23 @@ Según la página de [AMD](https://www.amd.com/en/support/kb/release-notes/rn-am
 
 - AMD Radeon™ R9 360 Graphics
 
+## Instalando Prerrequisitos
+
+***
+
+Lo primero que debemos hacer, es instalar el Repositorio EPEL y el habilitar Repositorio PowerTools:  
+
+```
+sudo dnf install epel-release
+sudo dnf config-manager --enable PowerTools
+```
+
+Ahora instalamos los paquetes necesarios para que se pueda compilar el driver correctamente:  
+
+```bash
+sudo dnf install -y gcc make kernel-headers-`uname -r` kernel-devel-`uname -r` kernel-modules-extra
+```
+
 ## Descargando el Driver Radeon
 
 ***
@@ -112,7 +129,7 @@ Abrimos el editor de textos de su preferencia (yo usaré vim):
 sudo vim /etc/yum.repos.d/amdgpu.repo
 ```
 
-y pegamos el siguiente contenido:  
+Y pegamos el siguiente contenido:  
 
 ```bash
 [amdgpu]
