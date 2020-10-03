@@ -75,7 +75,7 @@ $ ar -xv PacketTracer_731_amd.deb
 $ mkdir /tmp/pt-instalador/{control,data}
 ```
 
-- Descomprimimos los archivos control y data (que estabana dentro del archivo .deb):  
+- Descomprimimos los archivos control y data (que estaban dentro del archivo .deb):  
 
 ```bash
 $ tar -C control -xfJ control.tar.xz
@@ -88,7 +88,7 @@ $ tar -C data -xfJ data.tar.xz
 $ cd data
 ```
 
-## Eliminando Instalación Antigua de PT
+## Eliminando Versión Anterior de Packet Tracer
 
 En caso de tener una versión anterior de Packet Tracer instalada, vamos a borrar el directorio donde se encuentra instalado (asumiendo que se encuentren en el directorio /opt/pt) y los archivos de la aplicación (accesos directos, iconos, etc):  
 
@@ -101,14 +101,14 @@ $ sudo rm -rf /usr/share/icons/hicolor/48x48/apps/pt7.png
 
 ## Instalando y Configurando Packet Tracer
 
-Asegurandonos que aún estamos en el directorio /tmp/pt-instalador, procedemos a copiar los directorios:  
+Asegurándonos que aún estamos en el directorio /tmp/pt-instalador, procedemos a copiar los directorios:  
 
 ```bash
 $ sudo cp -r usr /
 $ sudo cp -r opt /
 ```
 
-Ahora actualizamos las asociaciones de los iconos y los archivos para que los sistema reconozca:  
+Ahora actualizamos las asociaciones de los iconos y los archivos para que el sistema los reconozca:  
 
 ```bash
 $ sudo xdg-desktop-menu install /usr/share/applications/cisco-pt7.desktop
@@ -151,7 +151,7 @@ $ echo $QT_DEVICE_PIXEL_RATIO
 auto
 ```
 
-En la consola, ejecutamos el comando packettracer o en el menu principal veremos el icono:
+En la consola, ejecutamos el comando packettracer o en el menú principal veremos el icono:
 
 ```bash
 $ packettracer
@@ -161,7 +161,7 @@ $ packettracer
 
 ## Troubleshooting
 
-En caso que Packet Tracer no inicie, vamos a copiar el script que llama al ejecutable packettracer para poder debuguear la aplicacion:  
+En caso que Packet Tracer no inicie, vamos a copiar el script que llama al ejecutable packettracer para poder debuguear la aplicación:  
 
 ```bash
 $ sudo cp /opt/pt/packettracer /opt/pt/ptdebug
@@ -201,7 +201,7 @@ pushd /opt/pt/bin
 popd
 ```
 
-Ejecutamos ptdebug:  
+Guardamos los cambios, salimos del editor y ejecutamos ptdebug:  
 
 ```bash
 $ sh /opt/pt/ptdebug
