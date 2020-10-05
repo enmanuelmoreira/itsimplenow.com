@@ -59,14 +59,14 @@ $ mkdir /tmp/pt-instalador
 - Copiamos el instalador .deb al directorio recien creado y entramos al mismo:  
 
 ```bash
-$ cp PacketTracer_731_amd.deb /tmp/pt-instalador
+$ cp PacketTracer_731_amd64.deb /tmp/pt-instalador
 $ cd /tmp/pt-instalador
 ```
 
 - Desempaquetamos:  
 
 ```bash
-$ ar -xv PacketTracer_731_amd.deb
+$ ar -xv PacketTracer_731_amd64.deb
 ```
 
 - Creamos los directorios control y data:  
@@ -78,8 +78,8 @@ $ mkdir /tmp/pt-instalador/{control,data}
 - Descomprimimos los archivos control y data (que estaban dentro del archivo .deb):  
 
 ```bash
-$ tar -C control -xfJ control.tar.xz
-$ tar -C data -xfJ data.tar.xz
+$ tar -C control -xJf control.tar.xz
+$ tar -C data -xJf data.tar.xz
 ```
 
 - Entramos al directorio data:  
@@ -139,7 +139,7 @@ QT_DEVICE_PIXEL_RATIO=auto
 export QT_DEVICE_PIXEL_RATIO
 ```
 
-Cerramos sesión, e iniciamos sesión nuevamente para que tome los cambios del perfil. Comprobamos que esté actualizado, haciendo una llamada a la variable de entorno PT7HOME y QT_DEVICE_PIXEL_RATIO:  
+Cerramos nuestra terminal, e iniciamos una nueva para que tome los cambios del perfil. Comprobamos que esté actualizado, haciendo una llamada a la variable de entorno PT7HOME y QT_DEVICE_PIXEL_RATIO:  
 
 ```bash
 $ echo $PT7HOME
