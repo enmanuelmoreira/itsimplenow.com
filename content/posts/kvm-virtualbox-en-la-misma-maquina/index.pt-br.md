@@ -4,7 +4,7 @@ date: 2020-09-06
 lastmod: 2020-09-06
 author: Enmanuel Moreira
 description: ""
-draft: false
+draft: true
 
 resources:
 - name: "featured-image"
