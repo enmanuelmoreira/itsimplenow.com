@@ -73,9 +73,9 @@ Iniciamos cualquier máquina virtual y comprobamos que podemos ejecutarla.
 
 ## Insertando Módulos
 
-Así como deshabilitamos los módulos, podemos volver a habilitarlos. Necsitamos para ello ubicar los modulos en el disco e insertarlos. Se puede usar el comando **modprobe**, el cual puede ser muy útil si el módulo a cargar tuviera dependencias.  
+Así como deshabilitamos los módulos, podemos volver a habilitarlos. Necesitamos para ello ubicar los módulos en el disco y cargarlos. Se puede usar el comando **modprobe**, el cual puede ser muy útil si el módulo a cargar tuviera dependencias.  
 
-Vamos a buscar el módulo con **find**, restringiendo la búsqueda para que solo encuentre los archivos kvm.ko y kvm-amd.ko de nuestro actual kernel [**$(uname -r)**] y lo ordenamos con **sort**:  
+Vamos a buscar el módulo con **find**, restringiendo la búsqueda a que solo encuentre los archivos kvm.ko y kvm-amd.ko de nuestro actual kernel [**$(uname -r)**] y lo ordenamos con **sort**:  
 
 ```bash
 find /lib/modules/$(uname -r) -iname '*kvm*.ko*' | sort
