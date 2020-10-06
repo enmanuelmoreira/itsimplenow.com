@@ -34,9 +34,9 @@ Con este panorama, te voy a explicar como usar KVM y VirtualBox en la misma máq
 
 Al ejecutar VirtualBox, podrás ver el siguiente mensaje:  
 
-![]("Insertar imagen")
+![Mensaje Error VirtualBox](/images/kvm-virtualbox/virtualbox-error.png "VirtualBox no puede iniciar una máquina Virtual")
 
-Dice: "VirtualBox no puede operar en el modo VMX root. Por favor deshabilite la extensión de kernel de KVM, recompile su kernel y reinicie" Vamos a calmarnos. Este mensaje es bastante confuso, no necesitas recompilar nada. Nos tomará un par de minutos y será no destructivo para nada.  
+Dice: "VirtualBox no pudo habilitar la extension AMD-V. Por favor deshabilite la extensión kernel de KVM, recompile su kernel y reinicie" Vamos a calmarnos. Este mensaje es bastante confuso, no necesitas recompilar nada. Nos tomará un par de minutos y será no destructivo para nada.  
 
 ## El Problema
 
@@ -69,7 +69,7 @@ sudo rmmod kvm_amd
 
 Iniciamos cualquier máquina virtual y comprobamos que podemos ejecutarla.  
 
-![]("Insertar imagen")
+![VirtualBox ya funcionando](/images/kvm-virtualbox/virtualbox-funcionando.png "VirtualBox ya funcionando")
 
 ## Insertando Módulos
 
