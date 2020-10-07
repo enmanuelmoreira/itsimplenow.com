@@ -11,7 +11,7 @@ resources:
   src: "featured-image.png"
 
 categories: ["Linux","Virtualización"]
-tags: ["linux","vrtualización","virtualbox","kvm"]
+tags: ["linux","virtualización","virtualbox","kvm"]
 
 lightgallery: true
 ---
