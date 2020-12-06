@@ -21,7 +21,6 @@
 
 [context.dev]
   command = "hugo --environment dev -b $DEPLOY_PRIME_URL --buildFuture --buildDrafts && algolia/run-index-upload.sh -p"
-  command1 = "cat <<EOF loaderio-e00ca57f2d94c55c44a3e80a93ec16d3 >> loaderio-e00ca57f2d94c55c44a3e80a93ec16d3.txt EOF"
 
 # Use this configuration for specific branch development
 # URL: https://<feature-branch>--itsimplenow.netlify.app/
