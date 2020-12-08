@@ -1,6 +1,6 @@
 baseURL = "https://itsimplenow.com/"
 defaultContentLanguage = "es"
-theme = "LoveIt"
+theme = "CodeIT"
 themesDir = "themes"
 #languageCode = "en-us"
 title = "It's Simple Now - Guías y Tutoriales Linux | Virtualización | SysAdmin | Cloud"
@@ -18,13 +18,21 @@ enableEmoji = true
         # googleAnalytics = ""
         [languages.es.menu]
             [[languages.es.menu.main]]
+                identifier = "cursos"  
+                pre = ""
+                post = ""
+                name = "Cursos"
+                url = "/courses/"
+                title = ""
+                weight = 1
+            [[languages.es.menu.main]]
                 identifier = "posts"  
                 pre = ""
                 post = ""
                 name = "Posts"
                 url = "/posts/"
                 title = ""
-                weight = 1
+                weight = 2
            [[languages.es.menu.main]]
                 identifier = "tags"
                 pre = ""
@@ -32,7 +40,7 @@ enableEmoji = true
                 name = "Etiquetas"
                 url = "/tags/"
                 title = ""
-                weight = 2
+                weight = 3
             [[languages.es.menu.main]]
                 identifier = "categories"
                 pre = ""
@@ -40,7 +48,7 @@ enableEmoji = true
                 name = "Categorías"
                 url = "/categories/"
                 title = ""
-                weight = 3
+                weight = 4
             [[languages.es.menu.main]]
                 identifier = "about"
                 pre = ""
@@ -48,7 +56,7 @@ enableEmoji = true
                 name = "Sobre"
                 url = "/about/"
                 title = ""
-                weight = 4
+                weight = 5
             [[languages.es.menu.main]]
                 identifier = "github"
                 pre = "<i class='fab fa-github fa-fw'></i>"
@@ -56,7 +64,7 @@ enableEmoji = true
                 name = ""
                 url = "https://github.com/enmanuelmoreira"
                 title = "GitHub"
-                weight = 5
+                weight = 6
              [languages.es.params]
                 # site description
                 description = "Tutoriales y Recipes de un SysAdmin."
