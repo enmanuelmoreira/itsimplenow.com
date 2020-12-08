@@ -26,11 +26,11 @@ Antes de comenzar, quería contarles que hay una promoción en DigitalOcean dond
 
 ***
 
-Si alguna vez necesitas de Linux para tu empresa con un soporte oficial, Red Hat te vende el soporte para sus sistema operativo Red Hat Enterprise Linux. La mayoria de los mortales usamos una alternativa que se compila del mismo código fuente de RHEL solo que se le quitan las marcas registradas y cualquier cosa relacionada: CentOS.  
+Si alguna vez necesitas de Linux para tu empresa con un soporte oficial, Red Hat te vende el soporte para sus sistema operativo Red Hat Enterprise Linux. La mayoria de los mortales usamos una alternativa que se compila del mismo código fuente de RHEL solo que se le quitan las marcas registradas y cualquier cosa relacionada: [CentOS](https://www.centos.org/).  
 
 Desde hace algunos años, CentOS se ha convertido en la distro basada en Red Hat más popular. En un [movimiento sorpresivo](https://blog.centos.org/2020/12/future-is-centos-stream/), CentOS está cambiando las cosas ofreciendo una versión rolling release: CentOS Stream.  
 
-Una distro rolling release es aquella que incluye todos los componentes del sistema operativo en sus versiones más recientes. Esto conlleva a que el software está probado pero no se le considera muy "maduro" (software no probado, bugs, etc) para entrar en un entorno de producción. Ejemplos de estas distros podrían: Arch Linux, Manjaro, OpenSUSE Tumbleweed, Fedora, etc.  
+Una distro rolling release es aquella que incluye todos los componentes del sistema operativo en sus versiones más recientes. Esto conlleva a que el software no se le considera muy "maduro" (software con características muy nuevas, software no probado, bugs, etc) para entrar en un entorno de producción. Ejemplos de estas distros podrían: Arch Linux, Manjaro, OpenSUSE Tumbleweed, Fedora, etc.  
 
 ***
 
@@ -58,7 +58,7 @@ Si no entendiste nada hasta ahora:
 
 > Los problemas de seguridad se actualizarán en CentOS Stream después de que se resuelvan en la versión actual de RHEL. Obviamente, las liberaciones de seguridad embargadas no pueden publicarse hasta después de que se levante el embargo. Si bien no habrá ningún SLA para el tiempo, los ingenieros de Red Hat construirán y probarán otros paquetes con estas versiones. Si no implementan las actualizaciones, el otro software que construyen podría verse afectado y, por lo tanto, debe rehacerse. Por lo tanto, existe un gran interés para ellos en obtener estas actualizaciones para no afectar sus otras compilaciones y no debería haber problemas para obtener actualizaciones de seguridad.
 
-Es decir, los usuarios de CentOS Stream podán probar nuevas caracteristicas de RHEL lo que permitirá reportar fallas, sin embargo, esto no implica que van a obtener actualizaciones de seguridad por parte de RHEL. Parece muy extraño todo esto.  
+Es decir, los usuarios de CentOS Stream podrán probar nuevas caracteristicas de RHEL lo que permitirá reportar fallas, sin embargo, esto no implica que van a obtener actualizaciones de seguridad por parte de RHEL. Parece muy extraño todo esto.  
 
 ***
 
@@ -73,7 +73,7 @@ Según el [FAQ](https://centos.org/distro-faq/)
 Cabe acotar que todos estos cambios no afectarán a CentOS 7 y que seguirá soportando actualizaciones de seguridad hasta 2024.  
 
 **¿Puede la comunidad CentOS continuar desarrollando / reconstruyendo CentOS Linux?**
-Red Hat dice que pondrá hardware, recursos ni pediran voluntarios para trabajar en ese esfuerzo, ni permitirán que la marca CentOS se use para tal proyecto, ya que sienten que diluye lo que están tratando de hacer con el reenfoque a CentOS Stream. Dicho esto, el código es de código abierto y no intentarán evitar que nadie elija usarlo o crear sus propios paquetes a partir del código.  
+Red Hat dice que no pondrán hardware, recursos ni pediran voluntarios para trabajar en ese esfuerzo, ni permitirán que la marca CentOS se use para tal proyecto, ya que sienten que diluye lo que están tratando de hacer con el reenfoque a CentOS Stream. Dicho esto, el código es de código abierto y no intentarán evitar que nadie elija usarlo o crear sus propios paquetes a partir del código.  
 
 ***
 

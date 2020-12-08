@@ -11,7 +11,7 @@ resources:
   src: "featured-image.jpg"
 
 categories: ["Linux"]
-tags: ["tutorial"]
+tags: ["linux", "centos", "rhel"]
 
 lightgallery: true
 ---
