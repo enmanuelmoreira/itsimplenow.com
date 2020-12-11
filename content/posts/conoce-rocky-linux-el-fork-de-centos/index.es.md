@@ -26,17 +26,33 @@ Antes de comenzar, quería contarles que hay una promoción en DigitalOcean dond
 
 ***
 
+## Contexto
+
+***
+
 No han pasado 24 horas desde el anuncio del equipo de CentOS que analicé en un [artículo anterior](https://www.itsimplenow.com/centos-8-terminara-en-2021-y-se-enfocan-en-centos-stream/), cuando Gregory Kurtzer, antiguo creador de CentOS, no contento con el camino que Red Hat está llevando a su clon, anuncia la creación de Rocky Linux el cual va a ser el perfecto reemplazo para RHEL.  
 
 A través de su [página en Github](https://github.com/hpcng/rocky), Kurtzer afirma que:  
 
 > Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux now that CentOS has shifted direction.  
 
-> Rocky Linux es un Sistema Operativo Empresarial comunitario diseñado para ser 100% compatible con Red Hat Enterprise Linux ahora que CentOS ha tomado otra dirección.  
+> Rocky Linux es un Sistema Operativo Empresarial comunitario diseñado para ser 100% bug a bug compatible con Red Hat Enterprise Linux ahora que CentOS ha tomado otra dirección.  
 
 ![Github](/images/conoce-rocky-linux/rocky-0.jpg "Página en Github de Gregory Kurtzer")
 
-Esta es una excelente noticia. Lo que si queda un largo camino por delante, para poder tener una distribución pulida se necesitan al menos 6 meses, por lo que valdrá la pena la espera.  
+***
+
+## Nace Rocky
+
+***
+
+Este nuevo proyecto nace en honor al otro co-creador de CentOS, el ya fallecido Rocky McGough que en poco más de 24 horas ha logrado poner a 750 voluntarios bajo su bandera, decididos a recuperar el espíritu del proyecto CentOS.  
+
+Rocky Linux ya cuenta con un repositorio de GitHub, aunque por ahora la mayor parte del trabajo se está realizando mediante debates en su foro oficial, con el objetivo de dotar de imagen de marca e infraestructura tecnológica y legal a la distribución.  
+
+En cuanto al tiempo de desarrollo de Rocky, [Kurtzer](https://github.com/rocky-linux/rocky/discussions/13) sugiere que va a ser 12 meses como máximo, siendo los 2 primeros meses preparar los repositorios, servidores espejo así como también el instalador ya personalizado. Los siguientes 6 meses la mejora continua y actualizaciones de la distribución y seguidamente conseguir sponsors o donaciones.  
+
+Esta es una excelente noticia. Lo que si queda un largo camino por delante, para poder tener una distribución pulida se necesitan (como mencioné previamente) al menos 6 meses, por lo que valdrá la pena la espera.  
 
 ![Rocky Linux](/images/conoce-rocky-linux/rocky-1.png "Página del Proyecto")
 
