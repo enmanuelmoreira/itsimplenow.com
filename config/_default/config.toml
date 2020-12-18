@@ -133,12 +133,13 @@ enableEmoji = true
                         paginate = 10
                 # Social config in home page
                 [languages.es.params.social]
-                    Email = "itsimplenow@gmail.com"
+                    Email = "mail@itsimplenow.com"
                     Linkedin = "enmanuelmoreira"
                     Telegram = "itsimplenow"
                     GitHub = "enmanuelmoreira"
                     Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
                     Twitter = "enmanuelmoreira"
+                    Facebook = "itsimplenow"
     [languages.pt-br]
         weight = 2
         languageCode = "pt-br"
@@ -261,6 +262,7 @@ enableEmoji = true
                     GitHub = "enmanuelmoreira"
                     Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
                     Twitter = "enmanuelmoreira"
+                    Facebook = "itsimplenow"
 [params]
     version = "0.2.X"
     defaultTheme = "auto"
