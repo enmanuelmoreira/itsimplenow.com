@@ -1,6 +1,6 @@
 baseURL = "https://itsimplenow.com/"
 defaultContentLanguage = "es"
-theme = "CodeIT"
+theme = "uBlogger"
 themesDir = "themes"
 #languageCode = "en-us"
 title = "It's Simple Now - Guías y Tutoriales Linux | Virtualización | SysAdmin | Cloud"
@@ -264,7 +264,7 @@ enableEmoji = true
                     Twitter = "enmanuelmoreira"
                     Facebook = "itsimplenow"
 [params]
-    version = "0.2.X"
+    version = "1.1.X"
     defaultTheme = "auto"
     #gitRepo = "https://github.com/dillonzq/LoveIt"
     fingerprint = ""
