@@ -457,9 +457,9 @@ enableEmoji = true
 
 # Author config
 [author]
-    name = "It's Simple Now"
-    email = "itsimplenow@gmail.com"
-    link = "https://itsimplenow.com"
+    name = "itsimplenow.es"
+    #email = "itsimplenow@gmail.com"
+    #link = "https://itsimplenow.com"
 
 # Sitemap config
 [sitemap]
