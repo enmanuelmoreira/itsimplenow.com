@@ -3,8 +3,8 @@ title: "Como Configurar un Honeypot SSH y detectar Hackers en tus Servidores"
 date: 2020-10-17
 lastmod: 2020-10-17
 author: Enmanuel Moreira
-description: ""
-draft: true
+description: "Se tens um servidor e tu ou outra pessoa tinha iniciado sessão de maneira remota através de SSH, é provável que conheças a seguinte situação: Inicias sessão no teu servidor, revisas os logs de autenticação e descobres que alguem tinha tentado se conectar com as credenciáis padrão muitas vezes. Se tiveres uma palavra-chave forte e usas autenticaçao com chave pública, essas tentativas são bastante inofensivas, ainda asim é um pouco incómodo saber que alguem esteja constantemente tentando conseguir entrar ao servidor.  "
+draft: false
 
 resources:
 - name: "featured-image"
@@ -24,9 +24,7 @@ lightgallery: true
 
 Se tens um servidor e tu ou outra pessoa tinha iniciado sessão de maneira remota através de SSH, é provável que conheças a seguinte situação: Inicias sessão no teu servidor, revisas os logs de autenticação e descobres que alguem tinha tentado se conectar com as credenciáis padrão muitas vezes. Se tiveres uma palavra-chave forte e usas autenticaçao com chave pública, essas tentativas são bastante inofensivas, ainda asim é um pouco incómodo saber que alguem esteja constantemente tentando conseguir entrar ao servidor.  
 
-NEste tutorial vou-te ensinar uma forma bastante divertida de configurar o SSH para evitar este tipo de ataques e com algo de sorte podas fazer perder o tempo aos hackers.  
-
-***
+Neste tutorial vou-te ensinar uma forma bastante divertida de configurar o SSH para evitar este tipo de ataques e com algo de sorte podas fazer perder o tempo aos hackers.  
 
 ## Força Bruta
 
@@ -37,8 +35,6 @@ A maneira em que os hackers usualmente tentam acceder aos servidores é através
 Porém, nas especificaciones do SSH, se inclui uma coisa chamada "banner" o qual é básicamente um texto que se mostra a todos os que tentar iniciar sessão no servidor e não tem límite sobre quanto rempo pode ser e quando tempo pode tomar para mostra-lô.  
 
 O [Chris Wellons](https://nullprogram.com/blog/2019/03/22/) tomou essa idea e desenvolveu um software chamado **endlessh** en cujo [GitHub](https://github.com/skeeto/endlessh) encontra-se o código.  
-
-***
 
 ## ¿Cómo funciona endlessh?
 
