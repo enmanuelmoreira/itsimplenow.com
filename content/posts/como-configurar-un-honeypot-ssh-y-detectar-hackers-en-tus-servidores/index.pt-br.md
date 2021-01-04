@@ -1,5 +1,5 @@
 ---
-title: "Como Configurar un Honeypot SSH y detectar Hackers en tus Servidores"
+title: "Como Configurar um Honeypot SSH e detectar Hackers nos Servidores"
 date: 2020-10-17
 lastmod: 2020-10-17
 author: Enmanuel Moreira
