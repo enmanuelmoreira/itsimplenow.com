@@ -264,7 +264,7 @@ enableEmoji = true
                     Twitter = "enmanuelmoreira"
                     Facebook = "itsimplenow"
 [params]
-    version = "1.1.X"
+    version = "1.2.X"
     defaultTheme = "auto"
     #gitRepo = "https://github.com/dillonzq/LoveIt"
     fingerprint = ""
