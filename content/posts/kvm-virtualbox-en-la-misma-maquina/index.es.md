@@ -42,7 +42,7 @@ Dice: "VirtualBox no pudo habilitar la extension AMD-V. Por favor deshabilite la
 
 VirtualBox y KVM no pueden convivir juntos. Es como una pareja que viven en la misma casa pero no se pueden ni ver. Esto quiere decir que habría que deshabilitar KVM para que VirtualBox pudiera funcionar. La cuestión es: ¿Cómo hacemos esto? La respuesta es bien sencilla: insertando y eliminando los módulos del kernel de KVM.  
 
-Linux soporta insertar y eliminar módulos del kernel de la memoria al vuelo, sin necesidad reiniciar el sistema. Para lograr nuetsro objetivo, vamos a utilizar los comandos **insmod** y **rmmod**  
+Linux soporta insertar y eliminar módulos del kernel de la memoria al vuelo, sin necesidad reiniciar el sistema. Para lograr nuestro objetivo, vamos a utilizar los comandos **insmod** y **rmmod**  
 
 ## Eliminando Módulos
 
