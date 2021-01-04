@@ -4,7 +4,7 @@
 
 # URL: https://itsimplenow.com/
 [context.production.environment]
-  HUGO_VERSION = "0.79.0"
+  HUGO_VERSION = "0.80.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
   # Algolia index name needed to run algolia/run-index-upload.sh
@@ -15,7 +15,7 @@
 
 # URL: https://dev--itsimplenow.netlify.app/
 [context.dev.environment]
-  HUGO_VERSION = "0.79.0"
+  HUGO_VERSION = "0.80.0"
   # Algolia index name needed to run algolia/run-index-upload.sh
   ALGOLIA_INDEX_NAME = "dev_itsimplenow"
 
