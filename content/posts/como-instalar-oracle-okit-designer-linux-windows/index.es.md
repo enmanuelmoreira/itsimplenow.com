@@ -1,7 +1,7 @@
 ---
 title: "Como Instalar Okit Designer Tookit en Linux y Windows para diseñar diagramas de Oracle Cloud Infrastructure"
 date: 2020-08-07
-lastmod: 2020-08-08
+lastmod: 2021-01-22
 author: Enmanuel Moreira
 description: "En esta guía les voy a explicar como instalar la herramienta Okit Designer Tookit para diseñar nuestros propios diagramas de Oracle Cloud Infrastructure."
 draft: false
@@ -46,26 +46,26 @@ Hay dos maneras de instalar Okit Designer: con Vagrant y Docker. En esta oportun
 
 ***
 
-### Fedora 32
+### Fedora 33
 
 ***
 
 Antes de instalar Docker, vamos a actualizar nuestro sistema:  
 
 ```bash
-$ sudo dnf update -y
+sudo dnf update -y
 ```
 
 En caso que se haya actualizado a un nuevo kernel, reiniciamos el sistema:  
 
 ```bash
-$ sudo reboot
+sudo reboot
 ```
 
 Luego, Instalamos el paquete:  
 
 ```bash
-$ sudo dnf -y install dnf-plugins-core
+sudo dnf -y install dnf-plugins-core
 ```
 
 #### Instalando Git
@@ -73,132 +73,38 @@ $ sudo dnf -y install dnf-plugins-core
 ***
 
 ```bash
-$ sudo dnf -y install git
+sudo dnf -y install git
 ```
 
 #### Instalando Docker
 
 ***
 
-Añadimos el repositorio de Docker-CE:  
-
-```bash
-$ sudo tee /etc/yum.repos.d/docker-ce.repo<<EOF
-[docker-ce-stable]
-name=Docker CE Stable - \$basearch
-baseurl=https://download.docker.com/linux/fedora/31/\$basearch/stable
-enabled=1
-gpgcheck=1
-gpgkey=https://download.docker.com/linux/fedora/gpg
-EOF
-```
-
-Actualizamos los repositorios e instalamos Docker:  
-
-```bash
-$ sudo dnf makecache
-$ sudo dnf install docker-ce docker-ce-cli containerd.io -y
-```
-
-Habilitamos el servicio y lo iniciamos de una vez:  
-
-```bash
-$ sudo systemctl enable --now docker
-```
-
-Comprobamos el estatus de Docker y comprobar si ya se está ejecutando:  
-
-```bash
-$ sudo systemctl status docker
-```
-
-Debería dar la siguiente salida:  
-
-```plaintext
-● docker.service - Docker Application Container Engine
-     Loaded: loaded (/usr/lib/systemd/system/docker.service; enabled; vendor preset: disabled)
-     Active: active (running) since Fri 2020-08-07 08:57:50 -04; 6h ago
-TriggeredBy: ● docker.socket
-       Docs: https://docs.docker.com
-   Main PID: 1345 (dockerd)
-      Tasks: 26
-     Memory: 126.6M
-     CGroup: /system.slice/docker.service
-             └─1345 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
-
-Aug 07 08:57:48 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:48.176376583-04:00" level=warning msg="Your kernel>
-Aug 07 08:57:48 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:48.176383213-04:00" level=warning msg="Your kernel>
-Aug 07 08:57:48 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:48.176388723-04:00" level=warning msg="Your kernel>
-Aug 07 08:57:48 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:48.176551002-04:00" level=info msg="Loading contai>
-Aug 07 08:57:48 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:48.984390440-04:00" level=info msg="Default bridge>
-Aug 07 08:57:49 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:49.213838371-04:00" level=info msg="Loading contai>
-Aug 07 08:57:50 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:50.670726531-04:00" level=info msg="Docker daemon">
-Aug 07 08:57:50 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:50.672983824-04:00" level=info msg="Daemon has com>
-Aug 07 08:57:50 localhost.localdomain dockerd[1345]: time="2020-08-07T08:57:50.772160936-04:00" level=info msg="API listen on >
-Aug 07 08:57:50 localhost.localdomain systemd[1]: Started Docker Application Container Engine.
-```
-
-Adicionamos el usuario actual del sistema al grupo docker y así podremos ejecutar los comandos de docker sin necesidad de emplear el comando sudo:  
-
-```bash
-$ sudo usermod -aG docker $(whoami)
-$ newgrp docker
-```
-
-Comprobamos la versión de Docker que hemos instalado:  
-
-```bash
-$ docker version
-
-Client: Docker Engine - Community
- Version:           19.03.12
- API version:       1.40
- Go version:        go1.13.10
- Git commit:        48a66213fe
- Built:             Mon Jun 22 15:46:56 2020
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server: Docker Engine - Community
- Engine:
-  Version:          19.03.12
-  API version:      1.40 (minimum version 1.12)
-  Go version:       go1.13.10
-  Git commit:       48a66213fe
-  Built:            Mon Jun 22 15:44:53 2020
-  OS/Arch:          linux/amd64
-  Experimental:     false
- containerd:
-  Version:          1.2.13
-  GitCommit:        7ad184331fa3e55e52b890ea95e65ba581ae3429
- runc:
-  Version:          1.0.0-rc10
-  GitCommit:        dc9208a3303feef5b3839f4323d9beb36df0a9dd
- docker-init:
-  Version:          0.18.0
-  GitCommit:        fec3683
-```
+Lo puedes instalar siguiendo este tutorial: [Como Instalar Docker en Linux](https://www.itsimplenow.com/como-instalar-docker-en-linux/)  
 
 #### Instalando Docker Compose
 
 ***
 
-La versión actual es la 1.26.2, bajamos el ejecutable de Docker Compose y lo guardamos en el directorio /usr/local/bin:  
+La versión actual es la 1.28.0, bajamos el ejecutable de Docker Compose y lo guardamos en el directorio /usr/local/bin:  
 
 ```bash
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.28.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 Le asignamos permisos de ejecución:  
 
 ```bash
-$ sudo chmod +x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 Comprobamos si está correctamente instalado:  
 
 ```bash
-$ docker-compose --version
+docker-compose --version
+```
+
+```plaintext
 docker-compose version 1.26.2, build eefe0d31
 ```
 
@@ -335,7 +241,7 @@ Ejecutamos el instalador con permisos de Administrador y vamos a instalar con la
 Clonamos el repositorio oficial de Okit Designer (la versión actual es la 0.9.2):  
 
 ```bash
-$ git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.git
+git clone -b v0.9.2 --depth 1 https://github.com/oracle/oci-designer-toolkit.git
 ```
 
 ### Creando archivo de configuración de Okit y la llave ssh para conectarnos a la API de OCI
@@ -346,11 +252,11 @@ Si no tenemos instalado y configurado la oci-cli (explicado en este [POST](https
 
 Creamos el directorio containers/oci dentro del directorio raíz (oci-designer-toolkit) ; 
 
-**Fedora 32:**  
+**Fedora 33:**  
 
 ```bash
-$ mkdir /home/usuario/oci-designer-toolkit/containers/oci
-$ cd /home/usuario/oci-designer-toolkit/containers/oci
+mkdir /home/usuario/oci-designer-toolkit/containers/oci
+cd /home/usuario/oci-designer-toolkit/containers/oci
 ```
 
 **Windows 10 Pro:**  
@@ -363,7 +269,10 @@ PS D:\Users\usuario>cd D:\Users\usuario\oci-designer-toolkit\containers\oci
 Generamos la llave ssh, colocando la ubicación donde queremos guardar el archivo y el formato .pem (En Windows podemos dejarla en la ubicación predeterminada (directorio .ssh en la carpeta home del usuario) y luego copiarla a nuestra carpeta containers\oci):  
 
 ```bash
-$ ssh-keygen -t rsa -b 4096 -m PEM
+ssh-keygen -t rsa -b 4096 -m PEM
+```
+
+```plaintext
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/usuario/.ssh/id_rsa): /home/usuario/oci-designer-toolkit/containers/oci/oci_api_key.pem
 Enter passphrase (empty for no passphrase): 
@@ -388,10 +297,10 @@ The key's randomart image is:
 
 Creamos el archivo de configuración en /home/usuario/oci-designer-toolkit/containers/oci/config, con su editor de textos de confianza:  
 
-**Fedora 32:**  
+**Fedora 33:**  
 
 ```bash
-$ vim /home/usuario/oci-designer-toolkit/containers/oci/config
+vim /home/usuario/oci-designer-toolkit/containers/oci/config
 ```
 
 En **Windows 10 Pro**, abrimos un Notepad y vamos a escribir los siguientes parámetros:
@@ -435,11 +344,11 @@ Ahora, ¿De donde sacamos toda esta información? En las siguientes imagenes lo 
 
 Vamos al directorio y ejecutamos docker-compose para descargar las imagenes y contruir el contenedor:  
 
-**Fedora 32:**  
+**Fedora 33:**  
 
 ```bash
-$ cd /home/usuario/oci-designer-toolkit/containers/docker
-$ docker-compose up
+cd /home/usuario/oci-designer-toolkit/containers/docker
+docker-compose up
 ```
 
 **Windows 10 Pro:**  
