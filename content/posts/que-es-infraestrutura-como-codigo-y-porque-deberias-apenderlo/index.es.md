@@ -4,7 +4,7 @@ date: 2020-09-01
 lastmod: 2020-09-01
 author: Enmanuel Moreira
 description: "En el mundo actual, donde pasamos desde la máquina física, pasando de la máquina virtual a los contenedores, se ha hecho necesario desplegar con la mayor rapidez y agilidad posible, recursos que permitan poner en linea un complejo sistema web de un e-commerce o algún ERP."
-draft: false
+draft: true
 
 resources:
 - name: "featured-image"
