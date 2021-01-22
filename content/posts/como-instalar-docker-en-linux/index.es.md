@@ -34,6 +34,10 @@ Docker es un motor de contenedores que nos permite empaquetar una aplicación y 
 
 Docker cuenta con dos versiones: Docker CE (Community Edition) mantenida por Docker y la comunidad de software libre, y Docker EE (Enterprise Edition) de pago. Nos vamos a concentrar en instalar la version CE.  
 
+La diferencia fundamental entre Docker y un Hypervisor, es que mientras el hypervisor virtualiza el hardware físico para instalar un sistema operativo (con su kernel, controladores, bibliotecas, aplicaciones, etc), Docker añade una capa de abstracción más y "virtualiza" el sistema operativo compartiendo el kernel del host donde esté instalado y empaquetando tanto las bibliotecas como los ejecutables del S.O.  
+
+!["Docker vs. VM"](/images/como-instalar-docker-linux/containers-vs-virtual-machines.jpg)
+
 ## Ubuntu Linux 20.04
 
 ***
