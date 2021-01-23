@@ -90,7 +90,7 @@ Abrimos un navegador y vamos a la dirección <http://127.0.0.1:9000> (si accedem
 
 Nos pedirá crear un usuario administrador y proporcionar una contraseña, despues damos click en Create User.  
 
-![Portainer UI](/images/como-instalar-portainter-portainer-0.png "Creando Usuario y Contraseña")
+![Portainer UI](/images/como-instalar-portainter/portainer-0.png "Creando Usuario y Contraseña")
 
 Nos pedirá crear un ambiente Docker, el cual puede ser local o remoto. En mi caso, estoy usando Docker en mí máquina local.  
 
