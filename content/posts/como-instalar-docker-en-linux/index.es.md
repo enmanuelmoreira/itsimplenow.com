@@ -256,7 +256,7 @@ sudo systemctl enable --now docker
 
 ***
 
-To do this we will use a test image that Docker puts at our disposal. You can execute it with the following command:
+Para probar Docker, vamos a ejecutar la imagen hello-world en nuestro sistema, con el siguiente comando:  
 
 ```bash
 docker run --rm hello-world
