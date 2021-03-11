@@ -65,14 +65,14 @@ enableEmoji = true
                 url = "https://github.com/enmanuelmoreira"
                 title = "GitHub"
                 weight = 6
-            # [[languages.es.menu.main]]
-            #     identifier = "udemy"
-            #     pre = "<i class=''></i>"
-            #     post = ""
-            #     name = ""
-            #     url = "https://udemy.com/enmanuelmoreira"
-            #     title = "Udemy"
-            #     weight = 7
+            #  [[languages.es.menu.main]]
+            #      identifier = "telegram"
+            #      pre = "<i class='fab fa-telegram fa-fw'></i>"
+            #      post = ""
+            #      name = ""
+            #      url = "https://t.me/itsimplenow"
+            #      title = "Canal en Telegram"
+            #      weight = 7
              [languages.es.params]
                 # site description
                 description = "Tutoriales y Recipes de un SysAdmin."
@@ -280,7 +280,7 @@ enableEmoji = true
                         id = "@enmanuelmoreira"
                         prefix = "https://mastodon.online/"
 [params]
-    version = "1.3.X"
+    version = "2.0.X"
     defaultTheme = "auto"
     #gitRepo = "https://github.com/dillonzq/LoveIt"
     fingerprint = ""
