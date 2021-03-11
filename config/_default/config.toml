@@ -146,9 +146,11 @@ enableEmoji = true
                     Telegram = "itsimplenow"
                     GitHub = "enmanuelmoreira"
                     Youtubechannel = "UCuwGlMGdJ0wJ1jWQdXcPZ5A"
+                    Twitch = "enmanuelmoreira"
                     Twitter = "enmanuelmoreira"
                     Facebook = "itsimplenow"
                     DockerHub = "enmanuelmoreira"
+                    Udemy = "enmanuelmoreira"
                     [languages.es.params.social.Mastodon]
                         id = "@enmanuelmoreira"
                         prefix = "https://mastodon.online/"
