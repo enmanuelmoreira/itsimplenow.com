@@ -294,7 +294,7 @@ enableEmoji = true
     [params.header.title]
         logo = ""
         name = "It's Simple Now"
-        #pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+        spre = "<i class='fas fa-cloud-download-alt'></i>"
         post = ""
         typeit = false
     [params.footer]
