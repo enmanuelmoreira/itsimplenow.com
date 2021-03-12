@@ -282,7 +282,7 @@ enableEmoji = true
                         id = "@enmanuelmoreira"
                         prefix = "https://mastodon.online/"
 [params]
-    version = "2.0.1"
+    version = "2.0.X"
     defaultTheme = "auto"
     #gitRepo = "https://github.com/dillonzq/LoveIt"
     fingerprint = ""
@@ -474,8 +474,8 @@ enableEmoji = true
         endLevel = 6
 
 # Author config
-[author]
-    name = "itsimplenow.com"
+#[author]
+    #name = "itsimplenow.com"
     #email = "itsimplenow@gmail.com"
     #link = "https://itsimplenow.com"
 
