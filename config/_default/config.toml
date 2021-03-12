@@ -282,7 +282,7 @@ enableEmoji = true
                         id = "@enmanuelmoreira"
                         prefix = "https://mastodon.online/"
 [params]
-    version = "2.0.X"
+    version = "2.0.1"
     defaultTheme = "auto"
     #gitRepo = "https://github.com/dillonzq/LoveIt"
     fingerprint = ""
