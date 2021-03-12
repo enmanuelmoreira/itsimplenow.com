@@ -474,8 +474,8 @@ enableEmoji = true
         endLevel = 6
 
 # Author config
-#[author]
-    #name = "itsimplenow.com"
+[author]
+    name = "itsimplenow.es"
     #email = "itsimplenow@gmail.com"
     #link = "https://itsimplenow.com"
 
