@@ -7,6 +7,11 @@
             id = "UA-172585545-1"
             # whether to anonymize IP
             anonymizeIP = false
+    # Enable / Disable Google AdSense
+    [params.advertising]
+        enable = true
+        [params.advertising.google]
+            client =  "ca-pub-1375641789821753"
     # Enable / Disable comments on the articles via Disqus.
     [params.page]
         [params.page.comment]
