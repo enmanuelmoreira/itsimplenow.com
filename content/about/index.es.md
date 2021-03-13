@@ -13,7 +13,32 @@ He pasado por muchas distribuciones Linux, desde Mandrake, Ubuntu, Debian, Manja
 
 Compartir mis experiencias es gratificante, en un lenguaje sencillo, facil de entender y que puedas poner en marcha pequeños proyectos sin mucho esfuerzo.
 
-Puedes seguirme en ***[LinkedIn](https://www.linkedin.com/in/enmanuelmoreira)***
+## :hammer_and_wrench: Skills
+
+![linux](https://img.shields.io/badge/linux%20-%23FFD133.svg?&style=for-the-badge&logo=linux&logoColor=black) ![aws](https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white) ![ansible](https://img.shields.io/badge/ansible%20-%23EE0000.svg?&style=for-the-badge&logo=ansible&logoColor=white) ![digitalocean](https://img.shields.io/badge/digitalocean%20-%230080FF.svg?&style=for-the-badge&logo=digitalocean&logoColor=white) ![docker](https://img.shields.io/badge/docker%20-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white) ![kubernetes](https://img.shields.io/badge/kubernetes%20-%23326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white) ![git](https://img.shields.io/badge/git%20-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white) ![terraform](https://img.shields.io/badge/terraform%20-%23623CE4.svg?&style=for-the-badge&logo=terraform&logoColor=white) ![vagrant](https://img.shields.io/badge/vagrant%20-%231563ff.svg?&style=for-the-badge&logo=vagrant&logoColor=white) ![python](https://img.shields.io/badge/python%20-%233776ab.svg?&style=for-the-badge&logo=python&logoColor=white) ![hugo](https://img.shields.io/badge/hugo-%23FF4088.svg?&style=for-the-badge&logo=hugo&logoColor=white) ![mariadb](https://img.shields.io/badge/mariadb%20-%23203545.svg?&style=for-the-badge&logo=mariadb&logoColor=white)
+
+## :call_me_hand: Contáctame
+
+[![itsimplenow.com@gmail.com](https://img.shields.io/badge/itsimplenow@gmail.com%20-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:itsimplenow@gmail.com)
+[![linkedin](https://img.shields.io/badge/LinkedIn%20-%232867b2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/enmanuelmoreira)
+[![telegram](https://img.shields.io/badge/itsimplenow%20-%232CA5E0.svg?&style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/tsimplenow)
+
+## :link: Otros links
+
+[![github](https://img.shields.io/badge/GitHub%20-%23203545.svg?&style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/enmanuelmoreira)
+[![docker hub](https://img.shields.io/badge/Docker%20Hub%20-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/u/enmanuelmoreira)
+[![twitter](https://img.shields.io/badge/enmanuelmoreira%20-%232496ED.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/enmanuelmoreira)
+[![mastodon](https://img.shields.io/badge/@enmanuelmoreira%20-%232B90D9.svg?&style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.online/@enmanuelmoreira)
+[![twitch](https://img.shields.io/badge/enmanuelmoreira%20-%239147FE.svg?&style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/enmanuelmoreira)
+[![youtube](https://img.shields.io/badge/itsimplenow%20-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/)
+
+
+## :books: Cursos y Libros
+
+[![leanpub](https://img.shields.io/badge/leanpub%20-%23203545.svg?&style=for-the-badge&logo=leanpub&logoColor=white)](https://www.leanpub.com/)
+[![udemy](https://img.shields.io/badge/udemy%20-%23ED5252.svg?&style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/)
+
+## :money_with_wings: Dona
 
 Si encuentras este sitio web útil, puedes invitarme un Café :)
 
