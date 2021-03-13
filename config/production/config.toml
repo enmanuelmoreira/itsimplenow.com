@@ -1,4 +1,7 @@
 [params]
+    # Pinned Post
+    pinnedPost = 'posts/como-instalar-docker-en-linux'
+    pinOnlyToFirstPage = true
     # Enable / Disable Google Analytics statistics for your site
     [params.analytics]
         enable = true
