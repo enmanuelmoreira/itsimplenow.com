@@ -1,5 +1,5 @@
 ---
-title: "Instalando un cluster local de OpenShift 4.4 con CodeReady Containers"
+title: "Instalando un cluster local de OpenShift con CodeReady Containers"
 date: 2020-07-08
 lastmod: 2021-03-20
 author: Enmanuel Moreira
