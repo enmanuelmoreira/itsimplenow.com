@@ -1,7 +1,7 @@
 ---
 title: "Instalando un cluster local de OpenShift 4.4 con CodeReady Containers"
 date: 2020-07-08
-lastmod: 2020-07-23
+lastmod: 2021-03-20
 author: Enmanuel Moreira
 description: "En este tutorial les voy a explicar como desplegar un cluster sencillo de OpenShift para pruebas a través de de la aplicación CodeReady Containers."
 draft: false
@@ -24,9 +24,7 @@ En este tutorial les voy a explicar como desplegar un cluster sencillo de OpenSh
 
 OpenShift es la solución de Red Hat para la orquestación de contenedores basado en Kubernetes. ¿Te animas a probar la última versión de OpenShift sin tener que instalar un set de masters y workers?
 
-Al momento de esta publicación, tendremos instalada la version 4.4.8 de OpenShift.
-
-### UPDATE 23/07/2020: Está disponible la versión 4.5.1 de OpenShift, por lo que sigues realizando los mismos pasos vas a poder probar la última versión
+Al momento de esta publicación, tendremos instalada la version 4.7.0 de OpenShift.
 
 ### Requisitos Minimos de Hardware
 
@@ -52,20 +50,20 @@ Para poder descargar el ejecutable de CodeReady Containers, vamos a necesitar re
 
 CodeReady Containers necesita los paquetes **libvirt** y **NetworkManager**, los cuales deben ser instalados.
 
-Fedora 32
+Fedora 33
 
 ```bash
-$ sudo dnf update -y
-$ sudo dnf install libvirtd qemu-kvm virt-install NetworkManager
-$ sudo systemctl enable --now libvirtd
+sudo dnf update -y
+sudo dnf install libvirtd qemu-kvm virt-install NetworkManager
+sudo systemctl enable --now libvirtd
 ```
 
 Centos 7
 
 ```bash
-$ sudo yum update -y
-$ sudo yum install libvirtd qemu-kvm virt-install bridge-utils NetworkManager
-$ sudo systemctl enable --now libvirtd
+sudo yum update -y
+sudo yum install libvirtd qemu-kvm virt-install bridge-utils NetworkManager
+sudo systemctl enable --now libvirtd
 ```
 
 ### Paso 3: Instalar CodeReady Containers
@@ -75,32 +73,35 @@ $ sudo systemctl enable --now libvirtd
 Descargamos el ejecutable actualizado de CRC desde el siguiente enlace:
 
 ```bash
-$ wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-linux-amd64.tar.xz
+wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-linux-amd64.tar.xz
 ```
 
 Extraemos los archivos:
 
 ```bash
-$ tar xvf crc-linux-amd64.tar.xz
+tar xvf crc-linux-amd64.tar.xz
 ```
 
 Copiamos el ejecutable en el **$PATH** de usuario:
 
 ```bash
-$ cd crc
-$ sudo cp crc /usr/local/bin
+cd crc
+sudo cp crc /usr/local/bin
 ```
 
 Confirmamos la instalación validando la versión del software:
 
 ```bash
-$ crc version
+crc version
 ```
 
 Siempre es una buena idea consultar de cualquier programa, por lo que ejecutamos:
 
 ```bash
-$ crc --help
+crc --help
+```
+
+```bash
 CodeReady Containers is a tool that manages a local OpenShift 4.x cluster optimized for testing and development purposes
 
 Usage:
@@ -137,7 +138,7 @@ Use "crc [command] --help" for more information about a command.
 Ejecutamos el siguiente comando para configurar la máquina anfitriona:
 
 ```bash
-$ crc setup
+crc setup
 ```
 
 El instalador va a comprobar los requerimientos del sistema antes de desplegar la máquina virtual.
@@ -173,7 +174,10 @@ Setup is complete, you can now run 'crc start' to start the OpenShift cluster
 Una vez que la comprobación se haya realizado, iniciamos el cluster con el siguiente comando:
 
 ```bash
-$ crc start
+crc start
+```
+
+```bash
 INFO Checking if oc binary is cached
 INFO Checking if podman remote binary is cached
 INFO Checking if goodhosts binary is cached
@@ -234,22 +238,24 @@ INFO You can now run 'crc console' and use these credentials to access the OpenS
 Habilitamos el acceso al cluster, configurando las variables de entorno:
 
 ```bash
-
-$ crc oc-env
-$ export PATH="/home/user/.crc/bin:$PATH"
-$ eval $(crc oc-env)
-
+crc oc-env
+export PATH="/home/user/.crc/bin:$PATH"
+eval $(crc oc-env)
 ```
 
 Actualizamos nuestra shell para que podamos ejecutar los comandos de OpenShift:
 
-```bash
 bash
+
+```bash
 $ vim ~/.bashrc
 export PATH="~/.crc/bin:$PATH"
 eval $(crc oc-env)
+```
 
 zsh
+
+```bash
 $ vim ~/.zshrc
 export PATH="~/.crc/bin:$PATH"
 eval $(crc oc-env)
@@ -257,18 +263,25 @@ eval $(crc oc-env)
 
 Y luego source
 
-```bash
 bash
-$ source ~/.bashrc
+
+```bash
+source ~/.bashrc
+```
 
 zsh
-$ source ~/.zshrc
+
+```bash
+source ~/.zshrc
 ```
 
 Iniciamos sesión como admin, con el siguiente comando:
 
 ```bash
-$ oc login -u kubeadmin -p fq66o-KsVBU-cnKBU-xLpqd https://api.crc.testing:6443
+oc login -u kubeadmin -p fq66o-KsVBU-cnKBU-xLpqd https://api.crc.testing:6443
+```
+
+```bash
 The server uses a certificate signed by an unknown authority.
 You can bypass the certificate check, but any data you send to the server could be intercepted by others.
 Use insecure connections? (y/n): y
@@ -283,20 +296,29 @@ Using project "default".
 Confirmamos la configuración del cluster:
 
 ```bash
-$ oc cluster-info
+oc cluster-info
+```
+
+```bash
 Kubernetes master is running at https://api.crc.testing:6443
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
 
 ```bash
-$ oc get nodes
+oc get nodes
+```
+
+```bash
 NAME                 STATUS   ROLES           AGE   VERSION
 crc-rtgqw-master-0   Ready    master,worker   19d   v1.17.1+3f6f40d
 ```
 
 ```bash
-$ oc config view
+oc config view
+```
+
+```bash
 apiVersion: v1
 clusters:
 - cluster:
@@ -359,7 +381,10 @@ users:
 Para ver los operadores del cluster:
 
 ```bash
-$ oc get clusteroperators
+oc get clusteroperators
+```
+
+```bash
 NAME                                       VERSION   AVAILABLE   PROGRESSING   DEGRADED   SINCE
 authentication                             4.4.8     True        False         False      19d
 cloud-credential                           4.4.8     True        False         False      19d
@@ -400,7 +425,10 @@ storage                                    4.4.8     True        False         F
 Se puede accesar al cluster desplegado localmente a través de la consola o bien por la consola web:
 
 ```bash
-S oc login -u developer -p developer https://api.crc.testing:6443
+oc login -u developer -p developer https://api.crc.testing:6443
+```
+
+```bash
 The server uses a certificate signed by an unknown authority.
 You can bypass the certificate check, but any data you send to the server could be intercepted by others.
 Use insecure connections? (y/n): y
@@ -415,7 +443,10 @@ You don't have any projects. You can try to create a new project, by running
 Acceso como administrador:
 
 ```bash
-$ oc login -u kubeadmin -p fq66o-KsVBU-cnKBU-xLpqd https://api.crc.testing:6443
+oc login -u kubeadmin -p fq66o-KsVBU-cnKBU-xLpqd https://api.crc.testing:6443
+```
+
+```bash
 The server uses a certificate signed by an unknown authority.
 You can bypass the certificate check, but any data you send to the server could be intercepted by others.
 Use insecure connections? (y/n): y
@@ -430,7 +461,7 @@ Using project "default".
 Para abrir la consola web desde su navegador predeterminado:
 
 ```bash
-$ crc console
+crc console
 ```
 
 <!-- Galería del Login a CRC -->
@@ -441,7 +472,7 @@ $ crc console
 Si queremos saber la dirección IP del cluster:
 
 ```bash
-$ crc ip
+crc ip
 ```
 
 ### Paso 6: Deteniendo el cluster de OpenShift
@@ -451,7 +482,10 @@ $ crc ip
 Para detener el cluster, ejecutamos el siguiente comando:
 
 ```bash
-$ crc stop
+crc stop
+```
+
+```bash
 Stopping the OpenShift cluster, this may take a few minutes...
 Stopped the OpenShift cluster
 ```
@@ -459,7 +493,7 @@ Stopped the OpenShift cluster
 Se puede iniciar nuevamente el cluster simplemente ejecutando:
 
 ```bash
-$ crc start
+crc start
 ```
 
 ### Paso 7: Eliminando el cluster de OpenShift
@@ -469,7 +503,7 @@ $ crc start
 Si queremos borrar el cluster desplegado y ahorrarnos ese espacio en disco duro:
 
 ```bash
-$ crc delete
+crc delete
 ```
 
 Espero les haya gustado este tutorial, ¡hasta la próxima!
