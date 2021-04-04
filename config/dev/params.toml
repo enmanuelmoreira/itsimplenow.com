@@ -1,3 +1,6 @@
+    # Pinned Post
+    pinnedPost = '/posts/instalando-un-cluster-local-de-openshift-con-coderady-containers'
+    pinOnlyToFirstPage = true
 [languages]
     [languages.es]
         [languages.es.params]
