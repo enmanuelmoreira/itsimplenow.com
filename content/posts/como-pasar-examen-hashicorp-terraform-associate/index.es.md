@@ -80,7 +80,7 @@ Los **[tópicos](https://learn.hashicorp.com/tutorials/terraform/associate-study
   * 9b	Differentiate OSS and TFE workspaces
   * 9c	Summarize features of Terraform Cloud  
 
-### Materiales de Estudio
+## Materiales de Estudio
 
 ***
 
@@ -94,7 +94,7 @@ Además de la **[documentación oficial](https://www.terraform.io/docs/index.htm
 
 - El **[Curso de Terraform](https://www.youtube.com/watch?v=ec4qHgJQM7c&list=PLfW3im2fiA7XDjPgS9uzgv5Zeyhi_QE9Y)** de Miguel Arranz en su **[canal de Youtube](https://www.youtube.com/c/MiguelArranz)**. Tiene otro **[canal](https://www.youtube.com/channel/UCjeMXFMvba_j7vE6vZKus-Q)** el cual recomiendo ampliamente suscribirse)  
 
-### El Examen
+## El Examen
 
 ***
 
@@ -122,7 +122,7 @@ Adicionalmente, puedes descargar tu Placa en **[YourAcclaim](https://www.youracc
 
 La única queja que tengo (y vi un par más en LinkedIn), es que el soporte técnico de PSI tarda mucho, me conecté para hacer el pre-examen a las 9:35 hora local, el examen comenzó justo a las 10:00 horas, al cabo de 20 minutos el programa se cerró de manera forzada, me volví a conectar y pasó al menos 45 minutos para que alguien de soporte me atendiera (todo en inglés, btw), y sin mencionar que tuve que hacer el registro de mi ID, tomar video a mi entorno de trabajo, sacarme la selfie... Pues, PSI tiene muchas cosas por mejorar si quiere hacerle la competencia a Pearson. Terminé el examen a las 11:50 hora local.  
 
-### Consejos al momento de presentar la prueba
+## Consejos al momento de presentar la prueba
 
 ***
 
