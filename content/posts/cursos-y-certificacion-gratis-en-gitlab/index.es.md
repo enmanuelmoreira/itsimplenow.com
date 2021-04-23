@@ -1,7 +1,7 @@
 ---
 title: "Cursos y Certificación gratis de Gitlab"
 date: 2021-04-22
-lastmod: 2021-04-22
+lastmod: 2021-04-23
 author: Enmanuel Moreira
 description: "Si estás interesado en certificarte con Gitlab, sigue los pasos que vas a encontrar dentro de este artículo."
 draft: false
@@ -17,6 +17,12 @@ lightgallery: true
 ---
 
 <!--more-->
+
+## Actualización al 23/04/2020
+
+{{< admonition warning >}}
+El código de descuento ya no funciona. De hecho, Gitlab publicó un comunicado (lo puedes ver haciendo click [aquí](https://about.gitlab.com/blog/2021/04/20/everyone-can-get-certified/))
+{{< /admonition >}}
 
 A quien pueda interesar:
 
