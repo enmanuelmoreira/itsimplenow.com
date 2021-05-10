@@ -27,7 +27,7 @@ O [Foreman](https://www.theforeman.org/) é uma ferramenta de código aberto que
 
 ***
 
-Um servodor configurado com o Foreman sempre vai conter uma instância central a qual é responsável de forneceer uma interface web, configurações dos nodos, arquivos de configuração iniciais dos hosts, etc. Porém, se o servidor instalado suporta instalações desacompanhadas então as outras operações precisam ser feitas para automatizar o processo por completo. O Smart Proxy gestiona os serviços remotos e é geralmente instalado com todos os componentes do Foreman para gestionar TFTP, DHCP, DNS, Puppet, Puppet CA, Ansible, Salt, e Chef.
+Um servidor configurado com o Foreman sempre vai conter uma instância central a qual é responsável de forneceer uma interface web, configurações dos nodos, arquivos de configuração iniciais dos hosts, etc. Porém, se o servidor instalado suporta instalações desacompanhadas então as outras operações precisam ser feitas para automatizar o processo por completo. O Smart Proxy gestiona os serviços remotos e é geralmente instalado com todos os componentes do Foreman para gestionar TFTP, DHCP, DNS, Puppet, Puppet CA, Ansible, Salt, e Chef.
 
 ## Smart-Proxy
 
